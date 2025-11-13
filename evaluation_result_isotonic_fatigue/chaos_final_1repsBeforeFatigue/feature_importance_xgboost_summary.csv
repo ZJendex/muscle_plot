@@ -1,0 +1,9 @@
+Feature,Mean_Importance,Std_Importance
+time_zero_crossing_rate,0.44686905,0.06775185
+chaos_rqa_v_entr,0.17882463,0.060961165
+traditional_mnf,0.09174811,0.026087698
+chaos_dfa_exp,0.07829716,0.026901014
+traditional_rms,0.054202117,0.022189582
+freq_low_high_ratio,0.050886523,0.01094484
+chaos_rqa_entr,0.05055858,0.012441838
+time_mav,0.048613865,0.012423476

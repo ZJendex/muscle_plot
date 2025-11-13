@@ -1,0 +1,7 @@
+Feature,Mean_Importance,Std_Importance
+time_zero_crossing_rate,0.3439918,0.04558941
+traditional_mnf,0.15018165,0.01497061
+time_mav,0.13126476,0.024582107
+freq_low_high_ratio,0.13093255,0.023639698
+chaos_dfa_exp,0.12933546,0.007014376
+traditional_rms,0.11429374,0.034252472

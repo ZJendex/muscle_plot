@@ -1,0 +1,73 @@
+ISOTONIC BINARY FATIGUE CLASSIFICATION RESULTS
+================================================================================
+
+         Classifier        Accuracy       Precision          Recall        F1-Score             AUC
+Logistic Regression 0.8292 ± 0.0734 0.5833 ± 0.3333 0.5333 ± 0.4000 0.5114 ± 0.3088 0.8571 ± 0.1117
+                SVM 0.6905 ± 0.0600 0.1400 ± 0.1960 0.2667 ± 0.3887 0.1833 ± 0.2603 0.8540 ± 0.1623
+      Random Forest 0.7337 ± 0.1234 0.5750 ± 0.2421 0.5667 ± 0.2494 0.5091 ± 0.1070 0.8054 ± 0.0728
+            XGBoost 0.6937 ± 0.1560 0.3667 ± 0.2211 0.5000 ± 0.3333 0.4000 ± 0.2261 0.7767 ± 0.1272
+
+================================================================================
+PER-CLASS DETAILED RESULTS
+================================================================================
+
+
+Logistic Regression:
+------------------------------------------------------------
+  Non-Fatigued: Prec=0.8785, Rec=0.9262, F1=0.8933
+  Fatigued: Prec=0.5833, Rec=0.5333, F1=0.5114
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.8333
+    Fold 2: AUC = 1.0000
+    Fold 3: AUC = 0.6667
+    Fold 4: AUC = 0.8571
+    Fold 5: AUC = 0.9286
+
+  Mean AUC: 0.8571 ± 0.1117
+  Best Fold: Fold 2 (AUC = 1.0000)
+
+SVM:
+------------------------------------------------------------
+  Non-Fatigued: Prec=0.8071, Rec=0.8190, F1=0.7916
+  Fatigued: Prec=0.1400, Rec=0.2667, F1=0.1833
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.5556
+    Fold 2: AUC = 1.0000
+    Fold 3: AUC = 1.0000
+    Fold 4: AUC = 0.8571
+    Fold 5: AUC = 0.8571
+
+  Mean AUC: 0.8540 ± 0.1623
+  Best Fold: Fold 2 (AUC = 1.0000)
+
+Random Forest:
+------------------------------------------------------------
+  Non-Fatigued: Prec=0.8755, Rec=0.7771, F1=0.7838
+  Fatigued: Prec=0.5750, Rec=0.5667, F1=0.5091
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.6806
+    Fold 2: AUC = 0.8939
+    Fold 3: AUC = 0.7857
+    Fold 4: AUC = 0.8095
+    Fold 5: AUC = 0.8571
+
+  Mean AUC: 0.8054 ± 0.0728
+  Best Fold: Fold 2 (AUC = 0.8939)
+
+XGBoost:
+------------------------------------------------------------
+  Non-Fatigued: Prec=0.8599, Rec=0.7485, F1=0.7346
+  Fatigued: Prec=0.3667, Rec=0.5000, F1=0.4000
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.5694
+    Fold 2: AUC = 0.9091
+    Fold 3: AUC = 0.8571
+    Fold 4: AUC = 0.6905
+    Fold 5: AUC = 0.8571
+
+  Mean AUC: 0.7767 ± 0.1272
+  Best Fold: Fold 2 (AUC = 0.9091)

@@ -1,0 +1,74 @@
+GROUP K-FOLD (5-FOLD) CROSS-VALIDATION RESULTS
+================================================================================
+
+         Classifier        Accuracy       Precision          Recall        F1-Score             AUC
+Logistic Regression 0.5895 ± 0.1180 0.6248 ± 0.1354 0.6044 ± 0.1561 0.6012 ± 0.1250 0.6524 ± 0.1065
+                SVM 0.5575 ± 0.0323 0.5728 ± 0.0428 0.6311 ± 0.0839 0.5964 ± 0.0382 0.5274 ± 0.0802
+      Random Forest 0.5549 ± 0.0858 0.5739 ± 0.0778 0.6044 ± 0.2101 0.5710 ± 0.1185 0.5960 ± 0.1092
+            XGBoost 0.5458 ± 0.1478 0.5878 ± 0.1455 0.6022 ± 0.2092 0.5699 ± 0.1396 0.5695 ± 0.1817
+
+================================================================================
+DETAILED RESULTS PER CLASSIFIER
+================================================================================
+
+Logistic Regression:
+------------------------------------------------------------
+  Fold 1 (Anupam, Haoyu, Memory, Veronica, Xiwen):
+    Acc=0.7778, Prec=0.8571, Rec=0.6667, F1=0.7500, AUC=0.8148
+  Fold 2 (Bert, Pragna, Weifan, Yang, Yibo):
+    Acc=0.6667, Prec=0.6667, Rec=0.8000, F1=0.7273, AUC=0.7250
+  Fold 3 (Ari, George, Jiangyifei, Jiasi, Qiushi):
+    Acc=0.4444, Prec=0.4545, Rec=0.5556, F1=0.5000, AUC=0.5556
+  Fold 4 (Aditi, David, Haozhe, Seungjoo, Yifeng):
+    Acc=0.5294, Prec=0.5455, Rec=0.6667, F1=0.6000, AUC=0.5278
+  Fold 5 (Anindya, Freddy, Jerry, Junru, Siqi):
+    Acc=0.5294, Prec=0.6000, Rec=0.3333, F1=0.4286, AUC=0.6389
+
+SVM:
+------------------------------------------------------------
+  Fold 1 (Anupam, Haoyu, Memory, Veronica, Xiwen):
+    Acc=0.5556, Prec=0.5556, Rec=0.5556, F1=0.5556, AUC=0.4198
+  Fold 2 (Bert, Pragna, Weifan, Yang, Yibo):
+    Acc=0.5556, Prec=0.6000, Rec=0.6000, F1=0.6000, AUC=0.6500
+  Fold 3 (Ari, George, Jiangyifei, Jiasi, Qiushi):
+    Acc=0.5000, Prec=0.5000, Rec=0.6667, F1=0.5714, AUC=0.5185
+  Fold 4 (Aditi, David, Haozhe, Seungjoo, Yifeng):
+    Acc=0.5882, Prec=0.5833, Rec=0.7778, F1=0.6667, AUC=0.4722
+  Fold 5 (Anindya, Freddy, Jerry, Junru, Siqi):
+    Acc=0.5882, Prec=0.6250, Rec=0.5556, F1=0.5882, AUC=0.5764
+
+Random Forest:
+------------------------------------------------------------
+  Fold 1 (Anupam, Haoyu, Memory, Veronica, Xiwen):
+    Acc=0.6111, Prec=0.6250, Rec=0.5556, F1=0.5882, AUC=0.6852
+  Fold 2 (Bert, Pragna, Weifan, Yang, Yibo):
+    Acc=0.6667, Prec=0.6667, Rec=0.8000, F1=0.7273, AUC=0.6813
+  Fold 3 (Ari, George, Jiangyifei, Jiasi, Qiushi):
+    Acc=0.5556, Prec=0.5333, Rec=0.8889, F1=0.6667, AUC=0.4815
+  Fold 4 (Aditi, David, Haozhe, Seungjoo, Yifeng):
+    Acc=0.4118, Prec=0.4444, Rec=0.4444, F1=0.4444, AUC=0.4444
+  Fold 5 (Anindya, Freddy, Jerry, Junru, Siqi):
+    Acc=0.5294, Prec=0.6000, Rec=0.3333, F1=0.4286, AUC=0.6875
+
+XGBoost:
+------------------------------------------------------------
+  Fold 1 (Anupam, Haoyu, Memory, Veronica, Xiwen):
+    Acc=0.6111, Prec=0.6250, Rec=0.5556, F1=0.5882, AUC=0.7037
+  Fold 2 (Bert, Pragna, Weifan, Yang, Yibo):
+    Acc=0.7222, Prec=0.6923, Rec=0.9000, F1=0.7826, AUC=0.7875
+  Fold 3 (Ari, George, Jiangyifei, Jiasi, Qiushi):
+    Acc=0.2778, Prec=0.3333, Rec=0.4444, F1=0.3810, AUC=0.2593
+  Fold 4 (Aditi, David, Haozhe, Seungjoo, Yifeng):
+    Acc=0.5294, Prec=0.5385, Rec=0.7778, F1=0.6364, AUC=0.5833
+  Fold 5 (Anindya, Freddy, Jerry, Junru, Siqi):
+    Acc=0.5882, Prec=0.7500, Rec=0.3333, F1=0.4615, AUC=0.5139
+
+Selected features:
+------------------------------------------------------------
+time_mav
+time_zero_crossing_rate
+freq_low_high_ratio
+traditional_rms
+traditional_mnf
+------------------------------------------------------------
+

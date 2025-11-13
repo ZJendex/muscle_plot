@@ -1,0 +1,32 @@
+EVALUATION RESULTS
+================================================================================
+
+FATIGUE:
+  Total count: 59
+  Hits: 31
+  Hit rate: 52.54%
+  Mean abs time diff: 1.688 seconds
+  Std abs time diff: 1.138 seconds
+  Median abs time diff: 1.544 seconds
+  Mean time diff: -1.688 seconds
+  Std time diff: 1.138 seconds
+
+NON-FATIGUE:
+  Total count: 97
+  Hits: 63
+  Hit rate: 64.95%
+  Mean abs time diff: 1.709 seconds
+  Std abs time diff: 0.918 seconds
+  Median abs time diff: 1.511 seconds
+  Mean time diff: -1.709 seconds
+  Std time diff: 0.918 seconds
+
+COMBINED (OVERALL):
+  Total count: 156
+  Hits: 94
+  Hit rate: 60.26%
+  Mean abs time diff: 1.702 seconds
+  Std abs time diff: 0.996 seconds
+  Median abs time diff: 1.527 seconds
+  Mean time diff: -1.702 seconds
+  Std time diff: 0.996 seconds

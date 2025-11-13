@@ -1,0 +1,454 @@
+INCORRECT PREDICTIONS FOR ALL MODELS
+================================================================================
+
+
+Logistic Regression
+--------------------------------------------------------------------------------
+Total incorrect predictions: 13/58 (22.41%)
+
+
+  Subject: 1012_ari (5 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 17.30s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.4738794367627805, 0.5261205632372195]
+      Sample Index: 22
+
+    Fold 1 | Starting Time: 23.10s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.41148484011816033, 0.5885151598818397]
+      Sample Index: 23
+
+    Fold 1 | Starting Time: 34.70s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.22458302023639665, 0.7754169797636034]
+      Sample Index: 24
+
+    Fold 1 | Starting Time: 40.40s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.35151021438370395, 0.6484897856162961]
+      Sample Index: 25
+
+    Fold 1 | Starting Time: 46.10s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.3389959834743008, 0.6610040165256992]
+      Sample Index: 26
+
+
+  Subject: 1021_jiangyifei (3 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 58.90s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9278564490017923, 0.0721435509982077]
+      Sample Index: 34
+
+    Fold 4 | Starting Time: 88.90s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.7419196215392152, 0.2580803784607849]
+      Sample Index: 37
+
+    Fold 5 | Starting Time: 40.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.8919170582093763, 0.10808294179062372]
+      Sample Index: 31
+
+
+  Subject: 1025_david (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 4 | Starting Time: 50.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.5209201841274169, 0.479079815872583]
+      Sample Index: 40
+
+
+  Subject: 1027_haozhe (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 43.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9919131000114171, 0.008086899988582901]
+      Sample Index: 48
+
+
+  Subject: 1031_yang (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 12.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.5291519483576673, 0.47084805164233273]
+      Sample Index: 52
+
+
+  Subject: 1104_memory (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 50.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.5249033135944623, 0.47509668640553776]
+      Sample Index: 6
+
+
+  Subject: 1105_xiwen (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 46.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.8464971712106966, 0.15350282878930346]
+      Sample Index: 12
+
+
+================================================================================
+
+SVM
+--------------------------------------------------------------------------------
+Total incorrect predictions: 12/58 (20.69%)
+
+
+  Subject: 1012_ari (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 46.10s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.3554901529150234, 0.6445098470849766]
+      Sample Index: 26
+
+
+  Subject: 1021_jiangyifei (3 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 58.90s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.7437522064726287, 0.25624779352737137]
+      Sample Index: 34
+
+    Fold 4 | Starting Time: 88.90s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.8864716473929956, 0.11352835260700452]
+      Sample Index: 37
+
+    Fold 5 | Starting Time: 40.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.8746329955407632, 0.12536700445923674]
+      Sample Index: 31
+
+
+  Subject: 1025_david (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 4 | Starting Time: 50.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.7121893124746282, 0.28781068752537187]
+      Sample Index: 40
+
+
+  Subject: 1027_haozhe (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 43.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.7851135622896322, 0.2148864377103676]
+      Sample Index: 48
+
+
+  Subject: 1027_qiushi (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 5 | Starting Time: 44.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.7912544346606646, 0.20874556533933541]
+      Sample Index: 45
+
+
+  Subject: 1030_george (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 4.50s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.7189761495759404, 0.28102385042405964]
+      Sample Index: 57
+
+
+  Subject: 1031_yang (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 12.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.4239739539783856, 0.5760260460216144]
+      Sample Index: 52
+
+
+  Subject: 1104_memory (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 50.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.44745396351878336, 0.5525460364812166]
+      Sample Index: 6
+
+
+  Subject: 1105_xiwen (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 46.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.8939061410912882, 0.10609385890871191]
+      Sample Index: 12
+
+    Fold 4 | Starting Time: 29.00s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.22375000124432945, 0.7762499987556705]
+      Sample Index: 10
+
+
+================================================================================
+
+Random Forest
+--------------------------------------------------------------------------------
+Total incorrect predictions: 15/58 (25.86%)
+
+
+  Subject: 1012_ari (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 40.40s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.4, 0.6]
+      Sample Index: 25
+
+    Fold 1 | Starting Time: 46.10s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.3, 0.7]
+      Sample Index: 26
+
+
+  Subject: 1021_jiangyifei (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 4 | Starting Time: 88.90s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.75, 0.25]
+      Sample Index: 37
+
+    Fold 5 | Starting Time: 40.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.85, 0.15]
+      Sample Index: 31
+
+
+  Subject: 1025_david (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 4 | Starting Time: 50.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.6, 0.4]
+      Sample Index: 40
+
+
+  Subject: 1027_haozhe (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 43.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.95, 0.05]
+      Sample Index: 48
+
+
+  Subject: 1027_qiushi (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 5 | Starting Time: 44.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.75, 0.25]
+      Sample Index: 45
+
+
+  Subject: 1030_george (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 4.50s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.6, 0.4]
+      Sample Index: 57
+
+
+  Subject: 1031_yang (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 12.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.5, 0.5]
+      Sample Index: 52
+
+
+  Subject: 1105_xiwen (4 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 46.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9, 0.1]
+      Sample Index: 12
+
+    Fold 2 | Starting Time: 53.00s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.0, 1.0]
+      Sample Index: 13
+
+    Fold 2 | Starting Time: 59.30s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.05, 0.95]
+      Sample Index: 14
+
+    Fold 2 | Starting Time: 77.20s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.05, 0.95]
+      Sample Index: 15
+
+
+  Subject: 1105_yibo (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 9.00s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.0, 1.0]
+      Sample Index: 16
+
+    Fold 2 | Starting Time: 20.40s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.2, 0.8]
+      Sample Index: 17
+
+
+================================================================================
+
+XGBoost
+--------------------------------------------------------------------------------
+Total incorrect predictions: 14/58 (24.14%)
+
+
+  Subject: 1012_ari (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 40.40s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.4318559169769287, 0.5681440830230713]
+      Sample Index: 25
+
+    Fold 1 | Starting Time: 46.10s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.20667332410812378, 0.7933266758918762]
+      Sample Index: 26
+
+
+  Subject: 1021_jiangyifei (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 4 | Starting Time: 88.90s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.866135835647583, 0.13386417925357819]
+      Sample Index: 37
+
+    Fold 5 | Starting Time: 40.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9678386449813843, 0.03216136246919632]
+      Sample Index: 31
+
+
+  Subject: 1025_david (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 4 | Starting Time: 50.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.8467327356338501, 0.1532672494649887]
+      Sample Index: 40
+
+
+  Subject: 1027_haozhe (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 3 | Starting Time: 43.40s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9713692665100098, 0.028630739077925682]
+      Sample Index: 48
+
+
+  Subject: 1027_qiushi (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 5 | Starting Time: 44.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.5314972400665283, 0.46850278973579407]
+      Sample Index: 45
+
+
+  Subject: 1030_george (1 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 4.50s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9154967069625854, 0.08450328558683395]
+      Sample Index: 57
+
+
+  Subject: 1105_xiwen (4 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 1 | Starting Time: 46.80s
+      True Label: Fatigued (1)
+      Predicted Label: Not Fatigued (0)
+      Prediction Probabilities: [0.9895260334014893, 0.010473962873220444]
+      Sample Index: 12
+
+    Fold 2 | Starting Time: 53.00s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.10379105806350708, 0.8962089419364929]
+      Sample Index: 13
+
+    Fold 2 | Starting Time: 59.30s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.06912708282470703, 0.930872917175293]
+      Sample Index: 14
+
+    Fold 2 | Starting Time: 77.20s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.10379105806350708, 0.8962089419364929]
+      Sample Index: 15
+
+
+  Subject: 1105_yibo (2 incorrect)
+  ----------------------------------------------------------------------------
+    Fold 2 | Starting Time: 9.00s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.10379105806350708, 0.8962089419364929]
+      Sample Index: 16
+
+    Fold 2 | Starting Time: 20.40s
+      True Label: Not Fatigued (0)
+      Predicted Label: Fatigued (1)
+      Prediction Probabilities: [0.10379105806350708, 0.8962089419364929]
+      Sample Index: 17
+
+
+================================================================================

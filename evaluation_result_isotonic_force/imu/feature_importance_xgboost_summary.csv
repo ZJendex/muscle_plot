@@ -1,0 +1,5 @@
+Feature,Mean_Importance,Std_Importance
+time_mav,0.5170751,0.1340776
+traditional_rms,0.20838399,0.1281439
+freq_low_high_ratio,0.14846396,0.021955222
+time_zero_crossing_rate,0.12607689,0.017953116

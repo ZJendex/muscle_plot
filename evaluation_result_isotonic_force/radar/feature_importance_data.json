@@ -1,0 +1,124 @@
+{
+  "Random Forest": {
+    "summary": [
+      {
+        "Feature": "time_mav",
+        "Mean_Importance": 0.3187553917556575,
+        "Std_Importance": 0.029216492610654426
+      },
+      {
+        "Feature": "traditional_rms",
+        "Mean_Importance": 0.2769784310077181,
+        "Std_Importance": 0.037264051774224614
+      },
+      {
+        "Feature": "freq_low_high_ratio",
+        "Mean_Importance": 0.23370047254951273,
+        "Std_Importance": 0.016797883899179824
+      },
+      {
+        "Feature": "time_zero_crossing_rate",
+        "Mean_Importance": 0.17056570468711169,
+        "Std_Importance": 0.010951059695478266
+      }
+    ],
+    "per_fold": [
+      {
+        "Fold": 1,
+        "time_mav": 0.28788899228375164,
+        "time_zero_crossing_rate": 0.1690322988390402,
+        "freq_low_high_ratio": 0.26247954869043616,
+        "traditional_rms": 0.280599160186772
+      },
+      {
+        "Fold": 2,
+        "time_mav": 0.33263128544113446,
+        "time_zero_crossing_rate": 0.1601970977601894,
+        "freq_low_high_ratio": 0.23719839958026614,
+        "traditional_rms": 0.26997321721841006
+      },
+      {
+        "Fold": 3,
+        "time_mav": 0.31048459657120897,
+        "time_zero_crossing_rate": 0.15909974223946322,
+        "freq_low_high_ratio": 0.2113007412562833,
+        "traditional_rms": 0.31911491993304447
+      },
+      {
+        "Fold": 4,
+        "time_mav": 0.2944044965455842,
+        "time_zero_crossing_rate": 0.17572015283091189,
+        "freq_low_high_ratio": 0.22561178990231676,
+        "traditional_rms": 0.30426356072118704
+      },
+      {
+        "Fold": 5,
+        "time_mav": 0.36836758793660807,
+        "time_zero_crossing_rate": 0.1887792317659537,
+        "freq_low_high_ratio": 0.23191188331826135,
+        "traditional_rms": 0.21094129697917685
+      }
+    ]
+  },
+  "XGBoost": {
+    "summary": [
+      {
+        "Feature": "time_mav",
+        "Mean_Importance": 0.34044966101646423,
+        "Std_Importance": 0.03246566280722618
+      },
+      {
+        "Feature": "traditional_rms",
+        "Mean_Importance": 0.26010558009147644,
+        "Std_Importance": 0.03500852733850479
+      },
+      {
+        "Feature": "freq_low_high_ratio",
+        "Mean_Importance": 0.21835418045520782,
+        "Std_Importance": 0.04175858572125435
+      },
+      {
+        "Feature": "time_zero_crossing_rate",
+        "Mean_Importance": 0.1810905486345291,
+        "Std_Importance": 0.020879238843917847
+      }
+    ],
+    "per_fold": [
+      {
+        "Fold": 1,
+        "time_mav": 0.3191136121749878,
+        "time_zero_crossing_rate": 0.17439359426498413,
+        "freq_low_high_ratio": 0.2856725752353668,
+        "traditional_rms": 0.22082024812698364
+      },
+      {
+        "Fold": 2,
+        "time_mav": 0.37408557534217834,
+        "time_zero_crossing_rate": 0.15789957344532013,
+        "freq_low_high_ratio": 0.22218185663223267,
+        "traditional_rms": 0.24583299458026886
+      },
+      {
+        "Fold": 3,
+        "time_mav": 0.2881038784980774,
+        "time_zero_crossing_rate": 0.16841723024845123,
+        "freq_low_high_ratio": 0.23457247018814087,
+        "traditional_rms": 0.3089064061641693
+      },
+      {
+        "Fold": 4,
+        "time_mav": 0.35205936431884766,
+        "time_zero_crossing_rate": 0.1860816776752472,
+        "freq_low_high_ratio": 0.16784629225730896,
+        "traditional_rms": 0.29401272535324097
+      },
+      {
+        "Fold": 5,
+        "time_mav": 0.3688860535621643,
+        "time_zero_crossing_rate": 0.21866072714328766,
+        "freq_low_high_ratio": 0.1814976930618286,
+        "traditional_rms": 0.23095551133155823
+      }
+    ]
+  }
+}

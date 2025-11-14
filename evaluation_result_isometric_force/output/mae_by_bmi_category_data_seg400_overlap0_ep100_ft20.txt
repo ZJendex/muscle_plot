@@ -1,10 +1,10 @@
 ====================================================================================================
-RMSE BY BMI CATEGORY (MERGED) - MVIC Percentage (%)
+MAE BY BMI CATEGORY (MERGED) - MVIC Percentage (%)
 ====================================================================================================
 
-Note: Statistics calculated from individual segment prediction errors
-  - RMSE = sqrt(mean((y_true - y_pred)^2)) across all predictions
-  - Std = Standard deviation of individual errors
+Note: Statistics calculated from individual segment prediction errors (|y_true - y_pred|)
+  - Mean = Average absolute error across all predictions
+  - Std = Standard deviation of absolute errors
 
 Configuration:
   Segment Length: 400
@@ -20,10 +20,10 @@ Category Merging:
 SUMMARY BY MERGED BMI CATEGORY
 ====================================================================================================
 
-BMI Category              Mean RMSE (%)   Std (%)         Sessions     Subjects     Predictions 
+BMI Category              Mean MAE (%)    Std MAE (%)     Sessions     Subjects     Predictions 
 ------------------------------------------------------------------------------------------------------------------------
-Normal//Underweight       9.5203          5.9567          25           13           2700        
-Overweight//Obese         9.8207          6.0902          15           10           1586        
+Normal//Underweight       7.4275          5.9567          25           13           2700        
+Overweight//Obese         7.7058          6.0902          15           10           1586        
 
 ====================================================================================================
 DETAILED SUBJECT DATA BY MERGED BMI CATEGORY
@@ -35,8 +35,8 @@ Normal//Underweight:
   Subjects: bert, david, freddy, george, jiangyifei, jiasi, junru, pragna, qiushi, siqi, weifan, xiwen, yibo
   Number of sessions: 25
   Total predictions: 2700
-  RMSE: 9.5203%
-  Std of errors: 5.9567%
+  Mean MAE: 7.4275%
+  Std MAE: 5.9567%
   Min error: 0.0062%
   Max error: 40.4428%
   Median error: 6.1858%
@@ -46,8 +46,8 @@ Overweight//Obese:
   Subjects: anindya, anupam, ari, haoyu, haozhe, jerry, seungjoo, veronica, yang, yifeng
   Number of sessions: 15
   Total predictions: 1586
-  RMSE: 9.8207%
-  Std of errors: 6.0902%
+  Mean MAE: 7.7058%
+  Std MAE: 6.0902%
   Min error: 0.0021%
   Max error: 59.9635%
   Median error: 6.6573%

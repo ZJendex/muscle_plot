@@ -1,0 +1,27 @@
+
+================================================================================
+RESULTS SUCCESSFULLY SAVED
+================================================================================
+
+Output Directory: result_isotonic_force\binary_force_selected_recording_LASTTRY_imu
+
+KEY OUTPUT FILES:
+- features_df.pkl/csv: Extracted features
+- all_results_complete.pkl: Complete model results
+- roc_curve_data.pkl/json: ROC curve data for all models and folds
+- feature_importance_*.csv: Feature importance rankings
+- per_class_performance_data.pkl/json: Per-class metrics
+- *.png: All visualizations
+
+REPRODUCTION GUIDE:
+For complete instructions on reproducing these results, see:
+  result_isotonic_force\binary_force_selected_recording_LASTTRY_imu/REPRODUCTION_GUIDE.md
+
+This guide includes:
+- Environment setup instructions
+- Data requirements
+- Step-by-step reproduction procedures
+- Code examples for loading and reproducing ROC curves
+- Expected performance metrics
+
+================================================================================

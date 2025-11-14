@@ -110,8 +110,11 @@ def process_evaluation_file(json_file, mvic_100_value=None):
     y_true_mvic_pct = np.array(y_true_mvic_pct_group)
     y_pred_mvic_pct = np.array(y_pred_mvic_pct_group)
     
-    # Calculate RMSE in MVIC percentage
+    # Calculate errors for each segment
+    errors_mvic_pct = np.abs(y_true_mvic_pct - y_pred_mvic_pct)
     squared_errors_mvic_pct = (y_true_mvic_pct - y_pred_mvic_pct) ** 2
+    
+    # Calculate RMSE in MVIC percentage
     rmse_mvic_pct = np.sqrt(np.mean(squared_errors_mvic_pct))
     
     # Calculate RMSE in kg if MVIC_100 value is provided
@@ -128,15 +131,18 @@ def process_evaluation_file(json_file, mvic_100_value=None):
         'rmse_kg': rmse_kg,
         'mvic_100': mvic_100_value,
         'num_predictions': len(y_true_mvic_pct),
+        'errors_mvic_pct': errors_mvic_pct,  # Individual segment errors (for MAE)
+        'squared_errors_mvic_pct': squared_errors_mvic_pct,  # Individual squared errors (for RMSE)
     }
 
 
 def plot_rmse_by_bmi_category(all_results, bmi_dict, config_suffix):
     """Plot RMSE grouped by BMI category."""
     
-    # Group RMSE values by BMI category
-    bmi_category_rmse = {}
+    # Group individual squared errors by BMI category
+    bmi_category_squared_errors = {}
     subjects_by_category = {}
+    session_count_by_category = {}
     
     for result in all_results:
         full_name = result['subject']
@@ -147,7 +153,6 @@ def plot_rmse_by_bmi_category(all_results, bmi_dict, config_suffix):
         # Get BMI category for this person
         if person_name_lower in bmi_dict:
             original_category = bmi_dict[person_name_lower]['category']
-            rmse = result['rmse_mvic_pct']
             
             # Merge categories: Underweight + Normal weight, Overweight + Obese
             if original_category in ['Underweight', 'Normal weight']:
@@ -157,39 +162,49 @@ def plot_rmse_by_bmi_category(all_results, bmi_dict, config_suffix):
             else:
                 category = original_category
             
-            if category not in bmi_category_rmse:
-                bmi_category_rmse[category] = []
+            if category not in bmi_category_squared_errors:
+                bmi_category_squared_errors[category] = []
                 subjects_by_category[category] = set()
+                session_count_by_category[category] = 0
             
-            bmi_category_rmse[category].append(rmse)
+            # Collect all individual squared errors from this session
+            bmi_category_squared_errors[category].extend(result['squared_errors_mvic_pct'])
             subjects_by_category[category].add(person_name)
+            session_count_by_category[category] += 1
         else:
             print(f"Warning: No BMI data found for {person_name}")
     
-    if not bmi_category_rmse:
+    if not bmi_category_squared_errors:
         print("No data to plot!")
         return
     
-    # Calculate statistics for each category
+    # Calculate RMSE and std for each category from individual squared errors
     categories_data = []
-    for category in sorted(bmi_category_rmse.keys()):
-        rmse_values = bmi_category_rmse[category]
+    for category in sorted(bmi_category_squared_errors.keys()):
+        all_squared_errors = np.array(bmi_category_squared_errors[category])
+        # RMSE = sqrt(mean(squared_errors))
+        rmse = np.sqrt(np.mean(all_squared_errors))
+        # Std of RMSE: approximate using std of errors
+        all_errors = np.sqrt(all_squared_errors)
+        std = np.std(all_errors, ddof=1)
+        
         categories_data.append({
             'category': category,
-            'mean': np.mean(rmse_values),
-            'std': np.std(rmse_values, ddof=1) if len(rmse_values) > 1 else 0,
-            'count': len(rmse_values),
-            'subjects': len(subjects_by_category[category])
+            'mean': rmse,  # RMSE
+            'std': std,  # Std of individual errors
+            'count': session_count_by_category[category],  # Number of sessions
+            'subjects': len(subjects_by_category[category]),
+            'num_errors': len(all_squared_errors)  # Total number of segment predictions
         })
     
     # Sort categories in a logical order
     category_order = ['Normal/\nUnderweight', 'Overweight/\nObese']
     categories_data.sort(key=lambda x: category_order.index(x['category']) if x['category'] in category_order else 999)
     
-    print(f"\nRMSE by BMI Category (Merged):")
+    print(f"\nRMSE by BMI Category (Merged) - calculated from individual segment errors:")
     for data in categories_data:
         print(f"  {data['category'].replace(chr(10), '/')}: {data['mean']:.2f}±{data['std']:.2f}% "
-              f"(n={data['count']} sessions, {data['subjects']} subjects)")
+              f"(n={data['count']} sessions, {data['subjects']} subjects, {data['num_errors']} predictions)")
     
     # ==================== Create Bar Plot ====================
     print("\nCreating RMSE by BMI category bar plot...")
@@ -253,6 +268,10 @@ def plot_rmse_by_bmi_category(all_results, bmi_dict, config_suffix):
         f.write("RMSE BY BMI CATEGORY (MERGED) - MVIC Percentage (%)\n")
         f.write("="*100 + "\n\n")
         
+        f.write(f"Note: Statistics calculated from individual segment prediction errors\n")
+        f.write(f"  - RMSE = sqrt(mean((y_true - y_pred)^2)) across all predictions\n")
+        f.write(f"  - Std = Standard deviation of individual errors\n\n")
+        
         f.write(f"Configuration:\n")
         f.write(f"  Segment Length: {SEGMENT}\n")
         f.write(f"  Overlap: {OVERLAP}\n")
@@ -267,32 +286,37 @@ def plot_rmse_by_bmi_category(all_results, bmi_dict, config_suffix):
         f.write("SUMMARY BY MERGED BMI CATEGORY\n")
         f.write("="*100 + "\n\n")
         
-        f.write(f"{'BMI Category':<25} {'Mean RMSE (%)':<15} {'Std RMSE (%)':<15} {'Sessions':<12} {'Subjects':<12}\n")
-        f.write("-"*100 + "\n")
+        f.write(f"{'BMI Category':<25} {'Mean RMSE (%)':<15} {'Std (%)':<15} {'Sessions':<12} {'Subjects':<12} {'Predictions':<12}\n")
+        f.write("-"*120 + "\n")
         for data in categories_data:
             cat_label = data['category'].replace('\n', '/')
             f.write(f"{cat_label:<25} "
                    f"{data['mean']:<15.4f} "
                    f"{data['std']:<15.4f} "
                    f"{data['count']:<12} "
-                   f"{data['subjects']:<12}\n")
+                   f"{data['subjects']:<12} "
+                   f"{data['num_errors']:<12}\n")
         
         f.write("\n" + "="*100 + "\n")
         f.write("DETAILED SUBJECT DATA BY MERGED BMI CATEGORY\n")
         f.write("="*100 + "\n\n")
         
-        for category in sorted(bmi_category_rmse.keys(), 
+        for category in sorted(bmi_category_squared_errors.keys(), 
                               key=lambda x: category_order.index(x) if x in category_order else 999):
             cat_label = category.replace('\n', '/')
+            all_squared_errors = np.array(bmi_category_squared_errors[category])
+            all_errors = np.sqrt(all_squared_errors)
+            rmse = np.sqrt(np.mean(all_squared_errors))
             f.write(f"\n{cat_label}:\n")
             f.write(f"  Number of subjects: {len(subjects_by_category[category])}\n")
             f.write(f"  Subjects: {', '.join(sorted(subjects_by_category[category]))}\n")
-            f.write(f"  Number of sessions: {len(bmi_category_rmse[category])}\n")
-            f.write(f"  RMSE values: {', '.join([f'{v:.4f}' for v in sorted(bmi_category_rmse[category])])}\n")
-            f.write(f"  Mean: {np.mean(bmi_category_rmse[category]):.4f}%\n")
-            f.write(f"  Std: {np.std(bmi_category_rmse[category], ddof=1) if len(bmi_category_rmse[category]) > 1 else 0:.4f}%\n")
-            f.write(f"  Min: {min(bmi_category_rmse[category]):.4f}%\n")
-            f.write(f"  Max: {max(bmi_category_rmse[category]):.4f}%\n")
+            f.write(f"  Number of sessions: {session_count_by_category[category]}\n")
+            f.write(f"  Total predictions: {len(all_squared_errors)}\n")
+            f.write(f"  RMSE: {rmse:.4f}%\n")
+            f.write(f"  Std of errors: {np.std(all_errors, ddof=1):.4f}%\n")
+            f.write(f"  Min error: {np.min(all_errors):.4f}%\n")
+            f.write(f"  Max error: {np.max(all_errors):.4f}%\n")
+            f.write(f"  Median error: {np.median(all_errors):.4f}%\n")
         
         f.write("\n" + "="*100 + "\n")
     

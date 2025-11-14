@@ -1,0 +1,73 @@
+BINARY FORCE LEVEL CLASSIFICATION RESULTS
+================================================================================
+
+         Classifier        Accuracy       Precision          Recall        F1-Score             AUC
+Logistic Regression 0.6962 ± 0.0844 0.7200 ± 0.1424 0.6810 ± 0.1714 0.6855 ± 0.1011 0.7563 ± 0.0943
+                SVM 0.6628 ± 0.0692 0.7667 ± 0.1225 0.4905 ± 0.1210 0.5867 ± 0.0980 0.7706 ± 0.1324
+      Random Forest 0.6615 ± 0.0947 0.6779 ± 0.1057 0.6429 ± 0.1287 0.6526 ± 0.0953 0.7306 ± 0.1601
+            XGBoost 0.6628 ± 0.1261 0.6873 ± 0.1740 0.6762 ± 0.1071 0.6722 ± 0.1074 0.6754 ± 0.1044
+
+================================================================================
+PER-CLASS DETAILED RESULTS
+================================================================================
+
+
+Logistic Regression:
+------------------------------------------------------------
+  Low Force (0-1): Prec=0.7226, Rec=0.7095, F1=0.6945
+  High Force (2-3): Prec=0.7200, Rec=0.6810, F1=0.6855
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.6429
+    Fold 2: AUC = 0.6667
+    Fold 3: AUC = 0.7500
+    Fold 4: AUC = 0.8333
+    Fold 5: AUC = 0.8889
+
+  Mean AUC: 0.7563 ± 0.0943
+  Best Fold: Fold 5 (AUC = 0.8889)
+
+SVM:
+------------------------------------------------------------
+  Low Force (0-1): Prec=0.6250, Rec=0.8381, F1=0.7112
+  High Force (2-3): Prec=0.7667, Rec=0.4905, F1=0.5867
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.6190
+    Fold 2: AUC = 0.7619
+    Fold 3: AUC = 0.6667
+    Fold 4: AUC = 0.8056
+    Fold 5: AUC = 1.0000
+
+  Mean AUC: 0.7706 ± 0.1324
+  Best Fold: Fold 5 (AUC = 1.0000)
+
+Random Forest:
+------------------------------------------------------------
+  Low Force (0-1): Prec=0.6562, Rec=0.6714, F1=0.6584
+  High Force (2-3): Prec=0.6779, Rec=0.6429, F1=0.6526
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.8214
+    Fold 2: AUC = 0.6786
+    Fold 3: AUC = 0.8056
+    Fold 4: AUC = 0.9028
+    Fold 5: AUC = 0.4444
+
+  Mean AUC: 0.7306 ± 0.1601
+  Best Fold: Fold 4 (AUC = 0.9028)
+
+XGBoost:
+------------------------------------------------------------
+  Low Force (0-1): Prec=0.6529, Rec=0.6429, F1=0.6397
+  High Force (2-3): Prec=0.6873, Rec=0.6762, F1=0.6722
+
+  AUC Scores per Fold:
+    Fold 1: AUC = 0.7143
+    Fold 2: AUC = 0.6905
+    Fold 3: AUC = 0.7361
+    Fold 4: AUC = 0.7639
+    Fold 5: AUC = 0.4722
+
+  Mean AUC: 0.6754 ± 0.1044
+  Best Fold: Fold 4 (AUC = 0.7639)

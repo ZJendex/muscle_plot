@@ -1,0 +1,215 @@
+{
+  "Random Forest": {
+    "summary": [
+      {
+        "Feature": "traditional_mnf",
+        "Mean_Importance": 0.30307262500238963,
+        "Std_Importance": 0.026083632246496076
+      },
+      {
+        "Feature": "time_zero_crossing_rate",
+        "Mean_Importance": 0.23604008343936894,
+        "Std_Importance": 0.028460084493719614
+      },
+      {
+        "Feature": "traditional_rms",
+        "Mean_Importance": 0.15979050229683217,
+        "Std_Importance": 0.03271493577274109
+      },
+      {
+        "Feature": "time_mav",
+        "Mean_Importance": 0.15561542597741693,
+        "Std_Importance": 0.02963267717092082
+      },
+      {
+        "Feature": "freq_low_high_ratio",
+        "Mean_Importance": 0.14548136328399228,
+        "Std_Importance": 0.032991186156691714
+      }
+    ],
+    "per_fold": [
+      {
+        "Fold": 1,
+        "time_mav": 0.17426210775502254,
+        "time_zero_crossing_rate": 0.23531014158784114,
+        "freq_low_high_ratio": 0.08975552110004348,
+        "traditional_rms": 0.20419135413542416,
+        "traditional_mnf": 0.2964808754216687
+      },
+      {
+        "Fold": 2,
+        "time_mav": 0.15530289519301615,
+        "time_zero_crossing_rate": 0.24787311874225768,
+        "freq_low_high_ratio": 0.14401479369993325,
+        "traditional_rms": 0.10524460902084894,
+        "traditional_mnf": 0.347564583343944
+      },
+      {
+        "Fold": 3,
+        "time_mav": 0.17076348975788977,
+        "time_zero_crossing_rate": 0.19788817258827957,
+        "freq_low_high_ratio": 0.16957992975068428,
+        "traditional_rms": 0.1782579617242822,
+        "traditional_mnf": 0.2835104461788642
+      },
+      {
+        "Fold": 4,
+        "time_mav": 0.09854636193888944,
+        "time_zero_crossing_rate": 0.2818750240476596,
+        "freq_low_high_ratio": 0.1865866786193201,
+        "traditional_rms": 0.15943498755516708,
+        "traditional_mnf": 0.27355694783896384
+      },
+      {
+        "Fold": 5,
+        "time_mav": 0.17920227524226676,
+        "time_zero_crossing_rate": 0.21725396023080687,
+        "freq_low_high_ratio": 0.13746989324998032,
+        "traditional_rms": 0.15182359904843856,
+        "traditional_mnf": 0.31425027222850754
+      }
+    ]
+  },
+  "XGBoost": {
+    "summary": [
+      {
+        "Feature": "traditional_mnf",
+        "Mean_Importance": 0.38365450501441956,
+        "Std_Importance": 0.1185024306178093
+      },
+      {
+        "Feature": "time_zero_crossing_rate",
+        "Mean_Importance": 0.18546152114868164,
+        "Std_Importance": 0.10234921425580978
+      },
+      {
+        "Feature": "time_mav",
+        "Mean_Importance": 0.18363359570503235,
+        "Std_Importance": 0.023072967305779457
+      },
+      {
+        "Feature": "freq_low_high_ratio",
+        "Mean_Importance": 0.13711842894554138,
+        "Std_Importance": 0.021972473710775375
+      },
+      {
+        "Feature": "traditional_rms",
+        "Mean_Importance": 0.11013194173574448,
+        "Std_Importance": 0.03287128731608391
+      }
+    ],
+    "per_fold": [
+      {
+        "Fold": 1,
+        "time_mav": 0.1725158393383026,
+        "time_zero_crossing_rate": 0.1430235356092453,
+        "freq_low_high_ratio": 0.13542556762695312,
+        "traditional_rms": 0.12482193857431412,
+        "traditional_mnf": 0.42421308159828186
+      },
+      {
+        "Fold": 2,
+        "time_mav": 0.1714072972536087,
+        "time_zero_crossing_rate": 0.11895168572664261,
+        "freq_low_high_ratio": 0.17594288289546967,
+        "traditional_rms": 0.06431571394205093,
+        "traditional_mnf": 0.4693823754787445
+      },
+      {
+        "Fold": 3,
+        "time_mav": 0.1577087938785553,
+        "time_zero_crossing_rate": 0.14167198538780212,
+        "freq_low_high_ratio": 0.141642227768898,
+        "traditional_rms": 0.07834313064813614,
+        "traditional_mnf": 0.48063382506370544
+      },
+      {
+        "Fold": 4,
+        "time_mav": 0.19241048395633698,
+        "time_zero_crossing_rate": 0.38944366574287415,
+        "freq_low_high_ratio": 0.11348940432071686,
+        "traditional_rms": 0.14858967065811157,
+        "traditional_mnf": 0.15606673061847687
+      },
+      {
+        "Fold": 5,
+        "time_mav": 0.22412548959255219,
+        "time_zero_crossing_rate": 0.13421672582626343,
+        "freq_low_high_ratio": 0.11909210681915283,
+        "traditional_rms": 0.13458925485610962,
+        "traditional_mnf": 0.38797637820243835
+      }
+    ]
+  },
+  "Logistic Regression": {
+    "summary": [
+      {
+        "Feature": "traditional_rms",
+        "Mean_AbsCoefficient": 0.46691522374983696,
+        "Std_AbsCoefficient": 0.1807673344744868
+      },
+      {
+        "Feature": "time_mav",
+        "Mean_AbsCoefficient": 0.23818618347721024,
+        "Std_AbsCoefficient": 0.07713275722039732
+      },
+      {
+        "Feature": "time_zero_crossing_rate",
+        "Mean_AbsCoefficient": 0.2244771938934062,
+        "Std_AbsCoefficient": 0.15642757113029626
+      },
+      {
+        "Feature": "freq_low_high_ratio",
+        "Mean_AbsCoefficient": 0.22379725345456042,
+        "Std_AbsCoefficient": 0.11994630489076917
+      },
+      {
+        "Feature": "traditional_mnf",
+        "Mean_AbsCoefficient": 0.21297163486786727,
+        "Std_AbsCoefficient": 0.2510941904900286
+      }
+    ],
+    "per_fold": [
+      {
+        "Fold": 1,
+        "time_mav": 0.3008667785182685,
+        "time_zero_crossing_rate": 0.047917940670379744,
+        "freq_low_high_ratio": 0.41762262172275927,
+        "traditional_rms": 0.7688530458446835,
+        "traditional_mnf": 0.2635076399124803
+      },
+      {
+        "Fold": 2,
+        "time_mav": 0.11952727826665209,
+        "time_zero_crossing_rate": 0.4756636738801831,
+        "freq_low_high_ratio": 0.04489882907424289,
+        "traditional_rms": 0.2087703709043793,
+        "traditional_mnf": 0.0016950490115199579
+      },
+      {
+        "Fold": 3,
+        "time_mav": 0.17648970822732052,
+        "time_zero_crossing_rate": 0.06798991446429554,
+        "freq_low_high_ratio": 0.25689342250303815,
+        "traditional_rms": 0.40198980133002066,
+        "traditional_mnf": 0.6823516597139997
+      },
+      {
+        "Fold": 4,
+        "time_mav": 0.27456933625738983,
+        "time_zero_crossing_rate": 0.2763914063016882,
+        "freq_low_high_ratio": 0.19222942274079122,
+        "traditional_rms": 0.4536033030222775,
+        "traditional_mnf": 0.05147493504858332
+      },
+      {
+        "Fold": 5,
+        "time_mav": 0.3194778161164203,
+        "time_zero_crossing_rate": 0.2544230341504844,
+        "freq_low_high_ratio": 0.2073419712319706,
+        "traditional_rms": 0.5013595976478241,
+        "traditional_mnf": 0.0658288906527532
+      }
+    ]
+  }
+}

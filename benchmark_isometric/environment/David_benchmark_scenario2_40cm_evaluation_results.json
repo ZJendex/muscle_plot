@@ -1,0 +1,3786 @@
+{
+    "mae_mvic_pct": 10.211385726928711,
+    "rmse_mvic_pct": 13.113848686218262,
+    "r2_score": 0.6281930208206177,
+    "correlation": 0.892285156697256,
+    "mae_kg": 1.4295940399169922,
+    "rmse_kg": 1.835938811302185,
+    "mvic_100": 14.0,
+    "test_person": "David_benchmark_scenario2_40cm",
+    "task": "load_cell_force_regression",
+    "note": "Primary metrics are in MVIC%, secondary metrics in kg for reference",
+    "segments": [
+        {
+            "segment_index": 0,
+            "true_force_value": 9.967679023742676,
+            "predicted_force_value": 12.096396446228027,
+            "absolute_error": 2.1287174224853516,
+            "squared_error": 4.531437864792679,
+            "true_force_mvic_pct": 71.19770731244769,
+            "predicted_force_mvic_pct": 86.40283175877163,
+            "absolute_error_mvic_pct": 15.20512444632394
+        },
+        {
+            "segment_index": 1,
+            "true_force_value": 9.962226867675781,
+            "predicted_force_value": 13.532092094421387,
+            "absolute_error": 3.5698652267456055,
+            "squared_error": 12.743937737127453,
+            "true_force_mvic_pct": 71.1587633405413,
+            "predicted_force_mvic_pct": 96.65780067443848,
+            "absolute_error_mvic_pct": 25.499037333897185
+        },
+        {
+            "segment_index": 2,
+            "true_force_value": 10.06032943725586,
+            "predicted_force_value": 16.3322811126709,
+            "absolute_error": 6.271951675415039,
+            "squared_error": 39.337377818741516,
+            "true_force_mvic_pct": 71.85949598039899,
+            "predicted_force_mvic_pct": 116.65915080479212,
+            "absolute_error_mvic_pct": 44.79965482439314
+        },
+        {
+            "segment_index": 3,
+            "true_force_value": 10.014500617980957,
+            "predicted_force_value": 13.941170692443848,
+            "absolute_error": 3.9266700744628906,
+            "squared_error": 15.418737873682403,
+            "true_force_mvic_pct": 71.53214727129254,
+            "predicted_force_mvic_pct": 99.5797906603132,
+            "absolute_error_mvic_pct": 28.04764338902065
+        },
+        {
+            "segment_index": 4,
+            "true_force_value": 10.006802558898926,
+            "predicted_force_value": 11.274476051330566,
+            "absolute_error": 1.2676734924316406,
+            "squared_error": 1.6069960834138328,
+            "true_force_mvic_pct": 71.47716113499233,
+            "predicted_force_mvic_pct": 80.53197179521833,
+            "absolute_error_mvic_pct": 9.054810660226005
+        },
+        {
+            "segment_index": 5,
+            "true_force_value": 10.052989959716797,
+            "predicted_force_value": 13.736808776855469,
+            "absolute_error": 3.683818817138672,
+            "squared_error": 13.570521077504964,
+            "true_force_mvic_pct": 71.80707114083427,
+            "predicted_force_mvic_pct": 98.12006269182477,
+            "absolute_error_mvic_pct": 26.31299155099051
+        },
+        {
+            "segment_index": 6,
+            "true_force_value": 10.131757736206055,
+            "predicted_force_value": 11.66591739654541,
+            "absolute_error": 1.5341596603393555,
+            "squared_error": 2.3536458634125665,
+            "true_force_mvic_pct": 72.36969811575753,
+            "predicted_force_mvic_pct": 83.32798140389579,
+            "absolute_error_mvic_pct": 10.958283288138253
+        },
+        {
+            "segment_index": 7,
+            "true_force_value": 10.156855583190918,
+            "predicted_force_value": 14.070441246032715,
+            "absolute_error": 3.913585662841797,
+            "squared_error": 15.316152740400867,
+            "true_force_mvic_pct": 72.5489684513637,
+            "predicted_force_mvic_pct": 100.50315175737654,
+            "absolute_error_mvic_pct": 27.954183306012837
+        },
+        {
+            "segment_index": 8,
+            "true_force_value": 10.159148216247559,
+            "predicted_force_value": 10.955236434936523,
+            "absolute_error": 0.7960882186889648,
+            "squared_error": 0.6337564519353691,
+            "true_force_mvic_pct": 72.56534440176827,
+            "predicted_force_mvic_pct": 78.25168882097516,
+            "absolute_error_mvic_pct": 5.6863444192068915
+        },
+        {
+            "segment_index": 9,
+            "true_force_value": 10.038310050964355,
+            "predicted_force_value": 17.17709732055664,
+            "absolute_error": 7.138787269592285,
+            "squared_error": 50.962283680492874,
+            "true_force_mvic_pct": 71.7022146497454,
+            "predicted_force_mvic_pct": 122.6935522896903,
+            "absolute_error_mvic_pct": 50.99133763994489
+        },
+        {
+            "segment_index": 10,
+            "true_force_value": 9.956856727600098,
+            "predicted_force_value": 12.269637107849121,
+            "absolute_error": 2.3127803802490234,
+            "squared_error": 5.348953087264817,
+            "true_force_mvic_pct": 71.12040519714355,
+            "predicted_force_mvic_pct": 87.64026505606515,
+            "absolute_error_mvic_pct": 16.519859858921595
+        },
+        {
+            "segment_index": 11,
+            "true_force_value": 9.895631790161133,
+            "predicted_force_value": 12.044510841369629,
+            "absolute_error": 2.148879051208496,
+            "squared_error": 4.617681176722726,
+            "true_force_mvic_pct": 70.68308421543666,
+            "predicted_force_mvic_pct": 86.03222029549735,
+            "absolute_error_mvic_pct": 15.349136080060685
+        },
+        {
+            "segment_index": 12,
+            "true_force_value": 9.97117805480957,
+            "predicted_force_value": 13.968005180358887,
+            "absolute_error": 3.9968271255493164,
+            "squared_error": 15.974627071526811,
+            "true_force_mvic_pct": 71.22270039149693,
+            "predicted_force_mvic_pct": 99.77146557399205,
+            "absolute_error_mvic_pct": 28.548765182495117
+        },
+        {
+            "segment_index": 13,
+            "true_force_value": 10.012054443359375,
+            "predicted_force_value": 18.713825225830078,
+            "absolute_error": 8.701770782470703,
+            "squared_error": 75.7208147506608,
+            "true_force_mvic_pct": 71.51467459542411,
+            "predicted_force_mvic_pct": 133.67018018450057,
+            "absolute_error_mvic_pct": 62.155505589076455
+        },
+        {
+            "segment_index": 14,
+            "true_force_value": 9.940744400024414,
+            "predicted_force_value": 11.436923027038574,
+            "absolute_error": 1.4961786270141602,
+            "squared_error": 2.2385504839339774,
+            "true_force_mvic_pct": 71.00531714303153,
+            "predicted_force_mvic_pct": 81.69230733598981,
+            "absolute_error_mvic_pct": 10.686990192958287
+        },
+        {
+            "segment_index": 15,
+            "true_force_value": 9.908163070678711,
+            "predicted_force_value": 11.97974681854248,
+            "absolute_error": 2.0715837478637695,
+            "squared_error": 4.291459224413302,
+            "true_force_mvic_pct": 70.77259336199079,
+            "predicted_force_mvic_pct": 85.56962013244629,
+            "absolute_error_mvic_pct": 14.797026770455496
+        },
+        {
+            "segment_index": 16,
+            "true_force_value": 9.898674964904785,
+            "predicted_force_value": 11.873663902282715,
+            "absolute_error": 1.9749889373779297,
+            "squared_error": 3.900581302765204,
+            "true_force_mvic_pct": 70.70482117789132,
+            "predicted_force_mvic_pct": 84.81188501630511,
+            "absolute_error_mvic_pct": 14.107063838413783
+        },
+        {
+            "segment_index": 17,
+            "true_force_value": 9.880594253540039,
+            "predicted_force_value": 12.088993072509766,
+            "absolute_error": 2.2083988189697266,
+            "squared_error": 4.877025343626883,
+            "true_force_mvic_pct": 70.57567323957171,
+            "predicted_force_mvic_pct": 86.3499505179269,
+            "absolute_error_mvic_pct": 15.77427727835519
+        },
+        {
+            "segment_index": 18,
+            "true_force_value": 9.830110549926758,
+            "predicted_force_value": 13.390366554260254,
+            "absolute_error": 3.560256004333496,
+            "squared_error": 12.675422816392711,
+            "true_force_mvic_pct": 70.21507535661969,
+            "predicted_force_mvic_pct": 95.64547538757324,
+            "absolute_error_mvic_pct": 25.430400030953543
+        },
+        {
+            "segment_index": 19,
+            "true_force_value": 9.928213119506836,
+            "predicted_force_value": 13.235507011413574,
+            "absolute_error": 3.3072938919067383,
+            "squared_error": 10.93819288744362,
+            "true_force_mvic_pct": 70.9158079964774,
+            "predicted_force_mvic_pct": 94.53933579581124,
+            "absolute_error_mvic_pct": 23.623527799333846
+        },
+        {
+            "segment_index": 20,
+            "true_force_value": 9.994987487792969,
+            "predicted_force_value": 15.074711799621582,
+            "absolute_error": 5.079724311828613,
+            "squared_error": 25.80359908418268,
+            "true_force_mvic_pct": 71.39276776994977,
+            "predicted_force_mvic_pct": 107.67651285443986,
+            "absolute_error_mvic_pct": 36.28374508449009
+        },
+        {
+            "segment_index": 21,
+            "true_force_value": 10.037236213684082,
+            "predicted_force_value": 11.104235649108887,
+            "absolute_error": 1.0669994354248047,
+            "squared_error": 1.138487795196852,
+            "true_force_mvic_pct": 71.69454438345772,
+            "predicted_force_mvic_pct": 79.31596892220634,
+            "absolute_error_mvic_pct": 7.621424538748604
+        },
+        {
+            "segment_index": 22,
+            "true_force_value": 10.134622573852539,
+            "predicted_force_value": 13.665726661682129,
+            "absolute_error": 3.53110408782959,
+            "squared_error": 12.46869607908684,
+            "true_force_mvic_pct": 72.39016124180385,
+            "predicted_force_mvic_pct": 97.61233329772949,
+            "absolute_error_mvic_pct": 25.22217205592564
+        },
+        {
+            "segment_index": 23,
+            "true_force_value": 10.07321834564209,
+            "predicted_force_value": 14.158065795898438,
+            "absolute_error": 4.084847450256348,
+            "squared_error": 16.685978691865785,
+            "true_force_mvic_pct": 71.95155961172921,
+            "predicted_force_mvic_pct": 101.12904139927454,
+            "absolute_error_mvic_pct": 29.17748178754534
+        },
+        {
+            "segment_index": 24,
+            "true_force_value": 10.05334758758545,
+            "predicted_force_value": 28.052812576293945,
+            "absolute_error": 17.999465942382812,
+            "squared_error": 323.9807742109988,
+            "true_force_mvic_pct": 71.80962562561035,
+            "predicted_force_mvic_pct": 200.3772326878139,
+            "absolute_error_mvic_pct": 128.56761387416296
+        },
+        {
+            "segment_index": 25,
+            "true_force_value": 10.135875701904297,
+            "predicted_force_value": 12.331950187683105,
+            "absolute_error": 2.1960744857788086,
+            "squared_error": 4.822743147088659,
+            "true_force_mvic_pct": 72.39911215645927,
+            "predicted_force_mvic_pct": 88.08535848345075,
+            "absolute_error_mvic_pct": 15.68624632699149
+        },
+        {
+            "segment_index": 26,
+            "true_force_value": 10.076620101928711,
+            "predicted_force_value": 24.267019271850586,
+            "absolute_error": 14.190399169921875,
+            "squared_error": 201.36742860171944,
+            "true_force_mvic_pct": 71.97585787091937,
+            "predicted_force_mvic_pct": 173.3358519417899,
+            "absolute_error_mvic_pct": 101.35999407087053
+        },
+        {
+            "segment_index": 27,
+            "true_force_value": 10.116362571716309,
+            "predicted_force_value": 14.534588813781738,
+            "absolute_error": 4.41822624206543,
+            "squared_error": 19.52072312607561,
+            "true_force_mvic_pct": 72.2597326551165,
+            "predicted_force_mvic_pct": 103.81849152701241,
+            "absolute_error_mvic_pct": 31.558758871895925
+        },
+        {
+            "segment_index": 28,
+            "true_force_value": 10.105262756347656,
+            "predicted_force_value": 12.405669212341309,
+            "absolute_error": 2.3004064559936523,
+            "squared_error": 5.291869862777276,
+            "true_force_mvic_pct": 72.18044825962612,
+            "predicted_force_mvic_pct": 88.61192294529506,
+            "absolute_error_mvic_pct": 16.431474685668945
+        },
+        {
+            "segment_index": 29,
+            "true_force_value": 19.832796096801758,
+            "predicted_force_value": 13.345922470092773,
+            "absolute_error": 6.486873626708984,
+            "squared_error": 42.07952944889257,
+            "true_force_mvic_pct": 141.6628292628697,
+            "predicted_force_mvic_pct": 95.32801764351981,
+            "absolute_error_mvic_pct": 46.334811619349885
+        },
+        {
+            "segment_index": 30,
+            "true_force_value": 20.015396118164062,
+            "predicted_force_value": 19.069189071655273,
+            "absolute_error": 0.9462070465087891,
+            "squared_error": 0.8953077748628857,
+            "true_force_mvic_pct": 142.9671151297433,
+            "predicted_force_mvic_pct": 136.20849336896623,
+            "absolute_error_mvic_pct": 6.758621760777064
+        },
+        {
+            "segment_index": 31,
+            "true_force_value": 19.882741928100586,
+            "predicted_force_value": 26.748863220214844,
+            "absolute_error": 6.866121292114258,
+            "squared_error": 47.143621598024765,
+            "true_force_mvic_pct": 142.01958520071847,
+            "predicted_force_mvic_pct": 191.0633087158203,
+            "absolute_error_mvic_pct": 49.04372351510184
+        },
+        {
+            "segment_index": 32,
+            "true_force_value": 19.53777313232422,
+            "predicted_force_value": 14.767845153808594,
+            "absolute_error": 4.769927978515625,
+            "squared_error": 22.752212920226157,
+            "true_force_mvic_pct": 139.55552237374442,
+            "predicted_force_mvic_pct": 105.48460824148995,
+            "absolute_error_mvic_pct": 34.070914132254465
+        },
+        {
+            "segment_index": 33,
+            "true_force_value": 19.375988006591797,
+            "predicted_force_value": 12.04190731048584,
+            "absolute_error": 7.334080696105957,
+            "squared_error": 53.78873965699404,
+            "true_force_mvic_pct": 138.39991433279855,
+            "predicted_force_mvic_pct": 86.01362364632743,
+            "absolute_error_mvic_pct": 52.38629068647113
+        },
+        {
+            "segment_index": 34,
+            "true_force_value": 19.610193252563477,
+            "predicted_force_value": 13.228814125061035,
+            "absolute_error": 6.381379127502441,
+            "squared_error": 40.72199956892382,
+            "true_force_mvic_pct": 140.07280894688196,
+            "predicted_force_mvic_pct": 94.49152946472168,
+            "absolute_error_mvic_pct": 45.5812794821603
+        },
+        {
+            "segment_index": 35,
+            "true_force_value": 19.791276931762695,
+            "predicted_force_value": 12.615843772888184,
+            "absolute_error": 7.175433158874512,
+            "squared_error": 51.486841017475854,
+            "true_force_mvic_pct": 141.36626379830497,
+            "predicted_force_mvic_pct": 90.11316980634417,
+            "absolute_error_mvic_pct": 51.253093991960796
+        },
+        {
+            "segment_index": 36,
+            "true_force_value": 19.842105865478516,
+            "predicted_force_value": 13.76648235321045,
+            "absolute_error": 6.075623512268066,
+            "squared_error": 36.913201062824555,
+            "true_force_mvic_pct": 141.72932761056083,
+            "predicted_force_mvic_pct": 98.33201680864606,
+            "absolute_error_mvic_pct": 43.39731080191476
+        },
+        {
+            "segment_index": 37,
+            "true_force_value": 19.638202667236328,
+            "predicted_force_value": 14.577130317687988,
+            "absolute_error": 5.06107234954834,
+            "squared_error": 25.614453327362753,
+            "true_force_mvic_pct": 140.2728761945452,
+            "predicted_force_mvic_pct": 104.12235941205705,
+            "absolute_error_mvic_pct": 36.15051678248814
+        },
+        {
+            "segment_index": 38,
+            "true_force_value": 19.972143173217773,
+            "predicted_force_value": 11.195099830627441,
+            "absolute_error": 8.777043342590332,
+            "squared_error": 77.03648983770927,
+            "true_force_mvic_pct": 142.6581655229841,
+            "predicted_force_mvic_pct": 79.964998790196,
+            "absolute_error_mvic_pct": 62.693166732788086
+        },
+        {
+            "segment_index": 39,
+            "true_force_value": 19.84514808654785,
+            "predicted_force_value": 11.45960807800293,
+            "absolute_error": 8.385540008544922,
+            "squared_error": 70.31728123490757,
+            "true_force_mvic_pct": 141.75105776105607,
+            "predicted_force_mvic_pct": 81.85434341430664,
+            "absolute_error_mvic_pct": 59.89671434674945
+        },
+        {
+            "segment_index": 40,
+            "true_force_value": 19.789295196533203,
+            "predicted_force_value": 11.666152000427246,
+            "absolute_error": 8.123143196105957,
+            "squared_error": 65.9854553844425,
+            "true_force_mvic_pct": 141.35210854666573,
+            "predicted_force_mvic_pct": 83.3296571459089,
+            "absolute_error_mvic_pct": 58.022451400756836
+        },
+        {
+            "segment_index": 41,
+            "true_force_value": 19.8221435546875,
+            "predicted_force_value": 10.64433765411377,
+            "absolute_error": 9.17780590057373,
+            "squared_error": 84.23212114860598,
+            "true_force_mvic_pct": 141.58673967633928,
+            "predicted_force_mvic_pct": 76.03098324366978,
+            "absolute_error_mvic_pct": 65.5557564326695
+        },
+        {
+            "segment_index": 42,
+            "true_force_value": 19.883638381958008,
+            "predicted_force_value": 10.83896541595459,
+            "absolute_error": 9.044672966003418,
+            "squared_error": 81.80610906195307,
+            "true_force_mvic_pct": 142.0259884425572,
+            "predicted_force_mvic_pct": 77.42118154253278,
+            "absolute_error_mvic_pct": 64.60480690002441
+        },
+        {
+            "segment_index": 43,
+            "true_force_value": 19.88918685913086,
+            "predicted_force_value": 11.952576637268066,
+            "absolute_error": 7.936610221862793,
+            "squared_error": 62.98978181377697,
+            "true_force_mvic_pct": 142.06562042236328,
+            "predicted_force_mvic_pct": 85.37554740905762,
+            "absolute_error_mvic_pct": 56.690073013305664
+        },
+        {
+            "segment_index": 44,
+            "true_force_value": 19.770498275756836,
+            "predicted_force_value": 13.202173233032227,
+            "absolute_error": 6.568325042724609,
+            "squared_error": 43.14289386688324,
+            "true_force_mvic_pct": 141.21784482683455,
+            "predicted_force_mvic_pct": 94.30123737880162,
+            "absolute_error_mvic_pct": 46.91660744803293
+        },
+        {
+            "segment_index": 45,
+            "true_force_value": 19.84872817993164,
+            "predicted_force_value": 11.170022010803223,
+            "absolute_error": 8.678706169128418,
+            "squared_error": 75.31994077006766,
+            "true_force_mvic_pct": 141.77662985665458,
+            "predicted_force_mvic_pct": 79.7858715057373,
+            "absolute_error_mvic_pct": 61.990758350917275
+        },
+        {
+            "segment_index": 46,
+            "true_force_value": 19.955602645874023,
+            "predicted_force_value": 18.696762084960938,
+            "absolute_error": 1.258840560913086,
+            "squared_error": 1.5846795577999728,
+            "true_force_mvic_pct": 142.54001889910018,
+            "predicted_force_mvic_pct": 133.54830060686385,
+            "absolute_error_mvic_pct": 8.991718292236328
+        },
+        {
+            "segment_index": 47,
+            "true_force_value": 19.850698471069336,
+            "predicted_force_value": 12.295670509338379,
+            "absolute_error": 7.555027961730957,
+            "squared_error": 57.07844750253662,
+            "true_force_mvic_pct": 141.79070336478097,
+            "predicted_force_mvic_pct": 87.82621792384556,
+            "absolute_error_mvic_pct": 53.964485440935405
+        },
+        {
+            "segment_index": 48,
+            "true_force_value": 19.857500076293945,
+            "predicted_force_value": 11.863569259643555,
+            "absolute_error": 7.993930816650391,
+            "squared_error": 63.90292990139278,
+            "true_force_mvic_pct": 141.83928625924247,
+            "predicted_force_mvic_pct": 84.73978042602539,
+            "absolute_error_mvic_pct": 57.09950583321708
+        },
+        {
+            "segment_index": 49,
+            "true_force_value": 19.74776268005371,
+            "predicted_force_value": 14.054335594177246,
+            "absolute_error": 5.693427085876465,
+            "squared_error": 32.415111982191775,
+            "true_force_mvic_pct": 141.05544771466936,
+            "predicted_force_mvic_pct": 100.38811138698034,
+            "absolute_error_mvic_pct": 40.667336327689036
+        },
+        {
+            "segment_index": 50,
+            "true_force_value": 19.900394439697266,
+            "predicted_force_value": 11.408794403076172,
+            "absolute_error": 8.491600036621094,
+            "squared_error": 72.10727118194336,
+            "true_force_mvic_pct": 142.1456745692662,
+            "predicted_force_mvic_pct": 81.49138859340123,
+            "absolute_error_mvic_pct": 60.65428597586495
+        },
+        {
+            "segment_index": 51,
+            "true_force_value": 19.960893630981445,
+            "predicted_force_value": 14.287596702575684,
+            "absolute_error": 5.673296928405762,
+            "squared_error": 32.18629803785825,
+            "true_force_mvic_pct": 142.57781164986747,
+            "predicted_force_mvic_pct": 102.05426216125488,
+            "absolute_error_mvic_pct": 40.52354948861258
+        },
+        {
+            "segment_index": 52,
+            "true_force_value": 20.047618865966797,
+            "predicted_force_value": 12.191604614257812,
+            "absolute_error": 7.856014251708984,
+            "squared_error": 61.716959923054674,
+            "true_force_mvic_pct": 143.19727761404855,
+            "predicted_force_mvic_pct": 87.08289010184151,
+            "absolute_error_mvic_pct": 56.11438751220703
+        },
+        {
+            "segment_index": 53,
+            "true_force_value": 20.144113540649414,
+            "predicted_force_value": 15.230469703674316,
+            "absolute_error": 4.913643836975098,
+            "squared_error": 24.14389575664336,
+            "true_force_mvic_pct": 143.88652529035295,
+            "predicted_force_mvic_pct": 108.7890693119594,
+            "absolute_error_mvic_pct": 35.097455978393555
+        },
+        {
+            "segment_index": 54,
+            "true_force_value": 20.201576232910156,
+            "predicted_force_value": 13.937165260314941,
+            "absolute_error": 6.264410972595215,
+            "squared_error": 39.242844833571326,
+            "true_force_mvic_pct": 144.2969730922154,
+            "predicted_force_mvic_pct": 99.551180430821,
+            "absolute_error_mvic_pct": 44.74579266139439
+        },
+        {
+            "segment_index": 55,
+            "true_force_value": 20.200679779052734,
+            "predicted_force_value": 12.126648902893066,
+            "absolute_error": 8.074030876159668,
+            "squared_error": 65.18997458917966,
+            "true_force_mvic_pct": 144.29056985037667,
+            "predicted_force_mvic_pct": 86.61892073495048,
+            "absolute_error_mvic_pct": 57.671649115426206
+        },
+        {
+            "segment_index": 56,
+            "true_force_value": 20.172216415405273,
+            "predicted_force_value": 11.894076347351074,
+            "absolute_error": 8.2781400680542,
+            "squared_error": 68.52760298632438,
+            "true_force_mvic_pct": 144.08726011003768,
+            "predicted_force_mvic_pct": 84.95768819536481,
+            "absolute_error_mvic_pct": 59.12957191467285
+        },
+        {
+            "segment_index": 57,
+            "true_force_value": 20.119943618774414,
+            "predicted_force_value": 14.196181297302246,
+            "absolute_error": 5.923762321472168,
+            "squared_error": 35.09096004129333,
+            "true_force_mvic_pct": 143.7138829912458,
+            "predicted_force_mvic_pct": 101.40129498073034,
+            "absolute_error_mvic_pct": 42.31258801051548
+        },
+        {
+            "segment_index": 58,
+            "true_force_value": 29.955781936645508,
+            "predicted_force_value": 22.083084106445312,
+            "absolute_error": 7.872697830200195,
+            "squared_error": 61.97937112563886,
+            "true_force_mvic_pct": 213.96987097603932,
+            "predicted_force_mvic_pct": 157.73631504603796,
+            "absolute_error_mvic_pct": 56.2335559300014
+        },
+        {
+            "segment_index": 59,
+            "true_force_value": 29.73702049255371,
+            "predicted_force_value": 15.622118949890137,
+            "absolute_error": 14.114901542663574,
+            "squared_error": 199.23044555908655,
+            "true_force_mvic_pct": 212.40728923252652,
+            "predicted_force_mvic_pct": 111.5865639277867,
+            "absolute_error_mvic_pct": 100.82072530473982
+        },
+        {
+            "segment_index": 60,
+            "true_force_value": 29.89777946472168,
+            "predicted_force_value": 20.897409439086914,
+            "absolute_error": 9.000370025634766,
+            "squared_error": 81.00666059834475,
+            "true_force_mvic_pct": 213.55556760515486,
+            "predicted_force_mvic_pct": 149.26721027919226,
+            "absolute_error_mvic_pct": 64.28835732596261
+        },
+        {
+            "segment_index": 61,
+            "true_force_value": 29.835481643676758,
+            "predicted_force_value": 28.03292465209961,
+            "absolute_error": 1.8025569915771484,
+            "squared_error": 3.24921170788366,
+            "true_force_mvic_pct": 213.1105831691197,
+            "predicted_force_mvic_pct": 200.23517608642578,
+            "absolute_error_mvic_pct": 12.875407082693918
+        },
+        {
+            "segment_index": 62,
+            "true_force_value": 29.694772720336914,
+            "predicted_force_value": 25.675479888916016,
+            "absolute_error": 4.019292831420898,
+            "squared_error": 16.154714864711423,
+            "true_force_mvic_pct": 212.10551943097795,
+            "predicted_force_mvic_pct": 183.3962849208287,
+            "absolute_error_mvic_pct": 28.709234510149273
+        },
+        {
+            "segment_index": 63,
+            "true_force_value": 29.861976623535156,
+            "predicted_force_value": 26.311080932617188,
+            "absolute_error": 3.5508956909179688,
+            "squared_error": 12.608860207779799,
+            "true_force_mvic_pct": 213.29983302525113,
+            "predicted_force_mvic_pct": 187.93629237583704,
+            "absolute_error_mvic_pct": 25.363540649414062
+        },
+        {
+            "segment_index": 64,
+            "true_force_value": 29.49462890625,
+            "predicted_force_value": 21.631702423095703,
+            "absolute_error": 7.862926483154297,
+            "squared_error": 61.8256128794892,
+            "true_force_mvic_pct": 210.67592075892856,
+            "predicted_force_mvic_pct": 154.51216016496932,
+            "absolute_error_mvic_pct": 56.16376059395927
+        },
+        {
+            "segment_index": 65,
+            "true_force_value": 29.97708511352539,
+            "predicted_force_value": 13.542073249816895,
+            "absolute_error": 16.435012817382812,
+            "squared_error": 270.10964630753733,
+            "true_force_mvic_pct": 214.1220365251814,
+            "predicted_force_mvic_pct": 96.72909464154925,
+            "absolute_error_mvic_pct": 117.39294869559151
+        },
+        {
+            "segment_index": 66,
+            "true_force_value": 29.855531692504883,
+            "predicted_force_value": 17.609149932861328,
+            "absolute_error": 12.246381759643555,
+            "squared_error": 149.97386620293037,
+            "true_force_mvic_pct": 213.2537978036063,
+            "predicted_force_mvic_pct": 125.77964237758093,
+            "absolute_error_mvic_pct": 87.47415542602539
+        },
+        {
+            "segment_index": 67,
+            "true_force_value": 29.916963577270508,
+            "predicted_force_value": 17.868501663208008,
+            "absolute_error": 12.0484619140625,
+            "squared_error": 145.1654344946146,
+            "true_force_mvic_pct": 213.69259698050365,
+            "predicted_force_mvic_pct": 127.63215473720007,
+            "absolute_error_mvic_pct": 86.06044224330357
+        },
+        {
+            "segment_index": 68,
+            "true_force_value": 29.70035743713379,
+            "predicted_force_value": 32.56332015991211,
+            "absolute_error": 2.8629627227783203,
+            "squared_error": 8.196555552018253,
+            "true_force_mvic_pct": 212.14541026524137,
+            "predicted_force_mvic_pct": 232.59514399937223,
+            "absolute_error_mvic_pct": 20.44973373413086
+        },
+        {
+            "segment_index": 69,
+            "true_force_value": 29.875402450561523,
+            "predicted_force_value": 13.432950973510742,
+            "absolute_error": 16.44245147705078,
+            "squared_error": 270.3542105751694,
+            "true_force_mvic_pct": 213.39573178972518,
+            "predicted_force_mvic_pct": 95.94964981079102,
+            "absolute_error_mvic_pct": 117.44608197893416
+        },
+        {
+            "segment_index": 70,
+            "true_force_value": 29.961511611938477,
+            "predicted_force_value": 15.242634773254395,
+            "absolute_error": 14.718876838684082,
+            "squared_error": 216.64533539235072,
+            "true_force_mvic_pct": 214.010797228132,
+            "predicted_force_mvic_pct": 108.87596266610282,
+            "absolute_error_mvic_pct": 105.13483456202917
+        },
+        {
+            "segment_index": 71,
+            "true_force_value": 29.97744369506836,
+            "predicted_force_value": 17.158349990844727,
+            "absolute_error": 12.819093704223633,
+            "squared_error": 164.32916339766598,
+            "true_force_mvic_pct": 214.12459782191684,
+            "predicted_force_mvic_pct": 122.55964279174805,
+            "absolute_error_mvic_pct": 91.5649550301688
+        },
+        {
+            "segment_index": 72,
+            "true_force_value": 30.020587921142578,
+            "predicted_force_value": 12.64854621887207,
+            "absolute_error": 17.372041702270508,
+            "squared_error": 301.78783290542555,
+            "true_force_mvic_pct": 214.43277086530412,
+            "predicted_force_mvic_pct": 90.34675870622907,
+            "absolute_error_mvic_pct": 124.08601215907507
+        },
+        {
+            "segment_index": 73,
+            "true_force_value": 30.201753616333008,
+            "predicted_force_value": 16.40396499633789,
+            "absolute_error": 13.797788619995117,
+            "squared_error": 190.37897080206676,
+            "true_force_mvic_pct": 215.72681154523576,
+            "predicted_force_mvic_pct": 117.17117854527064,
+            "absolute_error_mvic_pct": 98.55563299996513
+        },
+        {
+            "segment_index": 74,
+            "true_force_value": 30.004833221435547,
+            "predicted_force_value": 16.025136947631836,
+            "absolute_error": 13.979696273803711,
+            "squared_error": 195.43190790780136,
+            "true_force_mvic_pct": 214.32023729596818,
+            "predicted_force_mvic_pct": 114.46526391165597,
+            "absolute_error_mvic_pct": 99.85497338431222
+        },
+        {
+            "segment_index": 75,
+            "true_force_value": 30.096670150756836,
+            "predicted_force_value": 11.787676811218262,
+            "absolute_error": 18.30899429321289,
+            "squared_error": 335.2192720289022,
+            "true_force_mvic_pct": 214.97621536254883,
+            "predicted_force_mvic_pct": 84.19769150870187,
+            "absolute_error_mvic_pct": 130.77853066580636
+        },
+        {
+            "segment_index": 76,
+            "true_force_value": 30.018617630004883,
+            "predicted_force_value": 17.807018280029297,
+            "absolute_error": 12.211599349975586,
+            "squared_error": 149.12315868432415,
+            "true_force_mvic_pct": 214.41869735717773,
+            "predicted_force_mvic_pct": 127.19298771449499,
+            "absolute_error_mvic_pct": 87.22570964268276
+        },
+        {
+            "segment_index": 77,
+            "true_force_value": 30.129329681396484,
+            "predicted_force_value": 10.265730857849121,
+            "absolute_error": 19.863597869873047,
+            "squared_error": 394.56252033602505,
+            "true_force_mvic_pct": 215.2094977242606,
+            "predicted_force_mvic_pct": 73.32664898463658,
+            "absolute_error_mvic_pct": 141.88284192766463
+        },
+        {
+            "segment_index": 78,
+            "true_force_value": 30.113855361938477,
+            "predicted_force_value": 14.561869621276855,
+            "absolute_error": 15.551985740661621,
+            "squared_error": 241.8642604777424,
+            "true_force_mvic_pct": 215.0989668709891,
+            "predicted_force_mvic_pct": 104.01335443769182,
+            "absolute_error_mvic_pct": 111.08561243329729
+        },
+        {
+            "segment_index": 79,
+            "true_force_value": 30.43609046936035,
+            "predicted_force_value": 11.645825386047363,
+            "absolute_error": 18.790264129638672,
+            "squared_error": 353.07402606158576,
+            "true_force_mvic_pct": 217.4006462097168,
+            "predicted_force_mvic_pct": 83.18446704319545,
+            "absolute_error_mvic_pct": 134.21617235456193
+        },
+        {
+            "segment_index": 80,
+            "true_force_value": 30.026315689086914,
+            "predicted_force_value": 26.35009765625,
+            "absolute_error": 3.676218032836914,
+            "squared_error": 13.51457902495531,
+            "true_force_mvic_pct": 214.47368349347795,
+            "predicted_force_mvic_pct": 188.21498325892858,
+            "absolute_error_mvic_pct": 26.258700234549387
+        },
+        {
+            "segment_index": 81,
+            "true_force_value": 29.563373565673828,
+            "predicted_force_value": 15.270135879516602,
+            "absolute_error": 14.293237686157227,
+            "squared_error": 204.2966435529852,
+            "true_force_mvic_pct": 211.16695404052734,
+            "predicted_force_mvic_pct": 109.0723991394043,
+            "absolute_error_mvic_pct": 102.09455490112305
+        },
+        {
+            "segment_index": 82,
+            "true_force_value": 29.857500076293945,
+            "predicted_force_value": 11.514945030212402,
+            "absolute_error": 18.34255599975586,
+            "squared_error": 336.4493606041797,
+            "true_force_mvic_pct": 213.2678576878139,
+            "predicted_force_mvic_pct": 82.24960735866001,
+            "absolute_error_mvic_pct": 131.01825714111328
+        },
+        {
+            "segment_index": 83,
+            "true_force_value": 29.885427474975586,
+            "predicted_force_value": 13.3928804397583,
+            "absolute_error": 16.49254608154297,
+            "squared_error": 272.00407625181833,
+            "true_force_mvic_pct": 213.4673391069685,
+            "predicted_force_mvic_pct": 95.66343171255929,
+            "absolute_error_mvic_pct": 117.80390058244978
+        },
+        {
+            "segment_index": 84,
+            "true_force_value": 30.067848205566406,
+            "predicted_force_value": 12.345061302185059,
+            "absolute_error": 17.72278594970703,
+            "squared_error": 314.09714181913296,
+            "true_force_mvic_pct": 214.77034432547435,
+            "predicted_force_mvic_pct": 88.17900930132184,
+            "absolute_error_mvic_pct": 126.59132821219308
+        },
+        {
+            "segment_index": 85,
+            "true_force_value": 30.176870346069336,
+            "predicted_force_value": 10.849921226501465,
+            "absolute_error": 19.326950073242188,
+            "squared_error": 373.5309991335962,
+            "true_force_mvic_pct": 215.54907390049527,
+            "predicted_force_mvic_pct": 77.49943733215332,
+            "absolute_error_mvic_pct": 138.04964338030135
+        },
+        {
+            "segment_index": 86,
+            "true_force_value": 30.163780212402344,
+            "predicted_force_value": 15.46290397644043,
+            "absolute_error": 14.700876235961914,
+            "squared_error": 216.11576210506973,
+            "true_force_mvic_pct": 215.45557294573103,
+            "predicted_force_mvic_pct": 110.44931411743164,
+            "absolute_error_mvic_pct": 105.0062588282994
+        },
+        {
+            "segment_index": 87,
+            "true_force_value": 30.002864837646484,
+            "predicted_force_value": 24.712099075317383,
+            "absolute_error": 5.290765762329102,
+            "squared_error": 27.99220235183384,
+            "true_force_mvic_pct": 214.3061774117606,
+            "predicted_force_mvic_pct": 176.51499339512415,
+            "absolute_error_mvic_pct": 37.79118401663644
+        },
+        {
+            "segment_index": 88,
+            "true_force_value": 29.618270874023438,
+            "predicted_force_value": 15.932881355285645,
+            "absolute_error": 13.685389518737793,
+            "squared_error": 187.28988627957824,
+            "true_force_mvic_pct": 211.55907767159596,
+            "predicted_force_mvic_pct": 113.80629539489746,
+            "absolute_error_mvic_pct": 97.75278227669853
+        },
+        {
+            "segment_index": 89,
+            "true_force_value": 29.692445755004883,
+            "predicted_force_value": 23.802417755126953,
+            "absolute_error": 5.89002799987793,
+            "squared_error": 34.692429839346005,
+            "true_force_mvic_pct": 212.0888982500349,
+            "predicted_force_mvic_pct": 170.01726967947823,
+            "absolute_error_mvic_pct": 42.07162857055664
+        },
+        {
+            "segment_index": 90,
+            "true_force_value": 29.838346481323242,
+            "predicted_force_value": 20.352449417114258,
+            "absolute_error": 9.485897064208984,
+            "squared_error": 89.98224311276863,
+            "true_force_mvic_pct": 213.13104629516602,
+            "predicted_force_mvic_pct": 145.37463869367326,
+            "absolute_error_mvic_pct": 67.75640760149274
+        },
+        {
+            "segment_index": 91,
+            "true_force_value": 29.891693115234375,
+            "predicted_force_value": 16.496915817260742,
+            "absolute_error": 13.394777297973633,
+            "squared_error": 179.42005886230982,
+            "true_force_mvic_pct": 213.51209368024553,
+            "predicted_force_mvic_pct": 117.83511298043388,
+            "absolute_error_mvic_pct": 95.67698069981166
+        },
+        {
+            "segment_index": 92,
+            "true_force_value": 29.450054168701172,
+            "predicted_force_value": 30.924360275268555,
+            "absolute_error": 1.4743061065673828,
+            "squared_error": 2.173578495861875,
+            "true_force_mvic_pct": 210.35752977643693,
+            "predicted_force_mvic_pct": 220.88828768048967,
+            "absolute_error_mvic_pct": 10.530757904052734
+        },
+        {
+            "segment_index": 93,
+            "true_force_value": 29.690654754638672,
+            "predicted_force_value": 18.36907958984375,
+            "absolute_error": 11.321575164794922,
+            "squared_error": 128.17806421210116,
+            "true_force_mvic_pct": 212.0761053902762,
+            "predicted_force_mvic_pct": 131.20771135602678,
+            "absolute_error_mvic_pct": 80.86839403424945
+        },
+        {
+            "segment_index": 94,
+            "true_force_value": 29.84855079650879,
+            "predicted_force_value": 14.998238563537598,
+            "absolute_error": 14.850312232971191,
+            "squared_error": 220.5317734167338,
+            "true_force_mvic_pct": 213.2039342607771,
+            "predicted_force_mvic_pct": 107.13027545383997,
+            "absolute_error_mvic_pct": 106.07365880693709
+        },
+        {
+            "segment_index": 95,
+            "true_force_value": 29.832796096801758,
+            "predicted_force_value": 33.52667236328125,
+            "absolute_error": 3.693876266479492,
+            "squared_error": 13.644721872060472,
+            "true_force_mvic_pct": 213.09140069144115,
+            "predicted_force_mvic_pct": 239.47623116629467,
+            "absolute_error_mvic_pct": 26.384830474853516
+        },
+        {
+            "segment_index": 96,
+            "true_force_value": 30.04242706298828,
+            "predicted_force_value": 12.6336088180542,
+            "absolute_error": 17.408817291259766,
+            "squared_error": 303.066919480465,
+            "true_force_mvic_pct": 214.5887647356306,
+            "predicted_force_mvic_pct": 90.24006298610142,
+            "absolute_error_mvic_pct": 124.34869493756975
+        },
+        {
+            "segment_index": 97,
+            "true_force_value": 29.991228103637695,
+            "predicted_force_value": 25.652441024780273,
+            "absolute_error": 4.338787078857422,
+            "squared_error": 18.82507331566012,
+            "true_force_mvic_pct": 214.2230578831264,
+            "predicted_force_mvic_pct": 183.23172160557337,
+            "absolute_error_mvic_pct": 30.99133627755301
+        },
+        {
+            "segment_index": 98,
+            "true_force_value": 30.04368019104004,
+            "predicted_force_value": 20.817806243896484,
+            "absolute_error": 9.225873947143555,
+            "squared_error": 85.1167500885822,
+            "true_force_mvic_pct": 214.59771565028598,
+            "predicted_force_mvic_pct": 148.69861602783203,
+            "absolute_error_mvic_pct": 65.89909962245396
+        },
+        {
+            "segment_index": 99,
+            "true_force_value": 30.083959579467773,
+            "predicted_force_value": 28.972793579101562,
+            "absolute_error": 1.111166000366211,
+            "squared_error": 1.2346898803698423,
+            "true_force_mvic_pct": 214.88542556762695,
+            "predicted_force_mvic_pct": 206.94852556501115,
+            "absolute_error_mvic_pct": 7.936900002615792
+        },
+        {
+            "segment_index": 100,
+            "true_force_value": 30.084138870239258,
+            "predicted_force_value": 15.618908882141113,
+            "absolute_error": 14.465229988098145,
+            "squared_error": 209.24287860857385,
+            "true_force_mvic_pct": 214.8867062159947,
+            "predicted_force_mvic_pct": 111.56363487243652,
+            "absolute_error_mvic_pct": 103.32307134355818
+        },
+        {
+            "segment_index": 101,
+            "true_force_value": 29.98908042907715,
+            "predicted_force_value": 28.949472427368164,
+            "absolute_error": 1.0396080017089844,
+            "squared_error": 1.0807847972173477,
+            "true_force_mvic_pct": 214.20771735055104,
+            "predicted_force_mvic_pct": 206.78194590977262,
+            "absolute_error_mvic_pct": 7.42577144077846
+        },
+        {
+            "segment_index": 102,
+            "true_force_value": 29.93197250366211,
+            "predicted_force_value": 11.954111099243164,
+            "absolute_error": 17.977861404418945,
+            "squared_error": 323.20350067649633,
+            "true_force_mvic_pct": 213.7998035975865,
+            "predicted_force_mvic_pct": 85.38650785173688,
+            "absolute_error_mvic_pct": 128.4132957458496
+        },
+        {
+            "segment_index": 103,
+            "true_force_value": 29.773361206054688,
+            "predicted_force_value": 24.533775329589844,
+            "absolute_error": 5.239585876464844,
+            "squared_error": 27.453260156849865,
+            "true_force_mvic_pct": 212.66686575753346,
+            "predicted_force_mvic_pct": 175.24125235421317,
+            "absolute_error_mvic_pct": 37.42561340332031
+        },
+        {
+            "segment_index": 104,
+            "true_force_value": 29.202112197875977,
+            "predicted_force_value": 20.72292137145996,
+            "absolute_error": 8.479190826416016,
+            "squared_error": 71.89667707077751,
+            "true_force_mvic_pct": 208.5865156991141,
+            "predicted_force_mvic_pct": 148.02086693899972,
+            "absolute_error_mvic_pct": 60.5656487601144
+        },
+        {
+            "segment_index": 105,
+            "true_force_value": 28.965627670288086,
+            "predicted_force_value": 18.100255966186523,
+            "absolute_error": 10.865371704101562,
+            "squared_error": 118.05630226829089,
+            "true_force_mvic_pct": 206.89734050205777,
+            "predicted_force_mvic_pct": 129.28754261561804,
+            "absolute_error_mvic_pct": 77.60979788643974
+        },
+        {
+            "segment_index": 106,
+            "true_force_value": 28.752058029174805,
+            "predicted_force_value": 23.550216674804688,
+            "absolute_error": 5.201841354370117,
+            "squared_error": 27.059153476035135,
+            "true_force_mvic_pct": 205.37184306553434,
+            "predicted_force_mvic_pct": 168.21583339146204,
+            "absolute_error_mvic_pct": 37.156009674072266
+        },
+        {
+            "segment_index": 107,
+            "true_force_value": 28.656105041503906,
+            "predicted_force_value": 30.808513641357422,
+            "absolute_error": 2.1524085998535156,
+            "squared_error": 4.6328627807233715,
+            "true_force_mvic_pct": 204.68646458217074,
+            "predicted_force_mvic_pct": 220.0608117239816,
+            "absolute_error_mvic_pct": 15.374347141810826
+        },
+        {
+            "segment_index": 108,
+            "true_force_value": 29.25170135498047,
+            "predicted_force_value": 18.25920867919922,
+            "absolute_error": 10.99249267578125,
+            "squared_error": 120.83489522710443,
+            "true_force_mvic_pct": 208.94072396414623,
+            "predicted_force_mvic_pct": 130.42291913713728,
+            "absolute_error_mvic_pct": 78.51780482700893
+        },
+        {
+            "segment_index": 109,
+            "true_force_value": 29.43340492248535,
+            "predicted_force_value": 25.053646087646484,
+            "absolute_error": 4.379758834838867,
+            "squared_error": 19.18228745134911,
+            "true_force_mvic_pct": 210.23860658918107,
+            "predicted_force_mvic_pct": 178.95461491176061,
+            "absolute_error_mvic_pct": 31.28399167742048
+        },
+        {
+            "segment_index": 110,
+            "true_force_value": 29.820980072021484,
+            "predicted_force_value": 15.682891845703125,
+            "absolute_error": 14.13808822631836,
+            "squared_error": 199.8855386951618,
+            "true_force_mvic_pct": 213.0070005144392,
+            "predicted_force_mvic_pct": 112.02065604073661,
+            "absolute_error_mvic_pct": 100.98634447370256
+        },
+        {
+            "segment_index": 111,
+            "true_force_value": 29.766738891601562,
+            "predicted_force_value": 28.493919372558594,
+            "absolute_error": 1.2728195190429688,
+            "squared_error": 1.6200695280567743,
+            "true_force_mvic_pct": 212.6195635114397,
+            "predicted_force_mvic_pct": 203.52799551827565,
+            "absolute_error_mvic_pct": 9.091567993164062
+        },
+        {
+            "segment_index": 112,
+            "true_force_value": 29.63874053955078,
+            "predicted_force_value": 16.29579734802246,
+            "absolute_error": 13.34294319152832,
+            "squared_error": 178.03413301235196,
+            "true_force_mvic_pct": 211.70528956821988,
+            "predicted_force_mvic_pct": 116.39855248587472,
+            "absolute_error_mvic_pct": 95.30673708234515
+        },
+        {
+            "segment_index": 113,
+            "true_force_value": 29.838346481323242,
+            "predicted_force_value": 15.063332557678223,
+            "absolute_error": 14.77501392364502,
+            "squared_error": 218.3010364439042,
+            "true_force_mvic_pct": 213.13104629516602,
+            "predicted_force_mvic_pct": 107.59523255484444,
+            "absolute_error_mvic_pct": 105.53581374032157
+        },
+        {
+            "segment_index": 114,
+            "true_force_value": 30.263639450073242,
+            "predicted_force_value": 16.62204933166504,
+            "absolute_error": 13.641590118408203,
+            "squared_error": 186.09298095865233,
+            "true_force_mvic_pct": 216.16885321480885,
+            "predicted_force_mvic_pct": 118.72892379760742,
+            "absolute_error_mvic_pct": 97.43992941720145
+        },
+        {
+            "segment_index": 115,
+            "true_force_value": 30.153240203857422,
+            "predicted_force_value": 21.060619354248047,
+            "absolute_error": 9.092620849609375,
+            "squared_error": 82.67575391475111,
+            "true_force_mvic_pct": 215.38028717041016,
+            "predicted_force_mvic_pct": 150.43299538748605,
+            "absolute_error_mvic_pct": 64.94729178292411
+        },
+        {
+            "segment_index": 116,
+            "true_force_value": 39.67185974121094,
+            "predicted_force_value": 31.890438079833984,
+            "absolute_error": 7.781421661376953,
+            "squared_error": 60.55052307214646,
+            "true_force_mvic_pct": 283.3704267229353,
+            "predicted_force_mvic_pct": 227.7888434273856,
+            "absolute_error_mvic_pct": 55.58158329554966
+        },
+        {
+            "segment_index": 117,
+            "true_force_value": 39.112064361572266,
+            "predicted_force_value": 18.395225524902344,
+            "absolute_error": 20.716838836669922,
+            "squared_error": 429.18741138455516,
+            "true_force_mvic_pct": 279.37188829694475,
+            "predicted_force_mvic_pct": 131.39446803501673,
+            "absolute_error_mvic_pct": 147.97742026192802
+        },
+        {
+            "segment_index": 118,
+            "true_force_value": 39.37803649902344,
+            "predicted_force_value": 23.045150756835938,
+            "absolute_error": 16.3328857421875,
+            "squared_error": 266.7631566673517,
+            "true_force_mvic_pct": 281.27168927873885,
+            "predicted_force_mvic_pct": 164.60821969168526,
+            "absolute_error_mvic_pct": 116.66346958705358
+        },
+        {
+            "segment_index": 119,
+            "true_force_value": 39.581478118896484,
+            "predicted_force_value": 21.721900939941406,
+            "absolute_error": 17.859577178955078,
+            "squared_error": 318.964497011053,
+            "true_force_mvic_pct": 282.7248437064035,
+            "predicted_force_mvic_pct": 155.15643528529577,
+            "absolute_error_mvic_pct": 127.5684084211077
+        },
+        {
+            "segment_index": 120,
+            "true_force_value": 39.581275939941406,
+            "predicted_force_value": 18.132869720458984,
+            "absolute_error": 21.448406219482422,
+            "squared_error": 460.03412935593224,
+            "true_force_mvic_pct": 282.72339957101,
+            "predicted_force_mvic_pct": 129.52049800327845,
+            "absolute_error_mvic_pct": 153.20290156773157
+        },
+        {
+            "segment_index": 121,
+            "true_force_value": 39.11117172241211,
+            "predicted_force_value": 16.399240493774414,
+            "absolute_error": 22.711931228637695,
+            "squared_error": 515.8318201343682,
+            "true_force_mvic_pct": 279.3655123029436,
+            "predicted_force_mvic_pct": 117.13743209838867,
+            "absolute_error_mvic_pct": 162.22808020455497
+        },
+        {
+            "segment_index": 122,
+            "true_force_value": 38.986000061035156,
+            "predicted_force_value": 24.322284698486328,
+            "absolute_error": 14.663715362548828,
+            "squared_error": 215.0245482338505,
+            "true_force_mvic_pct": 278.47142900739397,
+            "predicted_force_mvic_pct": 173.73060498918807,
+            "absolute_error_mvic_pct": 104.74082401820593
+        },
+        {
+            "segment_index": 123,
+            "true_force_value": 39.18610763549805,
+            "predicted_force_value": 13.175797462463379,
+            "absolute_error": 26.010311126708984,
+            "squared_error": 676.5362849082012,
+            "true_force_mvic_pct": 279.9007688249861,
+            "predicted_force_mvic_pct": 94.11283901759556,
+            "absolute_error_mvic_pct": 185.7879366193499
+        },
+        {
+            "segment_index": 124,
+            "true_force_value": 39.58145523071289,
+            "predicted_force_value": 15.325736045837402,
+            "absolute_error": 24.255718231201172,
+            "squared_error": 588.3398669114249,
+            "true_force_mvic_pct": 282.7246802193778,
+            "predicted_force_mvic_pct": 109.46954318455286,
+            "absolute_error_mvic_pct": 173.25513022286552
+        },
+        {
+            "segment_index": 125,
+            "true_force_value": 39.695308685302734,
+            "predicted_force_value": 15.381659507751465,
+            "absolute_error": 24.313648223876953,
+            "squared_error": 591.1534899544349,
+            "true_force_mvic_pct": 283.5379191807338,
+            "predicted_force_mvic_pct": 109.86899648393904,
+            "absolute_error_mvic_pct": 173.66891588483537
+        },
+        {
+            "segment_index": 126,
+            "true_force_value": 39.81768035888672,
+            "predicted_force_value": 32.255523681640625,
+            "absolute_error": 7.562156677246094,
+            "squared_error": 57.18621361121768,
+            "true_force_mvic_pct": 284.41200256347656,
+            "predicted_force_mvic_pct": 230.39659772600447,
+            "absolute_error_mvic_pct": 54.015404837472104
+        },
+        {
+            "segment_index": 127,
+            "true_force_value": 39.7916374206543,
+            "predicted_force_value": 17.939882278442383,
+            "absolute_error": 21.851755142211914,
+            "squared_error": 477.49920279518483,
+            "true_force_mvic_pct": 284.22598157610213,
+            "predicted_force_mvic_pct": 128.14201627458846,
+            "absolute_error_mvic_pct": 156.08396530151367
+        },
+        {
+            "segment_index": 128,
+            "true_force_value": 39.75868225097656,
+            "predicted_force_value": 17.150039672851562,
+            "absolute_error": 22.608642578125,
+            "squared_error": 511.15071922540665,
+            "true_force_mvic_pct": 283.99058750697543,
+            "predicted_force_mvic_pct": 122.50028337751115,
+            "absolute_error_mvic_pct": 161.49030412946428
+        },
+        {
+            "segment_index": 129,
+            "true_force_value": 39.950950622558594,
+            "predicted_force_value": 14.423521995544434,
+            "absolute_error": 25.527427673339844,
+            "squared_error": 651.6495636175969,
+            "true_force_mvic_pct": 285.36393301827565,
+            "predicted_force_mvic_pct": 103.02515711103166,
+            "absolute_error_mvic_pct": 182.3387690952846
+        },
+        {
+            "segment_index": 130,
+            "true_force_value": 39.823760986328125,
+            "predicted_force_value": 23.3685302734375,
+            "absolute_error": 16.455230712890625,
+            "squared_error": 270.7746178144589,
+            "true_force_mvic_pct": 284.4554356166295,
+            "predicted_force_mvic_pct": 166.91807338169642,
+            "absolute_error_mvic_pct": 117.53736223493303
+        },
+        {
+            "segment_index": 131,
+            "true_force_value": 39.70267868041992,
+            "predicted_force_value": 29.1417236328125,
+            "absolute_error": 10.560955047607422,
+            "squared_error": 111.53377151758468,
+            "true_force_mvic_pct": 283.59056200299943,
+            "predicted_force_mvic_pct": 208.15516880580356,
+            "absolute_error_mvic_pct": 75.43539319719586
+        },
+        {
+            "segment_index": 132,
+            "true_force_value": 39.62262725830078,
+            "predicted_force_value": 33.518836975097656,
+            "absolute_error": 6.103790283203125,
+            "squared_error": 37.256255821324885,
+            "true_force_mvic_pct": 283.0187661307199,
+            "predicted_force_mvic_pct": 239.4202641078404,
+            "absolute_error_mvic_pct": 43.598502022879465
+        },
+        {
+            "segment_index": 133,
+            "true_force_value": 40.100250244140625,
+            "predicted_force_value": 27.514663696289062,
+            "absolute_error": 12.585586547851562,
+            "squared_error": 158.3969887534622,
+            "true_force_mvic_pct": 286.43035888671875,
+            "predicted_force_mvic_pct": 196.53331211635046,
+            "absolute_error_mvic_pct": 89.8970467703683
+        },
+        {
+            "segment_index": 134,
+            "true_force_value": 40.22357177734375,
+            "predicted_force_value": 36.55322265625,
+            "absolute_error": 3.67034912109375,
+            "squared_error": 13.471462670713663,
+            "true_force_mvic_pct": 287.3112269810268,
+            "predicted_force_mvic_pct": 261.09444754464283,
+            "absolute_error_mvic_pct": 26.21677943638393
+        },
+        {
+            "segment_index": 135,
+            "true_force_value": 40.03007507324219,
+            "predicted_force_value": 37.50934982299805,
+            "absolute_error": 2.5207252502441406,
+            "squared_error": 6.354055787218385,
+            "true_force_mvic_pct": 285.9291076660156,
+            "predicted_force_mvic_pct": 267.9239273071289,
+            "absolute_error_mvic_pct": 18.00518035888672
+        },
+        {
+            "segment_index": 136,
+            "true_force_value": 40.225921630859375,
+            "predicted_force_value": 28.896575927734375,
+            "absolute_error": 11.329345703125,
+            "squared_error": 128.3540740609169,
+            "true_force_mvic_pct": 287.3280116489955,
+            "predicted_force_mvic_pct": 206.40411376953125,
+            "absolute_error_mvic_pct": 80.92389787946429
+        },
+        {
+            "segment_index": 137,
+            "true_force_value": 40.061405181884766,
+            "predicted_force_value": 29.331846237182617,
+            "absolute_error": 10.729558944702148,
+            "squared_error": 115.12343514783788,
+            "true_force_mvic_pct": 286.15289415631975,
+            "predicted_force_mvic_pct": 209.51318740844727,
+            "absolute_error_mvic_pct": 76.6397067478725
+        },
+        {
+            "segment_index": 138,
+            "true_force_value": 40.14178466796875,
+            "predicted_force_value": 35.65123748779297,
+            "absolute_error": 4.490547180175781,
+            "squared_error": 20.16501397738466,
+            "true_force_mvic_pct": 286.72703334263394,
+            "predicted_force_mvic_pct": 254.65169634137834,
+            "absolute_error_mvic_pct": 32.07533700125558
+        },
+        {
+            "segment_index": 139,
+            "true_force_value": 39.99785232543945,
+            "predicted_force_value": 30.723976135253906,
+            "absolute_error": 9.273876190185547,
+            "squared_error": 86.0047795908904,
+            "true_force_mvic_pct": 285.69894518171037,
+            "predicted_force_mvic_pct": 219.45697239467074,
+            "absolute_error_mvic_pct": 66.24197278703961
+        },
+        {
+            "segment_index": 140,
+            "true_force_value": 39.953277587890625,
+            "predicted_force_value": 26.760421752929688,
+            "absolute_error": 13.192855834960938,
+            "squared_error": 174.05144508206286,
+            "true_force_mvic_pct": 285.38055419921875,
+            "predicted_force_mvic_pct": 191.1458696637835,
+            "absolute_error_mvic_pct": 94.23468453543526
+        },
+        {
+            "segment_index": 141,
+            "true_force_value": 40.146976470947266,
+            "predicted_force_value": 22.257373809814453,
+            "absolute_error": 17.889602661132812,
+            "squared_error": 320.0378833732102,
+            "true_force_mvic_pct": 286.7641176496233,
+            "predicted_force_mvic_pct": 158.98124149867468,
+            "absolute_error_mvic_pct": 127.78287615094865
+        },
+        {
+            "segment_index": 142,
+            "true_force_value": 40.2214469909668,
+            "predicted_force_value": 28.58640480041504,
+            "absolute_error": 11.635042190551758,
+            "squared_error": 135.37420677591945,
+            "true_force_mvic_pct": 287.29604993547713,
+            "predicted_force_mvic_pct": 204.18860571725025,
+            "absolute_error_mvic_pct": 83.10744421822685
+        },
+        {
+            "segment_index": 143,
+            "true_force_value": 40.25993728637695,
+            "predicted_force_value": 29.591320037841797,
+            "absolute_error": 10.668617248535156,
+            "squared_error": 113.81939399574185,
+            "true_force_mvic_pct": 287.57098061697826,
+            "predicted_force_mvic_pct": 211.36657169886996,
+            "absolute_error_mvic_pct": 76.20440891810826
+        },
+        {
+            "segment_index": 144,
+            "true_force_value": 40.3872184753418,
+            "predicted_force_value": 36.037933349609375,
+            "absolute_error": 4.349285125732422,
+            "squared_error": 18.91628110491729,
+            "true_force_mvic_pct": 288.48013196672713,
+            "predicted_force_mvic_pct": 257.413809640067,
+            "absolute_error_mvic_pct": 31.066322326660156
+        },
+        {
+            "segment_index": 145,
+            "true_force_value": 48.87504577636719,
+            "predicted_force_value": 46.53176498413086,
+            "absolute_error": 2.343280792236328,
+            "squared_error": 5.490964871263714,
+            "true_force_mvic_pct": 349.1074698311942,
+            "predicted_force_mvic_pct": 332.369749886649,
+            "absolute_error_mvic_pct": 16.7377199445452
+        },
+        {
+            "segment_index": 146,
+            "true_force_value": 48.82044219970703,
+            "predicted_force_value": 46.338958740234375,
+            "absolute_error": 2.4814834594726562,
+            "squared_error": 6.157760159636382,
+            "true_force_mvic_pct": 348.71744428362166,
+            "predicted_force_mvic_pct": 330.9925624302455,
+            "absolute_error_mvic_pct": 17.724881853376115
+        },
+        {
+            "segment_index": 147,
+            "true_force_value": 48.6224479675293,
+            "predicted_force_value": 62.05879592895508,
+            "absolute_error": 13.436347961425781,
+            "squared_error": 180.53544654051075,
+            "true_force_mvic_pct": 347.3031997680664,
+            "predicted_force_mvic_pct": 443.2771137782505,
+            "absolute_error_mvic_pct": 95.97391401018415
+        },
+        {
+            "segment_index": 148,
+            "true_force_value": 48.9496955871582,
+            "predicted_force_value": 48.356998443603516,
+            "absolute_error": 0.5926971435546875,
+            "squared_error": 0.35128990397788584,
+            "true_force_mvic_pct": 349.64068276541576,
+            "predicted_force_mvic_pct": 345.40713174002514,
+            "absolute_error_mvic_pct": 4.233551025390625
+        },
+        {
+            "segment_index": 149,
+            "true_force_value": 48.91576385498047,
+            "predicted_force_value": 41.179649353027344,
+            "absolute_error": 7.736114501953125,
+            "squared_error": 59.84746758732945,
+            "true_force_mvic_pct": 349.3983132498605,
+            "predicted_force_mvic_pct": 294.14035252162387,
+            "absolute_error_mvic_pct": 55.25796072823661
+        },
+        {
+            "segment_index": 150,
+            "true_force_value": 49.2268180847168,
+            "predicted_force_value": 48.929832458496094,
+            "absolute_error": 0.2969856262207031,
+            "squared_error": 0.08820046218170319,
+            "true_force_mvic_pct": 351.6201291765486,
+            "predicted_force_mvic_pct": 349.4988032749721,
+            "absolute_error_mvic_pct": 2.121325901576451
+        },
+        {
+            "segment_index": 151,
+            "true_force_value": 49.07429122924805,
+            "predicted_force_value": 50.17103958129883,
+            "absolute_error": 1.0967483520507812,
+            "squared_error": 1.2028569477261044,
+            "true_force_mvic_pct": 350.5306516374861,
+            "predicted_force_mvic_pct": 358.3645684378488,
+            "absolute_error_mvic_pct": 7.833916800362724
+        },
+        {
+            "segment_index": 152,
+            "true_force_value": 49.19821548461914,
+            "predicted_force_value": 45.38664245605469,
+            "absolute_error": 3.811573028564453,
+            "squared_error": 14.528088952079997,
+            "true_force_mvic_pct": 351.4158248901367,
+            "predicted_force_mvic_pct": 324.19030325753346,
+            "absolute_error_mvic_pct": 27.22552163260324
+        },
+        {
+            "segment_index": 153,
+            "true_force_value": 48.971893310546875,
+            "predicted_force_value": 50.67123794555664,
+            "absolute_error": 1.6993446350097656,
+            "squared_error": 2.8877721885364735,
+            "true_force_mvic_pct": 349.7992379324777,
+            "predicted_force_mvic_pct": 361.93741389683316,
+            "absolute_error_mvic_pct": 12.138175964355469
+        },
+        {
+            "segment_index": 154,
+            "true_force_value": 49.502685546875,
+            "predicted_force_value": 47.42375564575195,
+            "absolute_error": 2.078929901123047,
+            "squared_error": 4.3219495337834815,
+            "true_force_mvic_pct": 353.59061104910717,
+            "predicted_force_mvic_pct": 338.7411117553711,
+            "absolute_error_mvic_pct": 14.849499293736049
+        },
+        {
+            "segment_index": 155,
+            "true_force_value": 50.4010009765625,
+            "predicted_force_value": 49.58207702636719,
+            "absolute_error": 0.8189239501953125,
+            "squared_error": 0.6706364362034947,
+            "true_force_mvic_pct": 360.0071498325893,
+            "predicted_force_mvic_pct": 354.1576930454799,
+            "absolute_error_mvic_pct": 5.849456787109375
+        },
+        {
+            "segment_index": 156,
+            "true_force_value": 50.07035446166992,
+            "predicted_force_value": 51.123531341552734,
+            "absolute_error": 1.0531768798828125,
+            "squared_error": 1.109181540319696,
+            "true_force_mvic_pct": 357.645389011928,
+            "predicted_force_mvic_pct": 365.168081011091,
+            "absolute_error_mvic_pct": 7.522691999162946
+        },
+        {
+            "segment_index": 157,
+            "true_force_value": 49.87773132324219,
+            "predicted_force_value": 45.5451545715332,
+            "absolute_error": 4.332576751708984,
+            "squared_error": 18.771221309449174,
+            "true_force_mvic_pct": 356.2695094517299,
+            "predicted_force_mvic_pct": 325.3225326538086,
+            "absolute_error_mvic_pct": 30.946976797921316
+        },
+        {
+            "segment_index": 158,
+            "true_force_value": 49.132293701171875,
+            "predicted_force_value": 43.192665100097656,
+            "absolute_error": 5.939628601074219,
+            "squared_error": 35.27918791869888,
+            "true_force_mvic_pct": 350.9449550083705,
+            "predicted_force_mvic_pct": 308.51903642926897,
+            "absolute_error_mvic_pct": 42.42591857910156
+        },
+        {
+            "segment_index": 159,
+            "true_force_value": 49.206947326660156,
+            "predicted_force_value": 46.196006774902344,
+            "absolute_error": 3.0109405517578125,
+            "squared_error": 9.06576300621964,
+            "true_force_mvic_pct": 351.4781951904297,
+            "predicted_force_mvic_pct": 329.97147696358815,
+            "absolute_error_mvic_pct": 21.506718226841517
+        },
+        {
+            "segment_index": 160,
+            "true_force_value": 49.088035583496094,
+            "predicted_force_value": 41.83930206298828,
+            "absolute_error": 7.2487335205078125,
+            "squared_error": 52.544137651333585,
+            "true_force_mvic_pct": 350.62882559640065,
+            "predicted_force_mvic_pct": 298.85215759277344,
+            "absolute_error_mvic_pct": 51.776668003627236
+        },
+        {
+            "segment_index": 161,
+            "true_force_value": 48.65237045288086,
+            "predicted_force_value": 44.030033111572266,
+            "absolute_error": 4.622337341308594,
+            "squared_error": 21.3660024968558,
+            "true_force_mvic_pct": 347.51693180629184,
+            "predicted_force_mvic_pct": 314.50023651123047,
+            "absolute_error_mvic_pct": 33.01669529506138
+        },
+        {
+            "segment_index": 162,
+            "true_force_value": 49.043212890625,
+            "predicted_force_value": 47.27767562866211,
+            "absolute_error": 1.7655372619628906,
+            "squared_error": 3.1171218233794207,
+            "true_force_mvic_pct": 350.3086635044643,
+            "predicted_force_mvic_pct": 337.6976830618722,
+            "absolute_error_mvic_pct": 12.610980442592076
+        },
+        {
+            "segment_index": 163,
+            "true_force_value": 48.70927429199219,
+            "predicted_force_value": 46.72124481201172,
+            "absolute_error": 1.9880294799804688,
+            "squared_error": 3.952261213271413,
+            "true_force_mvic_pct": 347.9233877999442,
+            "predicted_force_mvic_pct": 333.7231772286551,
+            "absolute_error_mvic_pct": 14.200210571289062
+        },
+        {
+            "segment_index": 164,
+            "true_force_value": 49.35356140136719,
+            "predicted_force_value": 49.169219970703125,
+            "absolute_error": 0.1843414306640625,
+            "squared_error": 0.03398176305927336,
+            "true_force_mvic_pct": 352.5254385811942,
+            "predicted_force_mvic_pct": 351.2087140764509,
+            "absolute_error_mvic_pct": 1.3167245047433036
+        },
+        {
+            "segment_index": 165,
+            "true_force_value": 49.9835319519043,
+            "predicted_force_value": 39.94670867919922,
+            "absolute_error": 10.036823272705078,
+            "squared_error": 100.73782140751428,
+            "true_force_mvic_pct": 357.02522822788785,
+            "predicted_force_mvic_pct": 285.33363342285156,
+            "absolute_error_mvic_pct": 71.69159480503627
+        },
+        {
+            "segment_index": 166,
+            "true_force_value": 49.79035568237305,
+            "predicted_force_value": 47.406959533691406,
+            "absolute_error": 2.3833961486816406,
+            "squared_error": 5.680577201550477,
+            "true_force_mvic_pct": 355.6453977312361,
+            "predicted_force_mvic_pct": 338.6211395263672,
+            "absolute_error_mvic_pct": 17.02425820486886
+        },
+        {
+            "segment_index": 167,
+            "true_force_value": 49.84980392456055,
+            "predicted_force_value": 44.98615264892578,
+            "absolute_error": 4.863651275634766,
+            "squared_error": 23.655103730983683,
+            "true_force_mvic_pct": 356.07002803257535,
+            "predicted_force_mvic_pct": 321.32966177804127,
+            "absolute_error_mvic_pct": 34.74036625453404
+        },
+        {
+            "segment_index": 168,
+            "true_force_value": 49.385963439941406,
+            "predicted_force_value": 43.41477584838867,
+            "absolute_error": 5.971187591552734,
+            "squared_error": 35.655081253513345,
+            "true_force_mvic_pct": 352.7568817138672,
+            "predicted_force_mvic_pct": 310.1055417742048,
+            "absolute_error_mvic_pct": 42.651339939662385
+        },
+        {
+            "segment_index": 169,
+            "true_force_value": 49.38578414916992,
+            "predicted_force_value": 51.942054748535156,
+            "absolute_error": 2.5562705993652344,
+            "squared_error": 6.534519377179095,
+            "true_force_mvic_pct": 352.75560106549943,
+            "predicted_force_mvic_pct": 371.01467677525113,
+            "absolute_error_mvic_pct": 18.259075709751674
+        },
+        {
+            "segment_index": 170,
+            "true_force_value": 49.29341125488281,
+            "predicted_force_value": 38.18845748901367,
+            "absolute_error": 11.10495376586914,
+            "squared_error": 123.31999814209121,
+            "true_force_mvic_pct": 352.0957946777344,
+            "predicted_force_mvic_pct": 272.77469635009766,
+            "absolute_error_mvic_pct": 79.32109832763672
+        },
+        {
+            "segment_index": 171,
+            "true_force_value": 49.643035888671875,
+            "predicted_force_value": 50.37861633300781,
+            "absolute_error": 0.7355804443359375,
+            "squared_error": 0.5410785900894552,
+            "true_force_mvic_pct": 354.5931134905134,
+            "predicted_force_mvic_pct": 359.8472595214844,
+            "absolute_error_mvic_pct": 5.254146030970982
+        },
+        {
+            "segment_index": 172,
+            "true_force_value": 48.67991256713867,
+            "predicted_force_value": 54.35894775390625,
+            "absolute_error": 5.679035186767578,
+            "squared_error": 32.25144065254426,
+            "true_force_mvic_pct": 347.71366119384766,
+            "predicted_force_mvic_pct": 388.2781982421875,
+            "absolute_error_mvic_pct": 40.564537048339844
+        },
+        {
+            "segment_index": 173,
+            "true_force_value": 48.945579528808594,
+            "predicted_force_value": 50.44355392456055,
+            "absolute_error": 1.4979743957519531,
+            "squared_error": 2.243927290328429,
+            "true_force_mvic_pct": 349.6112823486328,
+            "predicted_force_mvic_pct": 360.31109946114674,
+            "absolute_error_mvic_pct": 10.699817112513951
+        },
+        {
+            "segment_index": 174,
+            "true_force_value": 49.001609802246094,
+            "predicted_force_value": 29.532604217529297,
+            "absolute_error": 19.469005584716797,
+            "squared_error": 379.0421784577338,
+            "true_force_mvic_pct": 350.0114985874721,
+            "predicted_force_mvic_pct": 210.94717298235213,
+            "absolute_error_mvic_pct": 139.06432560512
+        },
+        {
+            "segment_index": 175,
+            "true_force_value": 48.838523864746094,
+            "predicted_force_value": 48.908477783203125,
+            "absolute_error": 0.06995391845703125,
+            "squared_error": 0.004893550707492977,
+            "true_force_mvic_pct": 348.84659903390065,
+            "predicted_force_mvic_pct": 349.3462698800223,
+            "absolute_error_mvic_pct": 0.4996708461216518
+        },
+        {
+            "segment_index": 176,
+            "true_force_value": 49.151092529296875,
+            "predicted_force_value": 46.22173309326172,
+            "absolute_error": 2.9293594360351562,
+            "squared_error": 8.581146705488209,
+            "true_force_mvic_pct": 351.0792323521205,
+            "predicted_force_mvic_pct": 330.15523638044084,
+            "absolute_error_mvic_pct": 20.923995971679688
+        },
+        {
+            "segment_index": 177,
+            "true_force_value": 49.372718811035156,
+            "predicted_force_value": 36.68483352661133,
+            "absolute_error": 12.687885284423828,
+            "squared_error": 160.98243299069873,
+            "true_force_mvic_pct": 352.6622772216797,
+            "predicted_force_mvic_pct": 262.0345251900809,
+            "absolute_error_mvic_pct": 90.62775203159877
+        },
+        {
+            "segment_index": 178,
+            "true_force_value": 49.33226013183594,
+            "predicted_force_value": 34.401222229003906,
+            "absolute_error": 14.931037902832031,
+            "squared_error": 222.9358928558067,
+            "true_force_mvic_pct": 352.37328665597096,
+            "predicted_force_mvic_pct": 245.72301592145647,
+            "absolute_error_mvic_pct": 106.65027073451452
+        },
+        {
+            "segment_index": 179,
+            "true_force_value": 49.431434631347656,
+            "predicted_force_value": 28.700551986694336,
+            "absolute_error": 20.73088264465332,
+            "squared_error": 429.76949522638824,
+            "true_force_mvic_pct": 353.0816759381975,
+            "predicted_force_mvic_pct": 205.00394276210238,
+            "absolute_error_mvic_pct": 148.07773317609514
+        },
+        {
+            "segment_index": 180,
+            "true_force_value": 49.39778137207031,
+            "predicted_force_value": 23.604082107543945,
+            "absolute_error": 25.793699264526367,
+            "squared_error": 665.314921748828,
+            "true_force_mvic_pct": 352.84129551478793,
+            "predicted_force_mvic_pct": 168.60058648245675,
+            "absolute_error_mvic_pct": 184.24070903233118
+        },
+        {
+            "segment_index": 181,
+            "true_force_value": 48.81471633911133,
+            "predicted_force_value": 40.56904983520508,
+            "absolute_error": 8.24566650390625,
+            "squared_error": 67.99101609364152,
+            "true_force_mvic_pct": 348.6765452793666,
+            "predicted_force_mvic_pct": 289.778927394322,
+            "absolute_error_mvic_pct": 58.89761788504464
+        },
+        {
+            "segment_index": 182,
+            "true_force_value": 48.82509994506836,
+            "predicted_force_value": 46.438377380371094,
+            "absolute_error": 2.3867225646972656,
+            "squared_error": 5.696444600835093,
+            "true_force_mvic_pct": 348.75071389334545,
+            "predicted_force_mvic_pct": 331.70269557407926,
+            "absolute_error_mvic_pct": 17.048018319266184
+        },
+        {
+            "segment_index": 183,
+            "true_force_value": 48.99534606933594,
+            "predicted_force_value": 38.05119323730469,
+            "absolute_error": 10.94415283203125,
+            "squared_error": 119.77448121085763,
+            "true_force_mvic_pct": 349.96675763811385,
+            "predicted_force_mvic_pct": 271.7942374093192,
+            "absolute_error_mvic_pct": 78.17252022879464
+        },
+        {
+            "segment_index": 184,
+            "true_force_value": 48.90583419799805,
+            "predicted_force_value": 37.64171600341797,
+            "absolute_error": 11.264118194580078,
+            "squared_error": 126.88035870146996,
+            "true_force_mvic_pct": 349.32738712855746,
+            "predicted_force_mvic_pct": 268.86940002441406,
+            "absolute_error_mvic_pct": 80.45798710414341
+        },
+        {
+            "segment_index": 185,
+            "true_force_value": 48.85768127441406,
+            "predicted_force_value": 36.23228454589844,
+            "absolute_error": 12.625396728515625,
+            "squared_error": 159.40064255241305,
+            "true_force_mvic_pct": 348.98343767438615,
+            "predicted_force_mvic_pct": 258.8020324707031,
+            "absolute_error_mvic_pct": 90.18140520368304
+        },
+        {
+            "segment_index": 186,
+            "true_force_value": 49.41747283935547,
+            "predicted_force_value": 45.894691467285156,
+            "absolute_error": 3.5227813720703125,
+            "squared_error": 12.409988595405594,
+            "true_force_mvic_pct": 352.98194885253906,
+            "predicted_force_mvic_pct": 327.8192247663225,
+            "absolute_error_mvic_pct": 25.16272408621652
+        },
+        {
+            "segment_index": 187,
+            "true_force_value": 49.21195983886719,
+            "predicted_force_value": 44.07347869873047,
+            "absolute_error": 5.138481140136719,
+            "squared_error": 26.403988427540753,
+            "true_force_mvic_pct": 351.51399884905135,
+            "predicted_force_mvic_pct": 314.81056213378906,
+            "absolute_error_mvic_pct": 36.70343671526228
+        },
+        {
+            "segment_index": 188,
+            "true_force_value": 48.72108840942383,
+            "predicted_force_value": 46.54973602294922,
+            "absolute_error": 2.1713523864746094,
+            "squared_error": 4.714771186248981,
+            "true_force_mvic_pct": 348.00777435302734,
+            "predicted_force_mvic_pct": 332.4981144496373,
+            "absolute_error_mvic_pct": 15.509659903390066
+        },
+        {
+            "segment_index": 189,
+            "true_force_value": 49.28696823120117,
+            "predicted_force_value": 31.50105094909668,
+            "absolute_error": 17.785917282104492,
+            "squared_error": 316.33885356586325,
+            "true_force_mvic_pct": 352.0497730800084,
+            "predicted_force_mvic_pct": 225.00750677926197,
+            "absolute_error_mvic_pct": 127.04226630074638
+        },
+        {
+            "segment_index": 190,
+            "true_force_value": 49.95542526245117,
+            "predicted_force_value": 30.686859130859375,
+            "absolute_error": 19.268566131591797,
+            "squared_error": 371.27764076752646,
+            "true_force_mvic_pct": 356.8244661603655,
+            "predicted_force_mvic_pct": 219.1918509347098,
+            "absolute_error_mvic_pct": 137.63261522565568
+        },
+        {
+            "segment_index": 191,
+            "true_force_value": 50.04010009765625,
+            "predicted_force_value": 39.454368591308594,
+            "absolute_error": 10.585731506347656,
+            "squared_error": 112.05771152448142,
+            "true_force_mvic_pct": 357.42928641183033,
+            "predicted_force_mvic_pct": 281.8169185093471,
+            "absolute_error_mvic_pct": 75.61236790248326
+        },
+        {
+            "segment_index": 192,
+            "true_force_value": 49.916934967041016,
+            "predicted_force_value": 24.545753479003906,
+            "absolute_error": 25.37118148803711,
+            "squared_error": 643.6968500989169,
+            "true_force_mvic_pct": 356.5495354788644,
+            "predicted_force_mvic_pct": 175.3268105643136,
+            "absolute_error_mvic_pct": 181.22272491455078
+        },
+        {
+            "segment_index": 193,
+            "true_force_value": 49.486358642578125,
+            "predicted_force_value": 23.233070373535156,
+            "absolute_error": 26.25328826904297,
+            "squared_error": 689.2351449374692,
+            "true_force_mvic_pct": 353.4739903041295,
+            "predicted_force_mvic_pct": 165.95050266810827,
+            "absolute_error_mvic_pct": 187.5234876360212
+        },
+        {
+            "segment_index": 194,
+            "true_force_value": 49.326171875,
+            "predicted_force_value": 39.31593322753906,
+            "absolute_error": 10.010238647460938,
+            "squared_error": 100.20487777912058,
+            "true_force_mvic_pct": 352.32979910714283,
+            "predicted_force_mvic_pct": 280.8280944824219,
+            "absolute_error_mvic_pct": 71.50170462472099
+        },
+        {
+            "segment_index": 195,
+            "true_force_value": 49.1208381652832,
+            "predicted_force_value": 36.1151123046875,
+            "absolute_error": 13.005725860595703,
+            "squared_error": 169.14890516096784,
+            "true_force_mvic_pct": 350.86312975202287,
+            "predicted_force_mvic_pct": 257.965087890625,
+            "absolute_error_mvic_pct": 92.89804186139789
+        },
+        {
+            "segment_index": 196,
+            "true_force_value": 49.33727264404297,
+            "predicted_force_value": 26.69835662841797,
+            "absolute_error": 22.638916015625,
+            "squared_error": 512.5205183625221,
+            "true_force_mvic_pct": 352.4090903145926,
+            "predicted_force_mvic_pct": 190.70254734584265,
+            "absolute_error_mvic_pct": 161.70654296875
+        },
+        {
+            "segment_index": 197,
+            "true_force_value": 49.53240203857422,
+            "predicted_force_value": 36.6226921081543,
+            "absolute_error": 12.909709930419922,
+            "squared_error": 166.66061048758274,
+            "true_force_mvic_pct": 353.80287170410156,
+            "predicted_force_mvic_pct": 261.59065791538785,
+            "absolute_error_mvic_pct": 92.21221378871373
+        },
+        {
+            "segment_index": 198,
+            "true_force_value": 49.543251037597656,
+            "predicted_force_value": 37.07398986816406,
+            "absolute_error": 12.469261169433594,
+            "squared_error": 155.48247411154443,
+            "true_force_mvic_pct": 353.88036455426897,
+            "predicted_force_mvic_pct": 264.81421334402904,
+            "absolute_error_mvic_pct": 89.06615121023995
+        },
+        {
+            "segment_index": 199,
+            "true_force_value": 49.80325698852539,
+            "predicted_force_value": 37.259727478027344,
+            "absolute_error": 12.543529510498047,
+            "squared_error": 157.34013258073537,
+            "true_force_mvic_pct": 355.7375499180385,
+            "predicted_force_mvic_pct": 266.14091055733815,
+            "absolute_error_mvic_pct": 89.59663936070034
+        },
+        {
+            "segment_index": 200,
+            "true_force_value": 49.810062408447266,
+            "predicted_force_value": 46.23548126220703,
+            "absolute_error": 3.5745811462402344,
+            "squared_error": 12.777630371056146,
+            "true_force_mvic_pct": 355.78616006033764,
+            "predicted_force_mvic_pct": 330.2534375871931,
+            "absolute_error_mvic_pct": 25.53272247314453
+        },
+        {
+            "segment_index": 201,
+            "true_force_value": 49.968135833740234,
+            "predicted_force_value": 39.81012725830078,
+            "absolute_error": 10.158008575439453,
+            "squared_error": 103.18513821870147,
+            "true_force_mvic_pct": 356.91525595528736,
+            "predicted_force_mvic_pct": 284.3580518450056,
+            "absolute_error_mvic_pct": 72.5572041102818
+        },
+        {
+            "segment_index": 202,
+            "true_force_value": 49.851593017578125,
+            "predicted_force_value": 25.829723358154297,
+            "absolute_error": 24.021869659423828,
+            "squared_error": 577.0502219343471,
+            "true_force_mvic_pct": 356.0828072684152,
+            "predicted_force_mvic_pct": 184.4980239868164,
+            "absolute_error_mvic_pct": 171.58478328159876
+        },
+        {
+            "segment_index": 203,
+            "true_force_value": 58.91210174560547,
+            "predicted_force_value": 53.43074035644531,
+            "absolute_error": 5.481361389160156,
+            "squared_error": 30.045322678575758,
+            "true_force_mvic_pct": 420.8007267543247,
+            "predicted_force_mvic_pct": 381.6481454031808,
+            "absolute_error_mvic_pct": 39.15258135114397
+        },
+        {
+            "segment_index": 204,
+            "true_force_value": 58.492984771728516,
+            "predicted_force_value": 52.823631286621094,
+            "absolute_error": 5.669353485107422,
+            "squared_error": 32.14156893909967,
+            "true_force_mvic_pct": 417.8070340837751,
+            "predicted_force_mvic_pct": 377.31165204729353,
+            "absolute_error_mvic_pct": 40.49538203648159
+        },
+        {
+            "segment_index": 205,
+            "true_force_value": 58.22234344482422,
+            "predicted_force_value": 59.27348327636719,
+            "absolute_error": 1.0511398315429688,
+            "squared_error": 1.1048949454561807,
+            "true_force_mvic_pct": 415.87388174874445,
+            "predicted_force_mvic_pct": 423.38202340262274,
+            "absolute_error_mvic_pct": 7.508141653878349
+        },
+        {
+            "segment_index": 206,
+            "true_force_value": 59.5640869140625,
+            "predicted_force_value": 63.010379791259766,
+            "absolute_error": 3.4462928771972656,
+            "squared_error": 11.876934595420607,
+            "true_force_mvic_pct": 425.457763671875,
+            "predicted_force_mvic_pct": 450.07414136614113,
+            "absolute_error_mvic_pct": 24.616377694266184
+        },
+        {
+            "segment_index": 207,
+            "true_force_value": 59.05406188964844,
+            "predicted_force_value": 56.774314880371094,
+            "absolute_error": 2.2797470092773438,
+            "squared_error": 5.197246426308993,
+            "true_force_mvic_pct": 421.8147277832031,
+            "predicted_force_mvic_pct": 405.53082057407926,
+            "absolute_error_mvic_pct": 16.283907209123885
+        },
+        {
+            "segment_index": 208,
+            "true_force_value": 60.09702682495117,
+            "predicted_force_value": 65.09112548828125,
+            "absolute_error": 4.994098663330078,
+            "squared_error": 24.941021459075273,
+            "true_force_mvic_pct": 429.26447732107977,
+            "predicted_force_mvic_pct": 464.9366106305804,
+            "absolute_error_mvic_pct": 35.67213330950056
+        },
+        {
+            "segment_index": 209,
+            "true_force_value": 60.156105041503906,
+            "predicted_force_value": 56.64168167114258,
+            "absolute_error": 3.514423370361328,
+            "squared_error": 12.351171626141877,
+            "true_force_mvic_pct": 429.68646458217074,
+            "predicted_force_mvic_pct": 404.5834405081613,
+            "absolute_error_mvic_pct": 25.10302407400949
+        },
+        {
+            "segment_index": 210,
+            "true_force_value": 59.9781608581543,
+            "predicted_force_value": 48.030662536621094,
+            "absolute_error": 11.947498321533203,
+            "squared_error": 142.7427161430387,
+            "true_force_mvic_pct": 428.4154347011021,
+            "predicted_force_mvic_pct": 343.076160975865,
+            "absolute_error_mvic_pct": 85.33927372523716
+        },
+        {
+            "segment_index": 211,
+            "true_force_value": 59.9359130859375,
+            "predicted_force_value": 50.78729248046875,
+            "absolute_error": 9.14862060546875,
+            "squared_error": 83.6972589828074,
+            "true_force_mvic_pct": 428.11366489955356,
+            "predicted_force_mvic_pct": 362.76637486049106,
+            "absolute_error_mvic_pct": 65.3472900390625
+        },
+        {
+            "segment_index": 212,
+            "true_force_value": 60.20390319824219,
+            "predicted_force_value": 53.15098190307617,
+            "absolute_error": 7.052921295166016,
+            "squared_error": 49.74369879580627,
+            "true_force_mvic_pct": 430.0278799874442,
+            "predicted_force_mvic_pct": 379.6498707362584,
+            "absolute_error_mvic_pct": 50.37800925118583
+        },
+        {
+            "segment_index": 213,
+            "true_force_value": 59.88829040527344,
+            "predicted_force_value": 62.76866149902344,
+            "absolute_error": 2.88037109375,
+            "squared_error": 8.296537637710571,
+            "true_force_mvic_pct": 427.77350289481024,
+            "predicted_force_mvic_pct": 448.3475821358817,
+            "absolute_error_mvic_pct": 20.574079241071427
+        },
+        {
+            "segment_index": 214,
+            "true_force_value": 59.56391143798828,
+            "predicted_force_value": 67.945068359375,
+            "absolute_error": 8.381156921386719,
+            "squared_error": 70.2437913409085,
+            "true_force_mvic_pct": 425.4565102713449,
+            "predicted_force_mvic_pct": 485.32191685267856,
+            "absolute_error_mvic_pct": 59.8654065813337
+        },
+        {
+            "segment_index": 215,
+            "true_force_value": 59.805049896240234,
+            "predicted_force_value": 51.46697998046875,
+            "absolute_error": 8.338069915771484,
+            "squared_error": 69.52340992029349,
+            "true_force_mvic_pct": 427.1789278302874,
+            "predicted_force_mvic_pct": 367.6212855747768,
+            "absolute_error_mvic_pct": 59.5576422555106
+        },
+        {
+            "segment_index": 216,
+            "true_force_value": 60.62388229370117,
+            "predicted_force_value": 59.52527618408203,
+            "absolute_error": 1.0986061096191406,
+            "squared_error": 1.2069353840925032,
+            "true_force_mvic_pct": 433.0277306692941,
+            "predicted_force_mvic_pct": 425.1805441720145,
+            "absolute_error_mvic_pct": 7.847186497279576
+        },
+        {
+            "segment_index": 217,
+            "true_force_value": 59.94235610961914,
+            "predicted_force_value": 52.5358772277832,
+            "absolute_error": 7.4064788818359375,
+            "squared_error": 54.85592942708172,
+            "true_force_mvic_pct": 428.1596864972796,
+            "predicted_force_mvic_pct": 375.25626591273715,
+            "absolute_error_mvic_pct": 52.90342058454242
+        },
+        {
+            "segment_index": 218,
+            "true_force_value": 59.70318603515625,
+            "predicted_force_value": 55.72869110107422,
+            "absolute_error": 3.9744949340820312,
+            "squared_error": 15.79660998104373,
+            "true_force_mvic_pct": 426.4513288225446,
+            "predicted_force_mvic_pct": 398.0620792933873,
+            "absolute_error_mvic_pct": 28.389249529157368
+        },
+        {
+            "segment_index": 219,
+            "true_force_value": 59.66756057739258,
+            "predicted_force_value": 62.57435607910156,
+            "absolute_error": 2.9067955017089844,
+            "squared_error": 8.449460088755586,
+            "true_force_mvic_pct": 426.19686126708984,
+            "predicted_force_mvic_pct": 446.9596862792969,
+            "absolute_error_mvic_pct": 20.76282501220703
+        },
+        {
+            "segment_index": 220,
+            "true_force_value": 59.08198928833008,
+            "predicted_force_value": 59.175209045410156,
+            "absolute_error": 0.09321975708007812,
+            "squared_error": 0.008689923110068776,
+            "true_force_mvic_pct": 422.01420920235773,
+            "predicted_force_mvic_pct": 422.6800646100726,
+            "absolute_error_mvic_pct": 0.6658554077148438
+        },
+        {
+            "segment_index": 221,
+            "true_force_value": 59.16004180908203,
+            "predicted_force_value": 57.47565841674805,
+            "absolute_error": 1.6843833923339844,
+            "squared_error": 2.837147412370541,
+            "true_force_mvic_pct": 422.5717272077288,
+            "predicted_force_mvic_pct": 410.540417262486,
+            "absolute_error_mvic_pct": 12.031309945242745
+        },
+        {
+            "segment_index": 222,
+            "true_force_value": 59.3016471862793,
+            "predicted_force_value": 61.20850372314453,
+            "absolute_error": 1.9068565368652344,
+            "squared_error": 3.636101852185675,
+            "true_force_mvic_pct": 423.5831941877093,
+            "predicted_force_mvic_pct": 437.20359802246094,
+            "absolute_error_mvic_pct": 13.620403834751674
+        },
+        {
+            "segment_index": 223,
+            "true_force_value": 58.06892395019531,
+            "predicted_force_value": 69.29933166503906,
+            "absolute_error": 11.23040771484375,
+            "squared_error": 126.12205744162202,
+            "true_force_mvic_pct": 414.7780282156808,
+            "predicted_force_mvic_pct": 494.99522617885043,
+            "absolute_error_mvic_pct": 80.21719796316964
+        },
+        {
+            "segment_index": 224,
+            "true_force_value": 58.38166809082031,
+            "predicted_force_value": 52.14335250854492,
+            "absolute_error": 6.238315582275391,
+            "squared_error": 38.916581304059946,
+            "true_force_mvic_pct": 417.0119149344308,
+            "predicted_force_mvic_pct": 372.452517918178,
+            "absolute_error_mvic_pct": 44.55939701625279
+        },
+        {
+            "segment_index": 225,
+            "true_force_value": 58.991943359375,
+            "predicted_force_value": 54.918975830078125,
+            "absolute_error": 4.072967529296875,
+            "squared_error": 16.58906449470669,
+            "true_force_mvic_pct": 421.37102399553567,
+            "predicted_force_mvic_pct": 392.2783987862723,
+            "absolute_error_mvic_pct": 29.092625209263396
+        },
+        {
+            "segment_index": 226,
+            "true_force_value": 60.18778991699219,
+            "predicted_force_value": 61.87633514404297,
+            "absolute_error": 1.6885452270507812,
+            "squared_error": 2.8511849837959744,
+            "true_force_mvic_pct": 429.91278512137274,
+            "predicted_force_mvic_pct": 441.9738224574497,
+            "absolute_error_mvic_pct": 12.061037336077009
+        },
+        {
+            "segment_index": 227,
+            "true_force_value": 60.13748550415039,
+            "predicted_force_value": 62.66051483154297,
+            "absolute_error": 2.523029327392578,
+            "squared_error": 6.365676986883045,
+            "true_force_mvic_pct": 429.55346788678855,
+            "predicted_force_mvic_pct": 447.5751059395926,
+            "absolute_error_mvic_pct": 18.02163805280413
+        },
+        {
+            "segment_index": 228,
+            "true_force_value": 60.830467224121094,
+            "predicted_force_value": 60.52557373046875,
+            "absolute_error": 0.30489349365234375,
+            "squared_error": 0.09296004247153178,
+            "true_force_mvic_pct": 434.5033373151507,
+            "predicted_force_mvic_pct": 432.3255266462054,
+            "absolute_error_mvic_pct": 2.1778106689453125
+        },
+        {
+            "segment_index": 229,
+            "true_force_value": 60.396705627441406,
+            "predicted_force_value": 66.74606323242188,
+            "absolute_error": 6.349357604980469,
+            "squared_error": 40.314341995923314,
+            "true_force_mvic_pct": 431.4050401960101,
+            "predicted_force_mvic_pct": 476.75759451729914,
+            "absolute_error_mvic_pct": 45.35255432128906
+        },
+        {
+            "segment_index": 230,
+            "true_force_value": 59.920894622802734,
+            "predicted_force_value": 57.987060546875,
+            "absolute_error": 1.9338340759277344,
+            "squared_error": 3.7397142332192743,
+            "true_force_mvic_pct": 428.00639016287664,
+            "predicted_force_mvic_pct": 414.19328962053567,
+            "absolute_error_mvic_pct": 13.813100542340958
+        },
+        {
+            "segment_index": 231,
+            "true_force_value": 59.05446243286133,
+            "predicted_force_value": 49.396278381347656,
+            "absolute_error": 9.658184051513672,
+            "squared_error": 93.28051917291305,
+            "true_force_mvic_pct": 421.81758880615234,
+            "predicted_force_mvic_pct": 352.83055986676897,
+            "absolute_error_mvic_pct": 68.98702893938336
+        },
+        {
+            "segment_index": 232,
+            "true_force_value": 59.76250076293945,
+            "predicted_force_value": 64.03300476074219,
+            "absolute_error": 4.270503997802734,
+            "squared_error": 18.237204395249137,
+            "true_force_mvic_pct": 426.87500544956754,
+            "predicted_force_mvic_pct": 457.37860543387274,
+            "absolute_error_mvic_pct": 30.503599984305247
+        },
+        {
+            "segment_index": 233,
+            "true_force_value": 58.902435302734375,
+            "predicted_force_value": 57.05366516113281,
+            "absolute_error": 1.8487701416015625,
+            "squared_error": 3.4179510364774615,
+            "true_force_mvic_pct": 420.7316807338169,
+            "predicted_force_mvic_pct": 407.52617972237726,
+            "absolute_error_mvic_pct": 13.205501011439733
+        },
+        {
+            "segment_index": 234,
+            "true_force_value": 59.26620101928711,
+            "predicted_force_value": 54.16727828979492,
+            "absolute_error": 5.0989227294921875,
+            "squared_error": 25.99901300133206,
+            "true_force_mvic_pct": 423.3300072806222,
+            "predicted_force_mvic_pct": 386.9091306413923,
+            "absolute_error_mvic_pct": 36.42087663922991
+        },
+        {
+            "segment_index": 235,
+            "true_force_value": 60.95578384399414,
+            "predicted_force_value": 63.35618591308594,
+            "absolute_error": 2.400402069091797,
+            "squared_error": 5.76193009330018,
+            "true_force_mvic_pct": 435.3984560285296,
+            "predicted_force_mvic_pct": 452.544185093471,
+            "absolute_error_mvic_pct": 17.145729064941406
+        },
+        {
+            "segment_index": 236,
+            "true_force_value": 60.4275016784668,
+            "predicted_force_value": 54.47869110107422,
+            "absolute_error": 5.948810577392578,
+            "squared_error": 35.38834728569782,
+            "true_force_mvic_pct": 431.6250119890485,
+            "predicted_force_mvic_pct": 389.13350786481584,
+            "absolute_error_mvic_pct": 42.4915041242327
+        },
+        {
+            "segment_index": 237,
+            "true_force_value": 59.94017791748047,
+            "predicted_force_value": 65.11431884765625,
+            "absolute_error": 5.174140930175781,
+            "squared_error": 26.7717343653203,
+            "true_force_mvic_pct": 428.1441279820034,
+            "predicted_force_mvic_pct": 465.10227748325894,
+            "absolute_error_mvic_pct": 36.95814950125558
+        },
+        {
+            "segment_index": 238,
+            "true_force_value": 60.065162658691406,
+            "predicted_force_value": 55.667476654052734,
+            "absolute_error": 4.397686004638672,
+            "squared_error": 19.339642195394845,
+            "true_force_mvic_pct": 429.0368761335101,
+            "predicted_force_mvic_pct": 397.6248332432338,
+            "absolute_error_mvic_pct": 31.412042890276226
+        },
+        {
+            "segment_index": 239,
+            "true_force_value": 58.795204162597656,
+            "predicted_force_value": 61.828041076660156,
+            "absolute_error": 3.0328369140625,
+            "squared_error": 9.198099747300148,
+            "true_force_mvic_pct": 419.9657440185547,
+            "predicted_force_mvic_pct": 441.6288648332868,
+            "absolute_error_mvic_pct": 21.663120814732142
+        },
+        {
+            "segment_index": 240,
+            "true_force_value": 59.61654281616211,
+            "predicted_force_value": 52.4210205078125,
+            "absolute_error": 7.195522308349609,
+            "squared_error": 51.77554128995689,
+            "true_force_mvic_pct": 425.8324486868722,
+            "predicted_force_mvic_pct": 374.4358607700893,
+            "absolute_error_mvic_pct": 51.39658791678292
+        },
+        {
+            "segment_index": 241,
+            "true_force_value": 60.49248123168945,
+            "predicted_force_value": 64.23887634277344,
+            "absolute_error": 3.7463951110839844,
+            "squared_error": 14.03547632835398,
+            "true_force_mvic_pct": 432.08915165492465,
+            "predicted_force_mvic_pct": 458.849116734096,
+            "absolute_error_mvic_pct": 26.759965079171316
+        },
+        {
+            "segment_index": 242,
+            "true_force_value": 59.85517501831055,
+            "predicted_force_value": 62.94261932373047,
+            "absolute_error": 3.087444305419922,
+            "squared_error": 9.532312339069904,
+            "true_force_mvic_pct": 427.5369644165039,
+            "predicted_force_mvic_pct": 449.5901380266462,
+            "absolute_error_mvic_pct": 22.0531736101423
+        },
+        {
+            "segment_index": 243,
+            "true_force_value": 59.779808044433594,
+            "predicted_force_value": 57.068565368652344,
+            "absolute_error": 2.71124267578125,
+            "squared_error": 7.350836846977472,
+            "true_force_mvic_pct": 426.99862888881137,
+            "predicted_force_mvic_pct": 407.6326097760882,
+            "absolute_error_mvic_pct": 19.366019112723215
+        },
+        {
+            "segment_index": 244,
+            "true_force_value": 59.55214309692383,
+            "predicted_force_value": 72.33070373535156,
+            "absolute_error": 12.778560638427734,
+            "squared_error": 163.29161198997463,
+            "true_force_mvic_pct": 425.372450692313,
+            "predicted_force_mvic_pct": 516.6478838239398,
+            "absolute_error_mvic_pct": 91.27543313162667
+        },
+        {
+            "segment_index": 245,
+            "true_force_value": 60.468570709228516,
+            "predicted_force_value": 54.49443817138672,
+            "absolute_error": 5.974132537841797,
+            "squared_error": 35.69025957970007,
+            "true_force_mvic_pct": 431.9183622087751,
+            "predicted_force_mvic_pct": 389.24598693847656,
+            "absolute_error_mvic_pct": 42.67237527029855
+        },
+        {
+            "segment_index": 246,
+            "true_force_value": 60.318214416503906,
+            "predicted_force_value": 65.61959075927734,
+            "absolute_error": 5.3013763427734375,
+            "squared_error": 28.104591127717867,
+            "true_force_mvic_pct": 430.84438868931363,
+            "predicted_force_mvic_pct": 468.71136256626676,
+            "absolute_error_mvic_pct": 37.866973876953125
+        },
+        {
+            "segment_index": 247,
+            "true_force_value": 59.36575698852539,
+            "predicted_force_value": 59.045833587646484,
+            "absolute_error": 0.31992340087890625,
+            "squared_error": 0.10235098242992535,
+            "true_force_mvic_pct": 424.0411213466099,
+            "predicted_force_mvic_pct": 421.7559541974749,
+            "absolute_error_mvic_pct": 2.2851671491350447
+        },
+        {
+            "segment_index": 248,
+            "true_force_value": 59.51110076904297,
+            "predicted_force_value": 69.66819763183594,
+            "absolute_error": 10.157096862792969,
+            "squared_error": 103.16661668015877,
+            "true_force_mvic_pct": 425.0792912074497,
+            "predicted_force_mvic_pct": 497.62998308454246,
+            "absolute_error_mvic_pct": 72.55069187709263
+        },
+        {
+            "segment_index": 249,
+            "true_force_value": 59.593448638916016,
+            "predicted_force_value": 65.96214294433594,
+            "absolute_error": 6.368694305419922,
+            "squared_error": 40.56026715588814,
+            "true_force_mvic_pct": 425.6674902779715,
+            "predicted_force_mvic_pct": 471.1581638881138,
+            "absolute_error_mvic_pct": 45.4906736101423
+        },
+        {
+            "segment_index": 250,
+            "true_force_value": 59.02571487426758,
+            "predicted_force_value": 57.11005401611328,
+            "absolute_error": 1.9156608581542969,
+            "squared_error": 3.669756523464457,
+            "true_force_mvic_pct": 421.6122491019113,
+            "predicted_force_mvic_pct": 407.928957257952,
+            "absolute_error_mvic_pct": 13.683291843959264
+        },
+        {
+            "segment_index": 251,
+            "true_force_value": 59.91210174560547,
+            "predicted_force_value": 55.394775390625,
+            "absolute_error": 4.517326354980469,
+            "squared_error": 20.406237397401128,
+            "true_force_mvic_pct": 427.94358389718195,
+            "predicted_force_mvic_pct": 395.67696707589283,
+            "absolute_error_mvic_pct": 32.26661682128906
+        },
+        {
+            "segment_index": 252,
+            "true_force_value": 59.67830276489258,
+            "predicted_force_value": 52.63944625854492,
+            "absolute_error": 7.038856506347656,
+            "squared_error": 49.54550091695273,
+            "true_force_mvic_pct": 426.2735911778042,
+            "predicted_force_mvic_pct": 375.9960447038923,
+            "absolute_error_mvic_pct": 50.277546473911826
+        },
+        {
+            "segment_index": 253,
+            "true_force_value": 59.12370300292969,
+            "predicted_force_value": 61.529396057128906,
+            "absolute_error": 2.4056930541992188,
+            "squared_error": 5.787359071022365,
+            "true_force_mvic_pct": 422.3121643066406,
+            "predicted_force_mvic_pct": 439.4956861223493,
+            "absolute_error_mvic_pct": 17.183521815708705
+        },
+        {
+            "segment_index": 254,
+            "true_force_value": 58.8386116027832,
+            "predicted_force_value": 54.15955352783203,
+            "absolute_error": 4.679058074951172,
+            "squared_error": 21.893584468765766,
+            "true_force_mvic_pct": 420.27579716273715,
+            "predicted_force_mvic_pct": 386.85395377022877,
+            "absolute_error_mvic_pct": 33.42184339250837
+        },
+        {
+            "segment_index": 255,
+            "true_force_value": 59.23720169067383,
+            "predicted_force_value": 57.6369514465332,
+            "absolute_error": 1.600250244140625,
+            "squared_error": 2.56080084387213,
+            "true_force_mvic_pct": 423.1228692190988,
+            "predicted_force_mvic_pct": 411.69251033238004,
+            "absolute_error_mvic_pct": 11.43035888671875
+        },
+        {
+            "segment_index": 256,
+            "true_force_value": 59.60345458984375,
+            "predicted_force_value": 52.24607849121094,
+            "absolute_error": 7.3573760986328125,
+            "squared_error": 54.130983056733385,
+            "true_force_mvic_pct": 425.73896135602683,
+            "predicted_force_mvic_pct": 373.18627493722096,
+            "absolute_error_mvic_pct": 52.552686418805806
+        },
+        {
+            "segment_index": 257,
+            "true_force_value": 60.97404098510742,
+            "predicted_force_value": 56.384559631347656,
+            "absolute_error": 4.589481353759766,
+            "squared_error": 21.06333909650857,
+            "true_force_mvic_pct": 435.5288641793387,
+            "predicted_force_mvic_pct": 402.74685450962613,
+            "absolute_error_mvic_pct": 32.782009669712615
+        },
+        {
+            "segment_index": 258,
+            "true_force_value": 59.94593811035156,
+            "predicted_force_value": 52.20567321777344,
+            "absolute_error": 7.740264892578125,
+            "squared_error": 59.91170060727745,
+            "true_force_mvic_pct": 428.1852722167969,
+            "predicted_force_mvic_pct": 372.89766584123885,
+            "absolute_error_mvic_pct": 55.28760637555804
+        },
+        {
+            "segment_index": 259,
+            "true_force_value": 60.62285614013672,
+            "predicted_force_value": 53.43619918823242,
+            "absolute_error": 7.186656951904297,
+            "squared_error": 51.64803814435436,
+            "true_force_mvic_pct": 433.02040100097656,
+            "predicted_force_mvic_pct": 381.687137058803,
+            "absolute_error_mvic_pct": 51.333263942173545
+        },
+        {
+            "segment_index": 260,
+            "true_force_value": 60.008949279785156,
+            "predicted_force_value": 64.54656219482422,
+            "absolute_error": 4.5376129150390625,
+            "squared_error": 20.5899309667293,
+            "true_force_mvic_pct": 428.63535199846535,
+            "predicted_force_mvic_pct": 461.046872820173,
+            "absolute_error_mvic_pct": 32.41152082170759
+        },
+        {
+            "segment_index": 261,
+            "true_force_value": 68.54153442382812,
+            "predicted_force_value": 67.92391967773438,
+            "absolute_error": 0.61761474609375,
+            "squared_error": 0.3814479745924473,
+            "true_force_mvic_pct": 489.5823887416294,
+            "predicted_force_mvic_pct": 485.1708548409598,
+            "absolute_error_mvic_pct": 4.411533900669643
+        },
+        {
+            "segment_index": 262,
+            "true_force_value": 68.53705596923828,
+            "predicted_force_value": 56.1616325378418,
+            "absolute_error": 12.375423431396484,
+            "squared_error": 153.15110510635714,
+            "true_force_mvic_pct": 489.55039978027344,
+            "predicted_force_mvic_pct": 401.1545181274414,
+            "absolute_error_mvic_pct": 88.39588165283203
+        },
+        {
+            "segment_index": 263,
+            "true_force_value": 69.54779815673828,
+            "predicted_force_value": 67.39639282226562,
+            "absolute_error": 2.1514053344726562,
+            "squared_error": 4.628544913197402,
+            "true_force_mvic_pct": 496.7699868338449,
+            "predicted_force_mvic_pct": 481.40280587332586,
+            "absolute_error_mvic_pct": 15.367180960518972
+        },
+        {
+            "segment_index": 264,
+            "true_force_value": 69.93090057373047,
+            "predicted_force_value": 55.503700256347656,
+            "absolute_error": 14.427200317382812,
+            "squared_error": 208.14410899789073,
+            "true_force_mvic_pct": 499.5064326695034,
+            "predicted_force_mvic_pct": 396.4550018310547,
+            "absolute_error_mvic_pct": 103.05143083844865
+        },
+        {
+            "segment_index": 265,
+            "true_force_value": 68.41747283935547,
+            "predicted_force_value": 63.53921127319336,
+            "absolute_error": 4.878261566162109,
+            "squared_error": 23.797435907894396,
+            "true_force_mvic_pct": 488.6962345668247,
+            "predicted_force_mvic_pct": 453.8515090942383,
+            "absolute_error_mvic_pct": 34.8447254725865
+        },
+        {
+            "segment_index": 266,
+            "true_force_value": 68.75098419189453,
+            "predicted_force_value": 62.63650131225586,
+            "absolute_error": 6.114482879638672,
+            "squared_error": 37.386900885394425,
+            "true_force_mvic_pct": 491.0784585135324,
+            "predicted_force_mvic_pct": 447.4035808018276,
+            "absolute_error_mvic_pct": 43.6748777117048
+        },
+        {
+            "segment_index": 267,
+            "true_force_value": 69.15574645996094,
+            "predicted_force_value": 54.60691452026367,
+            "absolute_error": 14.548831939697266,
+            "squared_error": 211.6685108095553,
+            "true_force_mvic_pct": 493.96961757114957,
+            "predicted_force_mvic_pct": 390.0493894304548,
+            "absolute_error_mvic_pct": 103.92022814069475
+        },
+        {
+            "segment_index": 268,
+            "true_force_value": 68.48908233642578,
+            "predicted_force_value": 54.805572509765625,
+            "absolute_error": 13.683509826660156,
+            "squared_error": 187.23844117630506,
+            "true_force_mvic_pct": 489.2077309744699,
+            "predicted_force_mvic_pct": 391.4683750697545,
+            "absolute_error_mvic_pct": 97.7393559047154
+        },
+        {
+            "segment_index": 269,
+            "true_force_value": 67.60579681396484,
+            "predicted_force_value": 48.86383819580078,
+            "absolute_error": 18.741958618164062,
+            "squared_error": 351.2610128449742,
+            "true_force_mvic_pct": 482.8985486711774,
+            "predicted_force_mvic_pct": 349.02741568429127,
+            "absolute_error_mvic_pct": 133.87113298688615
+        },
+        {
+            "segment_index": 270,
+            "true_force_value": 67.27479553222656,
+            "predicted_force_value": 50.88285827636719,
+            "absolute_error": 16.391937255859375,
+            "squared_error": 268.6956070000306,
+            "true_force_mvic_pct": 480.5342538016183,
+            "predicted_force_mvic_pct": 363.44898768833707,
+            "absolute_error_mvic_pct": 117.08526611328125
+        },
+        {
+            "segment_index": 271,
+            "true_force_value": 67.35231018066406,
+            "predicted_force_value": 45.9072265625,
+            "absolute_error": 21.445083618164062,
+            "squared_error": 459.89161139004864,
+            "true_force_mvic_pct": 481.0879298618862,
+            "predicted_force_mvic_pct": 327.9087611607143,
+            "absolute_error_mvic_pct": 153.17916870117188
+        },
+        {
+            "segment_index": 272,
+            "true_force_value": 67.78499603271484,
+            "predicted_force_value": 47.67743682861328,
+            "absolute_error": 20.107559204101562,
+            "squared_error": 404.31393714644946,
+            "true_force_mvic_pct": 484.1785430908203,
+            "predicted_force_mvic_pct": 340.5531202043806,
+            "absolute_error_mvic_pct": 143.62542288643974
+        },
+        {
+            "segment_index": 273,
+            "true_force_value": 68.65735626220703,
+            "predicted_force_value": 56.974327087402344,
+            "absolute_error": 11.683029174804688,
+            "squared_error": 136.4931706993375,
+            "true_force_mvic_pct": 490.40968758719305,
+            "predicted_force_mvic_pct": 406.959479195731,
+            "absolute_error_mvic_pct": 83.45020839146206
+        },
+        {
+            "segment_index": 274,
+            "true_force_value": 67.59130096435547,
+            "predicted_force_value": 63.51478576660156,
+            "absolute_error": 4.076515197753906,
+            "squared_error": 16.61797615751857,
+            "true_force_mvic_pct": 482.7950068882534,
+            "predicted_force_mvic_pct": 453.6770411900112,
+            "absolute_error_mvic_pct": 29.117965698242188
+        },
+        {
+            "segment_index": 275,
+            "true_force_value": 67.27801513671875,
+            "predicted_force_value": 63.68269348144531,
+            "absolute_error": 3.5953216552734375,
+            "squared_error": 12.92633780487813,
+            "true_force_mvic_pct": 480.5572509765625,
+            "predicted_force_mvic_pct": 454.8763820103237,
+            "absolute_error_mvic_pct": 25.68086896623884
+        },
+        {
+            "segment_index": 276,
+            "true_force_value": 67.84783172607422,
+            "predicted_force_value": 43.73148727416992,
+            "absolute_error": 24.116344451904297,
+            "squared_error": 581.5980697228952,
+            "true_force_mvic_pct": 484.6273694719587,
+            "predicted_force_mvic_pct": 312.3677662440709,
+            "absolute_error_mvic_pct": 172.25960322788782
+        },
+        {
+            "segment_index": 277,
+            "true_force_value": 68.64214324951172,
+            "predicted_force_value": 52.32189178466797,
+            "absolute_error": 16.32025146484375,
+            "squared_error": 266.35060787573457,
+            "true_force_mvic_pct": 490.301023210798,
+            "predicted_force_mvic_pct": 373.72779846191406,
+            "absolute_error_mvic_pct": 116.57322474888392
+        },
+        {
+            "segment_index": 278,
+            "true_force_value": 69.22001647949219,
+            "predicted_force_value": 57.762779235839844,
+            "absolute_error": 11.457237243652344,
+            "squared_error": 131.26828525733436,
+            "true_force_mvic_pct": 494.42868913922996,
+            "predicted_force_mvic_pct": 412.59128025599887,
+            "absolute_error_mvic_pct": 81.83740888323102
+        },
+        {
+            "segment_index": 279,
+            "true_force_value": 69.20980834960938,
+            "predicted_force_value": 53.53688049316406,
+            "absolute_error": 15.672927856445312,
+            "squared_error": 245.64066759333946,
+            "true_force_mvic_pct": 494.35577392578125,
+            "predicted_force_mvic_pct": 382.40628923688615,
+            "absolute_error_mvic_pct": 111.9494846888951
+        },
+        {
+            "segment_index": 280,
+            "true_force_value": 68.95256042480469,
+            "predicted_force_value": 57.77503204345703,
+            "absolute_error": 11.177528381347656,
+            "squared_error": 124.93714071583236,
+            "true_force_mvic_pct": 492.51828874860496,
+            "predicted_force_mvic_pct": 412.6788003104074,
+            "absolute_error_mvic_pct": 79.83948843819755
+        },
+        {
+            "segment_index": 281,
+            "true_force_value": 69.34353637695312,
+            "predicted_force_value": 51.424461364746094,
+            "absolute_error": 17.91907501220703,
+            "squared_error": 321.0932492931024,
+            "true_force_mvic_pct": 495.31097412109375,
+            "predicted_force_mvic_pct": 367.3175811767578,
+            "absolute_error_mvic_pct": 127.99339294433594
+        },
+        {
+            "segment_index": 282,
+            "true_force_value": 68.61385345458984,
+            "predicted_force_value": 66.10159301757812,
+            "absolute_error": 2.5122604370117188,
+            "squared_error": 6.311452503374312,
+            "true_force_mvic_pct": 490.0989532470703,
+            "predicted_force_mvic_pct": 472.15423583984375,
+            "absolute_error_mvic_pct": 17.944717407226562
+        },
+        {
+            "segment_index": 283,
+            "true_force_value": 68.42105102539062,
+            "predicted_force_value": 54.910911560058594,
+            "absolute_error": 13.510139465332031,
+            "squared_error": 182.52386837272206,
+            "true_force_mvic_pct": 488.7217930385044,
+            "predicted_force_mvic_pct": 392.22079685756137,
+            "absolute_error_mvic_pct": 96.50099618094308
+        },
+        {
+            "segment_index": 284,
+            "true_force_value": 68.44074249267578,
+            "predicted_force_value": 61.145416259765625,
+            "absolute_error": 7.295326232910156,
+            "squared_error": 53.22178484458709,
+            "true_force_mvic_pct": 488.86244637625555,
+            "predicted_force_mvic_pct": 436.7529732840402,
+            "absolute_error_mvic_pct": 52.109473092215396
+        },
+        {
+            "segment_index": 285,
+            "true_force_value": 68.61618041992188,
+            "predicted_force_value": 65.0767822265625,
+            "absolute_error": 3.539398193359375,
+            "squared_error": 12.527339571155608,
+            "true_force_mvic_pct": 490.11557442801336,
+            "predicted_force_mvic_pct": 464.83415876116067,
+            "absolute_error_mvic_pct": 25.28141566685268
+        },
+        {
+            "segment_index": 286,
+            "true_force_value": 68.97941589355469,
+            "predicted_force_value": 53.182701110839844,
+            "absolute_error": 15.796714782714844,
+            "squared_error": 249.53619792644167,
+            "true_force_mvic_pct": 492.7101135253906,
+            "predicted_force_mvic_pct": 379.87643650599887,
+            "absolute_error_mvic_pct": 112.83367701939173
+        },
+        {
+            "segment_index": 287,
+            "true_force_value": 69.3331527709961,
+            "predicted_force_value": 62.10304260253906,
+            "absolute_error": 7.230110168457031,
+            "squared_error": 52.27449304802576,
+            "true_force_mvic_pct": 495.2368055071149,
+            "predicted_force_mvic_pct": 443.59316144670754,
+            "absolute_error_mvic_pct": 51.64364406040737
+        },
+        {
+            "segment_index": 288,
+            "true_force_value": 69.52835845947266,
+            "predicted_force_value": 66.64550018310547,
+            "absolute_error": 2.8828582763671875,
+            "squared_error": 8.310871841618791,
+            "true_force_mvic_pct": 496.63113185337613,
+            "predicted_force_mvic_pct": 476.03928702218195,
+            "absolute_error_mvic_pct": 20.591844831194198
+        },
+        {
+            "segment_index": 289,
+            "true_force_value": 69.00357818603516,
+            "predicted_force_value": 63.73363494873047,
+            "absolute_error": 5.2699432373046875,
+            "squared_error": 27.77230172441341,
+            "true_force_mvic_pct": 492.8827013288226,
+            "predicted_force_mvic_pct": 455.24024963378906,
+            "absolute_error_mvic_pct": 37.64245169503348
+        },
+        {
+            "segment_index": 290,
+            "true_force_value": 69.93895721435547,
+            "predicted_force_value": 58.77821350097656,
+            "absolute_error": 11.160743713378906,
+            "squared_error": 124.56220023572678,
+            "true_force_mvic_pct": 499.56398010253906,
+            "predicted_force_mvic_pct": 419.84438214983254,
+            "absolute_error_mvic_pct": 79.71959795270648
+        },
+        {
+            "segment_index": 291,
+            "true_force_value": 69.28874969482422,
+            "predicted_force_value": 57.12294006347656,
+            "absolute_error": 12.165809631347656,
+            "squared_error": 148.0069239861914,
+            "true_force_mvic_pct": 494.9196406773159,
+            "predicted_force_mvic_pct": 408.021000453404,
+            "absolute_error_mvic_pct": 86.89864022391183
+        },
+        {
+            "segment_index": 292,
+            "true_force_value": 68.65521240234375,
+            "predicted_force_value": 62.914737701416016,
+            "absolute_error": 5.740474700927734,
+            "squared_error": 32.95304979199136,
+            "true_force_mvic_pct": 490.3943743024554,
+            "predicted_force_mvic_pct": 449.39098358154297,
+            "absolute_error_mvic_pct": 41.003390720912385
+        },
+        {
+            "segment_index": 293,
+            "true_force_value": 70.0463638305664,
+            "predicted_force_value": 53.18462371826172,
+            "absolute_error": 16.861740112304688,
+            "squared_error": 284.3182796149049,
+            "true_force_mvic_pct": 500.3311702183315,
+            "predicted_force_mvic_pct": 379.8901694161551,
+            "absolute_error_mvic_pct": 120.44100080217635
+        },
+        {
+            "segment_index": 294,
+            "true_force_value": 70.36215209960938,
+            "predicted_force_value": 56.15532684326172,
+            "absolute_error": 14.206825256347656,
+            "squared_error": 201.83388386439765,
+            "true_force_mvic_pct": 502.5868007114956,
+            "predicted_force_mvic_pct": 401.10947745186945,
+            "absolute_error_mvic_pct": 101.4773232596261
+        },
+        {
+            "segment_index": 295,
+            "true_force_value": 69.37916564941406,
+            "predicted_force_value": 52.9537467956543,
+            "absolute_error": 16.425418853759766,
+            "squared_error": 269.7943845214468,
+            "true_force_mvic_pct": 495.5654689243862,
+            "predicted_force_mvic_pct": 378.24104854038785,
+            "absolute_error_mvic_pct": 117.32442038399833
+        },
+        {
+            "segment_index": 296,
+            "true_force_value": 69.9930191040039,
+            "predicted_force_value": 57.303749084472656,
+            "absolute_error": 12.68927001953125,
+            "squared_error": 161.0175736285746,
+            "true_force_mvic_pct": 499.95013645717074,
+            "predicted_force_mvic_pct": 409.312493460519,
+            "absolute_error_mvic_pct": 90.63764299665179
+        },
+        {
+            "segment_index": 297,
+            "true_force_value": 68.84747314453125,
+            "predicted_force_value": 56.408992767333984,
+            "absolute_error": 12.438480377197266,
+            "squared_error": 154.71579409392143,
+            "true_force_mvic_pct": 491.7676653180804,
+            "predicted_force_mvic_pct": 402.9213769095285,
+            "absolute_error_mvic_pct": 88.8462884085519
+        },
+        {
+            "segment_index": 298,
+            "true_force_value": 69.40924072265625,
+            "predicted_force_value": 55.383792877197266,
+            "absolute_error": 14.025447845458984,
+            "squared_error": 196.71318726569007,
+            "true_force_mvic_pct": 495.78029087611606,
+            "predicted_force_mvic_pct": 395.598520551409,
+            "absolute_error_mvic_pct": 100.18177032470703
+        },
+        {
+            "segment_index": 299,
+            "true_force_value": 69.55316925048828,
+            "predicted_force_value": 50.9332389831543,
+            "absolute_error": 18.619930267333984,
+            "squared_error": 346.7018031603802,
+            "true_force_mvic_pct": 496.808351789202,
+            "predicted_force_mvic_pct": 363.8088498796736,
+            "absolute_error_mvic_pct": 132.99950190952845
+        },
+        {
+            "segment_index": 300,
+            "true_force_value": 68.89842224121094,
+            "predicted_force_value": 62.06122589111328,
+            "absolute_error": 6.837196350097656,
+            "squared_error": 46.74725392978871,
+            "true_force_mvic_pct": 492.131587437221,
+            "predicted_force_mvic_pct": 443.2944706508091,
+            "absolute_error_mvic_pct": 48.83711678641183
+        },
+        {
+            "segment_index": 301,
+            "true_force_value": 69.91496276855469,
+            "predicted_force_value": 58.49715042114258,
+            "absolute_error": 11.41781234741211,
+            "squared_error": 130.36643880071642,
+            "true_force_mvic_pct": 499.39259120396207,
+            "predicted_force_mvic_pct": 417.83678872244695,
+            "absolute_error_mvic_pct": 81.55580248151507
+        },
+        {
+            "segment_index": 302,
+            "true_force_value": 69.85785675048828,
+            "predicted_force_value": 51.376251220703125,
+            "absolute_error": 18.481605529785156,
+            "squared_error": 341.56974295858527,
+            "true_force_mvic_pct": 498.9846910749163,
+            "predicted_force_mvic_pct": 366.9732230050223,
+            "absolute_error_mvic_pct": 132.01146806989397
+        },
+        {
+            "segment_index": 303,
+            "true_force_value": 68.57286071777344,
+            "predicted_force_value": 51.32356262207031,
+            "absolute_error": 17.249298095703125,
+            "squared_error": 297.53828479442745,
+            "true_force_mvic_pct": 489.806147984096,
+            "predicted_force_mvic_pct": 366.5968758719308,
+            "absolute_error_mvic_pct": 123.20927211216517
+        },
+        {
+            "segment_index": 304,
+            "true_force_value": 67.74507904052734,
+            "predicted_force_value": 62.35266876220703,
+            "absolute_error": 5.3924102783203125,
+            "squared_error": 29.07808860973455,
+            "true_force_mvic_pct": 483.8934217180524,
+            "predicted_force_mvic_pct": 445.37620544433594,
+            "absolute_error_mvic_pct": 38.51721627371652
+        },
+        {
+            "segment_index": 305,
+            "true_force_value": 66.60221862792969,
+            "predicted_force_value": 51.257545471191406,
+            "absolute_error": 15.344673156738281,
+            "squared_error": 235.45899428712437,
+            "true_force_mvic_pct": 475.7301330566406,
+            "predicted_force_mvic_pct": 366.12532479422435,
+            "absolute_error_mvic_pct": 109.6048082624163
+        },
+        {
+            "segment_index": 306,
+            "true_force_value": 65.59917449951172,
+            "predicted_force_value": 42.447322845458984,
+            "absolute_error": 23.151851654052734,
+            "squared_error": 536.0082350112643,
+            "true_force_mvic_pct": 468.56553213936945,
+            "predicted_force_mvic_pct": 303.19516318184986,
+            "absolute_error_mvic_pct": 165.37036895751953
+        },
+        {
+            "segment_index": 307,
+            "true_force_value": 65.55482482910156,
+            "predicted_force_value": 47.63036346435547,
+            "absolute_error": 17.924461364746094,
+            "squared_error": 321.2863152162754,
+            "true_force_mvic_pct": 468.2487487792969,
+            "predicted_force_mvic_pct": 340.21688188825334,
+            "absolute_error_mvic_pct": 128.03186689104353
+        },
+        {
+            "segment_index": 308,
+            "true_force_value": 67.45506286621094,
+            "predicted_force_value": 51.399566650390625,
+            "absolute_error": 16.055496215820312,
+            "squared_error": 257.7789587362204,
+            "true_force_mvic_pct": 481.82187761579246,
+            "predicted_force_mvic_pct": 367.1397617885045,
+            "absolute_error_mvic_pct": 114.68211582728796
+        },
+        {
+            "segment_index": 309,
+            "true_force_value": 68.15359497070312,
+            "predicted_force_value": 43.653846740722656,
+            "absolute_error": 24.49974822998047,
+            "squared_error": 600.2376633324311,
+            "true_force_mvic_pct": 486.8113926478794,
+            "predicted_force_mvic_pct": 311.81319100516185,
+            "absolute_error_mvic_pct": 174.99820164271765
+        },
+        {
+            "segment_index": 310,
+            "true_force_value": 68.73344421386719,
+            "predicted_force_value": 41.972877502441406,
+            "absolute_error": 26.76056671142578,
+            "squared_error": 716.1279307166697,
+            "true_force_mvic_pct": 490.9531729561942,
+            "predicted_force_mvic_pct": 299.80626787458147,
+            "absolute_error_mvic_pct": 191.14690508161272
+        },
+        {
+            "segment_index": 311,
+            "true_force_value": 68.93644714355469,
+            "predicted_force_value": 50.94516372680664,
+            "absolute_error": 17.991283416748047,
+            "squared_error": 323.6862789817533,
+            "true_force_mvic_pct": 492.4031938825335,
+            "predicted_force_mvic_pct": 363.89402662004744,
+            "absolute_error_mvic_pct": 128.50916726248605
+        },
+        {
+            "segment_index": 312,
+            "true_force_value": 68.24472045898438,
+            "predicted_force_value": 40.072723388671875,
+            "absolute_error": 28.1719970703125,
+            "squared_error": 793.6614189296961,
+            "true_force_mvic_pct": 487.4622889927456,
+            "predicted_force_mvic_pct": 286.2337384905134,
+            "absolute_error_mvic_pct": 201.22855050223217
+        },
+        {
+            "segment_index": 313,
+            "true_force_value": 67.79627990722656,
+            "predicted_force_value": 41.58072280883789,
+            "absolute_error": 26.215557098388672,
+            "squared_error": 687.2554339788767,
+            "true_force_mvic_pct": 484.25914219447543,
+            "predicted_force_mvic_pct": 297.00516292027066,
+            "absolute_error_mvic_pct": 187.2539792742048
+        },
+        {
+            "segment_index": 314,
+            "true_force_value": 67.99427032470703,
+            "predicted_force_value": 48.90880584716797,
+            "absolute_error": 19.085464477539062,
+            "squared_error": 364.2549543234054,
+            "true_force_mvic_pct": 485.67335946219305,
+            "predicted_force_mvic_pct": 349.3486131940569,
+            "absolute_error_mvic_pct": 136.32474626813615
+        },
+        {
+            "segment_index": 315,
+            "true_force_value": 68.36036682128906,
+            "predicted_force_value": 59.714996337890625,
+            "absolute_error": 8.645370483398438,
+            "squared_error": 74.74243079521693,
+            "true_force_mvic_pct": 488.288334437779,
+            "predicted_force_mvic_pct": 426.5356881277902,
+            "absolute_error_mvic_pct": 61.75264630998883
+        },
+        {
+            "segment_index": 316,
+            "true_force_value": 68.59756469726562,
+            "predicted_force_value": 51.34253692626953,
+            "absolute_error": 17.255027770996094,
+            "squared_error": 297.7359833778464,
+            "true_force_mvic_pct": 489.98260498046875,
+            "predicted_force_mvic_pct": 366.73240661621094,
+            "absolute_error_mvic_pct": 123.25019836425781
+        },
+        {
+            "segment_index": 317,
+            "true_force_value": 77.69620513916016,
+            "predicted_force_value": 68.73225402832031,
+            "absolute_error": 8.963951110839844,
+            "squared_error": 80.35241951752687,
+            "true_force_mvic_pct": 554.972893851144,
+            "predicted_force_mvic_pct": 490.9446716308594,
+            "absolute_error_mvic_pct": 64.0282222202846
+        },
+        {
+            "segment_index": 318,
+            "true_force_value": 78.86524200439453,
+            "predicted_force_value": 71.78260803222656,
+            "absolute_error": 7.082633972167969,
+            "squared_error": 50.16370398370782,
+            "true_force_mvic_pct": 563.3231571742466,
+            "predicted_force_mvic_pct": 512.732914515904,
+            "absolute_error_mvic_pct": 50.59024265834263
+        },
+        {
+            "segment_index": 319,
+            "true_force_value": 79.8600082397461,
+            "predicted_force_value": 72.93145751953125,
+            "absolute_error": 6.928550720214844,
+            "squared_error": 48.00481508258963,
+            "true_force_mvic_pct": 570.4286302839007,
+            "predicted_force_mvic_pct": 520.938982282366,
+            "absolute_error_mvic_pct": 49.4896480015346
+        },
+        {
+            "segment_index": 320,
+            "true_force_value": 78.62710571289062,
+            "predicted_force_value": 65.58515930175781,
+            "absolute_error": 13.041946411132812,
+            "squared_error": 170.09236619086005,
+            "true_force_mvic_pct": 561.6221836635044,
+            "predicted_force_mvic_pct": 468.4654235839844,
+            "absolute_error_mvic_pct": 93.15676007952008
+        },
+        {
+            "segment_index": 321,
+            "true_force_value": 79.2228775024414,
+            "predicted_force_value": 67.87152099609375,
+            "absolute_error": 11.351356506347656,
+            "squared_error": 128.85329453420127,
+            "true_force_mvic_pct": 565.8776964460101,
+            "predicted_force_mvic_pct": 484.79657854352683,
+            "absolute_error_mvic_pct": 81.08111790248326
+        },
+        {
+            "segment_index": 322,
+            "true_force_value": 81.50626373291016,
+            "predicted_force_value": 68.9148178100586,
+            "absolute_error": 12.591445922851562,
+            "squared_error": 158.54451042809524,
+            "true_force_mvic_pct": 582.1875980922154,
+            "predicted_force_mvic_pct": 492.2486986432757,
+            "absolute_error_mvic_pct": 89.93889944893974
+        },
+        {
+            "segment_index": 323,
+            "true_force_value": 79.47261047363281,
+            "predicted_force_value": 62.530609130859375,
+            "absolute_error": 16.942001342773438,
+            "squared_error": 287.03140949853696,
+            "true_force_mvic_pct": 567.6615033830915,
+            "predicted_force_mvic_pct": 446.6472080775669,
+            "absolute_error_mvic_pct": 121.01429530552454
+        },
+        {
+            "segment_index": 324,
+            "true_force_value": 77.5624771118164,
+            "predicted_force_value": 68.04307556152344,
+            "absolute_error": 9.519401550292969,
+            "squared_error": 90.61900587572018,
+            "true_force_mvic_pct": 554.0176936558315,
+            "predicted_force_mvic_pct": 486.021968296596,
+            "absolute_error_mvic_pct": 67.9957253592355
+        },
+        {
+            "segment_index": 325,
+            "true_force_value": 78.50321960449219,
+            "predicted_force_value": 61.11122512817383,
+            "absolute_error": 17.39199447631836,
+            "squared_error": 302.4814718642883,
+            "true_force_mvic_pct": 560.73728288923,
+            "predicted_force_mvic_pct": 436.50875091552734,
+            "absolute_error_mvic_pct": 124.22853197370256
+        },
+        {
+            "segment_index": 326,
+            "true_force_value": 79.28750610351562,
+            "predicted_force_value": 65.12513732910156,
+            "absolute_error": 14.162368774414062,
+            "squared_error": 200.57268930249847,
+            "true_force_mvic_pct": 566.3393293108259,
+            "predicted_force_mvic_pct": 465.17955235072543,
+            "absolute_error_mvic_pct": 101.15977696010046
+        },
+        {
+            "segment_index": 327,
+            "true_force_value": 78.82295227050781,
+            "predicted_force_value": 68.13308715820312,
+            "absolute_error": 10.689865112304688,
+            "squared_error": 114.27321611926891,
+            "true_force_mvic_pct": 563.0210876464844,
+            "predicted_force_mvic_pct": 486.6649082728794,
+            "absolute_error_mvic_pct": 76.35617937360492
+        },
+        {
+            "segment_index": 328,
+            "true_force_value": 79.05549621582031,
+            "predicted_force_value": 58.45356369018555,
+            "absolute_error": 20.601932525634766,
+            "squared_error": 424.4396237908077,
+            "true_force_mvic_pct": 564.6821158272879,
+            "predicted_force_mvic_pct": 417.5254549298968,
+            "absolute_error_mvic_pct": 147.1566608973912
+        },
+        {
+            "segment_index": 329,
+            "true_force_value": 79.86412811279297,
+            "predicted_force_value": 68.15254211425781,
+            "absolute_error": 11.711585998535156,
+            "squared_error": 137.1612466010847,
+            "true_force_mvic_pct": 570.4580579485212,
+            "predicted_force_mvic_pct": 486.8038722446987,
+            "absolute_error_mvic_pct": 83.65418570382255
+        },
+        {
+            "segment_index": 330,
+            "true_force_value": 78.28392028808594,
+            "predicted_force_value": 70.88623046875,
+            "absolute_error": 7.3976898193359375,
+            "squared_error": 54.72581466310657,
+            "true_force_mvic_pct": 559.1708592006138,
+            "predicted_force_mvic_pct": 506.33021763392856,
+            "absolute_error_mvic_pct": 52.840641566685264
+        },
+        {
+            "segment_index": 331,
+            "true_force_value": 77.61869049072266,
+            "predicted_force_value": 69.91574096679688,
+            "absolute_error": 7.702949523925781,
+            "squared_error": 59.33543136814842,
+            "true_force_mvic_pct": 554.4192177908761,
+            "predicted_force_mvic_pct": 499.3981497628348,
+            "absolute_error_mvic_pct": 55.0210680280413
+        },
+        {
+            "segment_index": 332,
+            "true_force_value": 78.40780639648438,
+            "predicted_force_value": 60.358970642089844,
+            "absolute_error": 18.04883575439453,
+            "squared_error": 325.7604720891104,
+            "true_force_mvic_pct": 560.0557599748884,
+            "predicted_force_mvic_pct": 431.135504586356,
+            "absolute_error_mvic_pct": 128.92025538853235
+        },
+        {
+            "segment_index": 333,
+            "true_force_value": 78.7663803100586,
+            "predicted_force_value": 71.08455657958984,
+            "absolute_error": 7.68182373046875,
+            "squared_error": 59.01041582599282,
+            "true_force_mvic_pct": 562.6170022147043,
+            "predicted_force_mvic_pct": 507.746832711356,
+            "absolute_error_mvic_pct": 54.87016950334821
+        },
+        {
+            "segment_index": 334,
+            "true_force_value": 79.7309341430664,
+            "predicted_force_value": 68.72142028808594,
+            "absolute_error": 11.009513854980469,
+            "squared_error": 121.2093953230069,
+            "true_force_mvic_pct": 569.5066724504743,
+            "predicted_force_mvic_pct": 490.86728777204246,
+            "absolute_error_mvic_pct": 78.63938467843192
+        },
+        {
+            "segment_index": 335,
+            "true_force_value": 79.91317749023438,
+            "predicted_force_value": 70.43524932861328,
+            "absolute_error": 9.477928161621094,
+            "squared_error": 89.8311222368502,
+            "true_force_mvic_pct": 570.8084106445312,
+            "predicted_force_mvic_pct": 503.1089237758091,
+            "absolute_error_mvic_pct": 67.6994868687221
+        },
+        {
+            "segment_index": 336,
+            "true_force_value": 79.36358642578125,
+            "predicted_force_value": 70.03351593017578,
+            "absolute_error": 9.330070495605469,
+            "squared_error": 87.05021545296768,
+            "true_force_mvic_pct": 566.8827601841518,
+            "predicted_force_mvic_pct": 500.23939950125555,
+            "absolute_error_mvic_pct": 66.6433606828962
+        },
+        {
+            "segment_index": 337,
+            "true_force_value": 78.42462921142578,
+            "predicted_force_value": 67.30921936035156,
+            "absolute_error": 11.115409851074219,
+            "squared_error": 123.55233615735779,
+            "true_force_mvic_pct": 560.1759229387555,
+            "predicted_force_mvic_pct": 480.78013828822543,
+            "absolute_error_mvic_pct": 79.39578465053013
+        },
+        {
+            "segment_index": 338,
+            "true_force_value": 76.8875732421875,
+            "predicted_force_value": 5.20176887512207,
+            "absolute_error": 71.68580627441406,
+            "squared_error": 5138.854821212823,
+            "true_force_mvic_pct": 549.1969517299107,
+            "predicted_force_mvic_pct": 37.155491965157644,
+            "absolute_error_mvic_pct": 512.0414733886719
+        },
+        {
+            "segment_index": 339,
+            "true_force_value": 80.80357360839844,
+            "predicted_force_value": 5.500813007354736,
+            "absolute_error": 75.3027572631836,
+            "squared_error": 5670.5052514379495,
+            "true_force_mvic_pct": 577.1683829171317,
+            "predicted_force_mvic_pct": 39.291521481105256,
+            "absolute_error_mvic_pct": 537.8768375941685
+        },
+        {
+            "segment_index": 340,
+            "true_force_value": 79.50752258300781,
+            "predicted_force_value": 68.85460662841797,
+            "absolute_error": 10.652915954589844,
+            "squared_error": 113.48461833555484,
+            "true_force_mvic_pct": 567.9108755929129,
+            "predicted_force_mvic_pct": 491.81861877441406,
+            "absolute_error_mvic_pct": 76.09225681849888
+        },
+        {
+            "segment_index": 341,
+            "true_force_value": 78.08058166503906,
+            "predicted_force_value": 70.35163116455078,
+            "absolute_error": 7.728950500488281,
+            "squared_error": 59.73667583899805,
+            "true_force_mvic_pct": 557.7184404645648,
+            "predicted_force_mvic_pct": 502.5116511753628,
+            "absolute_error_mvic_pct": 55.20678928920201
+        },
+        {
+            "segment_index": 342,
+            "true_force_value": 76.5010757446289,
+            "predicted_force_value": 64.97564697265625,
+            "absolute_error": 11.525428771972656,
+            "squared_error": 132.83550837781513,
+            "true_force_mvic_pct": 546.4362553187779,
+            "predicted_force_mvic_pct": 464.11176409040183,
+            "absolute_error_mvic_pct": 82.32449122837612
+        },
+        {
+            "segment_index": 343,
+            "true_force_value": 76.47774505615234,
+            "predicted_force_value": 68.35027313232422,
+            "absolute_error": 8.127471923828125,
+            "squared_error": 66.05579987261444,
+            "true_force_mvic_pct": 546.2696075439453,
+            "predicted_force_mvic_pct": 488.2162366594587,
+            "absolute_error_mvic_pct": 58.05337088448661
+        },
+        {
+            "segment_index": 344,
+            "true_force_value": 77.05779266357422,
+            "predicted_force_value": 70.48387908935547,
+            "absolute_error": 6.57391357421875,
+            "squared_error": 43.21633968129754,
+            "true_force_mvic_pct": 550.4128047398159,
+            "predicted_force_mvic_pct": 503.45627920968195,
+            "absolute_error_mvic_pct": 46.95652553013393
+        },
+        {
+            "segment_index": 345,
+            "true_force_value": 77.56964111328125,
+            "predicted_force_value": 71.52439880371094,
+            "absolute_error": 6.0452423095703125,
+            "squared_error": 36.544954581419006,
+            "true_force_mvic_pct": 554.068865094866,
+            "predicted_force_mvic_pct": 510.88856288364957,
+            "absolute_error_mvic_pct": 43.18030221121652
+        },
+        {
+            "segment_index": 346,
+            "true_force_value": 75.63032531738281,
+            "predicted_force_value": 67.01414489746094,
+            "absolute_error": 8.616180419921875,
+            "squared_error": 74.2385650286451,
+            "true_force_mvic_pct": 540.2166094098773,
+            "predicted_force_mvic_pct": 478.67246355329246,
+            "absolute_error_mvic_pct": 61.54414585658482
+        },
+        {
+            "segment_index": 347,
+            "true_force_value": 79.59830474853516,
+            "predicted_force_value": 58.489097595214844,
+            "absolute_error": 21.109207153320312,
+            "squared_error": 445.59862664178945,
+            "true_force_mvic_pct": 568.559319632394,
+            "predicted_force_mvic_pct": 417.77926853724887,
+            "absolute_error_mvic_pct": 150.7800510951451
+        },
+        {
+            "segment_index": 348,
+            "true_force_value": 81.30982208251953,
+            "predicted_force_value": 63.4102897644043,
+            "absolute_error": 17.899532318115234,
+            "squared_error": 320.39325720725174,
+            "true_force_mvic_pct": 580.784443446568,
+            "predicted_force_mvic_pct": 452.9306411743164,
+            "absolute_error_mvic_pct": 127.85380227225167
+        },
+        {
+            "segment_index": 349,
+            "true_force_value": 80.07681274414062,
+            "predicted_force_value": 50.86602020263672,
+            "absolute_error": 29.210792541503906,
+            "squared_error": 853.2704009027802,
+            "true_force_mvic_pct": 571.9772338867188,
+            "predicted_force_mvic_pct": 363.3287157331194,
+            "absolute_error_mvic_pct": 208.64851815359935
+        },
+        {
+            "segment_index": 350,
+            "true_force_value": 80.17267608642578,
+            "predicted_force_value": 63.81900405883789,
+            "absolute_error": 16.35367202758789,
+            "squared_error": 267.44258878591063,
+            "true_force_mvic_pct": 572.6619720458984,
+            "predicted_force_mvic_pct": 455.8500289916992,
+            "absolute_error_mvic_pct": 116.81194305419922
+        },
+        {
+            "segment_index": 351,
+            "true_force_value": 82.01915740966797,
+            "predicted_force_value": 64.46395874023438,
+            "absolute_error": 17.555198669433594,
+            "squared_error": 308.185000323283,
+            "true_force_mvic_pct": 585.8511243547712,
+            "predicted_force_mvic_pct": 460.45684814453125,
+            "absolute_error_mvic_pct": 125.39427621023995
+        },
+        {
+            "segment_index": 352,
+            "true_force_value": 80.96302795410156,
+            "predicted_force_value": 71.04145812988281,
+            "absolute_error": 9.92156982421875,
+            "squared_error": 98.43754777684808,
+            "true_force_mvic_pct": 578.3073425292969,
+            "predicted_force_mvic_pct": 507.43898664202004,
+            "absolute_error_mvic_pct": 70.86835588727679
+        },
+        {
+            "segment_index": 353,
+            "true_force_value": 80.10482025146484,
+            "predicted_force_value": 56.679161071777344,
+            "absolute_error": 23.4256591796875,
+            "squared_error": 548.7615080028772,
+            "true_force_mvic_pct": 572.1772875104632,
+            "predicted_force_mvic_pct": 404.8511505126953,
+            "absolute_error_mvic_pct": 167.32613699776786
+        },
+        {
+            "segment_index": 354,
+            "true_force_value": 79.4831314086914,
+            "predicted_force_value": 65.08860778808594,
+            "absolute_error": 14.394523620605469,
+            "squared_error": 207.20231026416877,
+            "true_force_mvic_pct": 567.7366529192243,
+            "predicted_force_mvic_pct": 464.9186270577567,
+            "absolute_error_mvic_pct": 102.81802586146765
+        },
+        {
+            "segment_index": 355,
+            "true_force_value": 79.36214447021484,
+            "predicted_force_value": 56.74201965332031,
+            "absolute_error": 22.62012481689453,
+            "squared_error": 511.67004673188785,
+            "true_force_mvic_pct": 566.8724605015346,
+            "predicted_force_mvic_pct": 405.3001403808594,
+            "absolute_error_mvic_pct": 161.57232012067522
+        },
+        {
+            "segment_index": 356,
+            "true_force_value": 79.44239044189453,
+            "predicted_force_value": 66.91459655761719,
+            "absolute_error": 12.527793884277344,
+            "squared_error": 156.94561960693682,
+            "true_force_mvic_pct": 567.4456460135324,
+            "predicted_force_mvic_pct": 477.96140398297996,
+            "absolute_error_mvic_pct": 89.48424203055245
+        },
+        {
+            "segment_index": 357,
+            "true_force_value": 80.1134262084961,
+            "predicted_force_value": 64.84062957763672,
+            "absolute_error": 15.272796630859375,
+            "squared_error": 233.25831692758948,
+            "true_force_mvic_pct": 572.2387586321149,
+            "predicted_force_mvic_pct": 463.14735412597656,
+            "absolute_error_mvic_pct": 109.09140450613839
+        },
+        {
+            "segment_index": 358,
+            "true_force_value": 80.18868255615234,
+            "predicted_force_value": 59.16954803466797,
+            "absolute_error": 21.019134521484375,
+            "squared_error": 441.8040160322562,
+            "true_force_mvic_pct": 572.7763039725168,
+            "predicted_force_mvic_pct": 422.63962881905695,
+            "absolute_error_mvic_pct": 150.13667515345983
+        },
+        {
+            "segment_index": 359,
+            "true_force_value": 79.13265228271484,
+            "predicted_force_value": 48.31178283691406,
+            "absolute_error": 30.82086944580078,
+            "squared_error": 949.9259933950962,
+            "true_force_mvic_pct": 565.2332305908203,
+            "predicted_force_mvic_pct": 345.0841631208147,
+            "absolute_error_mvic_pct": 220.1490674700056
+        },
+        {
+            "segment_index": 360,
+            "true_force_value": 79.08341979980469,
+            "predicted_force_value": 60.4732551574707,
+            "absolute_error": 18.610164642333984,
+            "squared_error": 346.338228014778,
+            "true_force_mvic_pct": 564.881569998605,
+            "predicted_force_mvic_pct": 431.95182255336215,
+            "absolute_error_mvic_pct": 132.92974744524275
+        },
+        {
+            "segment_index": 361,
+            "true_force_value": 79.89482879638672,
+            "predicted_force_value": 69.63597106933594,
+            "absolute_error": 10.258857727050781,
+            "squared_error": 105.24416186386952,
+            "true_force_mvic_pct": 570.6773485456195,
+            "predicted_force_mvic_pct": 497.39979335239957,
+            "absolute_error_mvic_pct": 73.27755519321987
+        },
+        {
+            "segment_index": 362,
+            "true_force_value": 80.44325256347656,
+            "predicted_force_value": 59.84445571899414,
+            "absolute_error": 20.598796844482422,
+            "squared_error": 424.310431440259,
+            "true_force_mvic_pct": 574.5946611676898,
+            "predicted_force_mvic_pct": 427.4603979928153,
+            "absolute_error_mvic_pct": 147.13426317487443
+        },
+        {
+            "segment_index": 363,
+            "true_force_value": 80.13388061523438,
+            "predicted_force_value": 54.577877044677734,
+            "absolute_error": 25.55600357055664,
+            "squared_error": 653.1093184983038,
+            "true_force_mvic_pct": 572.3848615373884,
+            "predicted_force_mvic_pct": 389.84197889055525,
+            "absolute_error_mvic_pct": 182.54288264683314
+        },
+        {
+            "segment_index": 364,
+            "true_force_value": 78.818115234375,
+            "predicted_force_value": 68.95899200439453,
+            "absolute_error": 9.859123229980469,
+            "squared_error": 97.20231086394051,
+            "true_force_mvic_pct": 562.9865373883929,
+            "predicted_force_mvic_pct": 492.56422860281805,
+            "absolute_error_mvic_pct": 70.42230878557477
+        },
+        {
+            "segment_index": 365,
+            "true_force_value": 79.23773956298828,
+            "predicted_force_value": 70.94953918457031,
+            "absolute_error": 8.288200378417969,
+            "squared_error": 68.69426551280776,
+            "true_force_mvic_pct": 565.9838540213449,
+            "predicted_force_mvic_pct": 506.7824227469308,
+            "absolute_error_mvic_pct": 59.20143127441406
+        },
+        {
+            "segment_index": 366,
+            "true_force_value": 78.87391662597656,
+            "predicted_force_value": 65.78042602539062,
+            "absolute_error": 13.093490600585938,
+            "squared_error": 171.4394961076323,
+            "true_force_mvic_pct": 563.3851187569754,
+            "predicted_force_mvic_pct": 469.8601858956473,
+            "absolute_error_mvic_pct": 93.52493286132812
+        },
+        {
+            "segment_index": 367,
+            "true_force_value": 79.08843231201172,
+            "predicted_force_value": 59.88880920410156,
+            "absolute_error": 19.199623107910156,
+            "squared_error": 368.62552748579765,
+            "true_force_mvic_pct": 564.9173736572266,
+            "predicted_force_mvic_pct": 427.77720860072543,
+            "absolute_error_mvic_pct": 137.1401650565011
+        },
+        {
+            "segment_index": 368,
+            "true_force_value": 77.8460464477539,
+            "predicted_force_value": 64.73786163330078,
+            "absolute_error": 13.108184814453125,
+            "squared_error": 171.8245091298595,
+            "true_force_mvic_pct": 556.0431889125279,
+            "predicted_force_mvic_pct": 462.4132973807199,
+            "absolute_error_mvic_pct": 93.62989153180804
+        },
+        {
+            "segment_index": 369,
+            "true_force_value": 78.47171783447266,
+            "predicted_force_value": 54.467506408691406,
+            "absolute_error": 24.00421142578125,
+            "squared_error": 576.2021661736071,
+            "true_force_mvic_pct": 560.5122702462332,
+            "predicted_force_mvic_pct": 389.05361720493863,
+            "absolute_error_mvic_pct": 171.45865304129464
+        },
+        {
+            "segment_index": 370,
+            "true_force_value": 79.91389465332031,
+            "predicted_force_value": 58.46303176879883,
+            "absolute_error": 21.450862884521484,
+            "squared_error": 460.1395184905414,
+            "true_force_mvic_pct": 570.8135332380023,
+            "predicted_force_mvic_pct": 417.5930840628488,
+            "absolute_error_mvic_pct": 153.22044917515345
+        },
+        {
+            "segment_index": 371,
+            "true_force_value": 79.88095092773438,
+            "predicted_force_value": 63.74647903442383,
+            "absolute_error": 16.134471893310547,
+            "squared_error": 260.321183276028,
+            "true_force_mvic_pct": 570.5782209123884,
+            "predicted_force_mvic_pct": 455.33199310302734,
+            "absolute_error_mvic_pct": 115.24622780936105
+        },
+        {
+            "segment_index": 372,
+            "true_force_value": 80.92266082763672,
+            "predicted_force_value": 64.01278686523438,
+            "absolute_error": 16.909873962402344,
+            "squared_error": 285.94383742433274,
+            "true_force_mvic_pct": 578.0190059116909,
+            "predicted_force_mvic_pct": 457.23419189453125,
+            "absolute_error_mvic_pct": 120.78481401715959
+        },
+        {
+            "segment_index": 373,
+            "true_force_value": 80.008056640625,
+            "predicted_force_value": 62.707801818847656,
+            "absolute_error": 17.300254821777344,
+            "squared_error": 299.29881689843023,
+            "true_force_mvic_pct": 571.4861188616071,
+            "predicted_force_mvic_pct": 447.91287013462613,
+            "absolute_error_mvic_pct": 123.57324872698103
+        },
+        {
+            "segment_index": 374,
+            "true_force_value": 79.0472640991211,
+            "predicted_force_value": 69.34245300292969,
+            "absolute_error": 9.704811096191406,
+            "squared_error": 94.18335841275984,
+            "true_force_mvic_pct": 564.6233149937221,
+            "predicted_force_mvic_pct": 495.30323573521207,
+            "absolute_error_mvic_pct": 69.32007925851005
+        }
+    ],
+    "training_time_seconds": 3163.5576634407043,
+    "num_epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.03,
+    "dropout_rate": 0.3,
+    "segment_length": 400,
+    "overlap": 0,
+    "best_training_metrics": {
+        "best_train_mae": 5.495591728554832,
+        "best_train_mae_epoch": 98,
+        "best_train_loss": 84.82403568956587,
+        "best_train_loss_epoch": 91,
+        "final_train_mae": 5.693566108412213,
+        "final_train_loss": 86.93213527467516
+    },
+    "reduce_channels": 3,
+    "use_spatial_reduction": true,
+    "input_channels": 6,
+    "total_parameters": 13880002,
+    "fine_tune_epochs": 20,
+    "fine_tune_learning_rate": 0.00025
+}

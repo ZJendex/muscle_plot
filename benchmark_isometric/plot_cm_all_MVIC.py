@@ -6,7 +6,7 @@ import os
 
 # ==================== 配置区域 ====================
 
-INPUT_DIR = "evaluation_result_isometric_force\\radar_IQ_10_20_corrected"  # 当前目录，可以修改为其他路径，例如: "./server" 或 "D:/path/to/json/files"
+INPUT_DIR = "benchmark_isometric\\distance"  # 当前目录，可以修改为其他路径，例如: "./server" 或 "D:/path/to/json/files"
 
 # get the dir from the input_dir
 OUTPUT_DIR = os.path.join(os.path.dirname(INPUT_DIR), "output")
@@ -927,6 +927,209 @@ if __name__ == "__main__":
         print(f"Saved RMSE bar plot (kg) to: {rmse_bar_kg_filename}")
         plt.close()
     
+    # ==================== Create Distance Benchmark Bar Plot (RMSE) ====================
+    print("\nCreating Distance Benchmark bar plot for RMSE...")
+    
+    # Extract distance information from filenames and group by distance
+    distance_groups = {}
+    for result in all_results:
+        filename = result['subject']
+        
+        # Try to extract distance from filename (e.g., "40cm", "80cm", "120cm")
+        distance = None
+        if '40cm' in filename.lower() or '40_cm' in filename.lower() or '_40' in filename:
+            distance = '40cm'
+        elif '80cm' in filename.lower() or '80_cm' in filename.lower() or '_80' in filename:
+            distance = '80cm'
+        elif '120cm' in filename.lower() or '120_cm' in filename.lower() or '_120' in filename:
+            distance = '120cm'
+        
+        if distance:
+            if distance not in distance_groups:
+                distance_groups[distance] = []
+            distance_groups[distance].append(result)
+            print(f"  {filename} -> {distance}")
+    
+    if distance_groups:
+        # Define distance order
+        distance_order = ['40cm', '80cm', '120cm']
+        distances = [d for d in distance_order if d in distance_groups]
+        
+        # Calculate mean RMSE for each distance (MVIC %)
+        rmse_mvic_by_distance = []
+        rmse_mvic_std_by_distance = []
+        
+        for dist in distances:
+            results_at_dist = distance_groups[dist]
+            rmse_values = [r['rmse_mvic_pct'] for r in results_at_dist]
+            
+            # If only one file, calculate std from the standard error of predictions
+            if len(rmse_values) == 1:
+                # Use the individual errors to calculate standard error
+                result = results_at_dist[0]
+                errors = result['errors_mvic_pct']
+                # Calculate standard error of the mean (SEM)
+                sem = np.std(errors, ddof=1) / np.sqrt(len(errors))
+                # Use SEM * sqrt(n_samples) to get a measure of variability
+                # Or use standard deviation of errors / sqrt(2) as error estimate for RMSE
+                rmse_std = np.std(errors, ddof=1) / np.sqrt(2)
+                rmse_mvic_std_by_distance.append(rmse_std)
+            else:
+                # Multiple files: use std across files
+                rmse_mvic_std_by_distance.append(np.std(rmse_values, ddof=1))
+            
+            rmse_mvic_by_distance.append(np.mean(rmse_values))
+            print(f"  {dist}: {len(results_at_dist)} file(s), RMSE = {np.mean(rmse_values):.4f} ± {rmse_mvic_std_by_distance[-1]:.4f} %MVIC")
+        
+        # Save bar plot data to CSV
+        import csv
+        bar_data_filename = os.path.join(OUTPUT_DIR, f"distance_benchmark_data{config_suffix}.csv")
+        with open(bar_data_filename, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['Distance', 'RMSE_MVIC_pct', 'STD_MVIC_pct', 'Num_Files'])
+            for i, dist in enumerate(distances):
+                writer.writerow([dist, f"{rmse_mvic_by_distance[i]:.4f}", 
+                               f"{rmse_mvic_std_by_distance[i]:.4f}", 
+                               len(distance_groups[dist])])
+        print(f"Saved bar plot data to: {bar_data_filename}")
+        
+        # Create RMSE bar plot for MVIC % - Professional Style
+        fig, ax = plt.subplots(figsize=(8, 6))
+        
+        x_pos = np.arange(len(distances))
+        
+        # Professional color palette - softer blues/grays
+        colors = ['#4472C4', '#ED7D31', '#A5A5A5']  # Professional blue, orange, gray
+        
+        bars = ax.bar(x_pos, rmse_mvic_by_distance, yerr=rmse_mvic_std_by_distance,
+                      capsize=5, alpha=0.8, color=colors[:len(distances)],
+                      edgecolor='black', linewidth=1.0,
+                      error_kw={'linewidth': 1.5, 'ecolor': 'black', 'capthick': 1.5})
+        
+        # Add value labels on top of bars - cleaner style
+        for i, (rmse, std) in enumerate(zip(rmse_mvic_by_distance, rmse_mvic_std_by_distance)):
+            ax.text(i, rmse + std + 0.3, f'{rmse:.1f}%',
+                   ha='center', va='bottom', fontsize=11)
+        
+        # Formatting - clean and professional
+        ax.set_xlabel('Distance (cm)', fontsize=13)
+        ax.set_ylabel('RMSE (%MVIC)', fontsize=13)
+        ax.set_title('GigaFlex Distance Benchmark', fontsize=14, pad=15)
+        
+        ax.set_xticks(x_pos)
+        ax.set_xticklabels([d.replace('cm', '') for d in distances], fontsize=12)
+        ax.tick_params(axis='both', which='major', labelsize=11)
+        
+        # Clean grid
+        ax.grid(True, alpha=0.3, linestyle='--', axis='y', linewidth=0.5)
+        ax.set_axisbelow(True)
+        
+        # Set y-axis to start at 0 for better visual comparison
+        ax.set_ylim(bottom=0)
+        
+        # Remove top and right spines for cleaner look
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        
+        plt.tight_layout()
+        distance_rmse_mvic_filename = os.path.join(OUTPUT_DIR, f"distance_benchmark_rmse_mvic{config_suffix}.png")
+        plt.savefig(distance_rmse_mvic_filename, dpi=300, bbox_inches='tight', facecolor='white')
+        print(f"Saved Distance Benchmark RMSE plot (MVIC %) to: {distance_rmse_mvic_filename}")
+        plt.close()
+        
+        # Create RMSE bar plot for kg (if available)
+        if results_with_mvic:
+            # Calculate mean RMSE for each distance (kg)
+            rmse_kg_by_distance = []
+            rmse_kg_std_by_distance = []
+            
+            for dist in distances:
+                results_at_dist = [r for r in distance_groups[dist] if r['rmse'] is not None]
+                if results_at_dist:
+                    rmse_values_kg = [r['rmse'] for r in results_at_dist]
+                    
+                    # If only one file, calculate std from the standard error of predictions
+                    if len(rmse_values_kg) == 1:
+                        # Use the individual errors to calculate standard error
+                        result = results_at_dist[0]
+                        errors = result['errors']
+                        # Use standard deviation of errors / sqrt(2) as error estimate for RMSE
+                        rmse_std = np.std(errors, ddof=1) / np.sqrt(2)
+                        rmse_kg_std_by_distance.append(rmse_std)
+                    else:
+                        # Multiple files: use std across files
+                        rmse_kg_std_by_distance.append(np.std(rmse_values_kg, ddof=1))
+                    
+                    rmse_kg_by_distance.append(np.mean(rmse_values_kg))
+                    print(f"  {dist}: {len(results_at_dist)} file(s), RMSE = {np.mean(rmse_values_kg):.4f} ± {rmse_kg_std_by_distance[-1]:.4f} kg")
+                else:
+                    rmse_kg_by_distance.append(0.0)
+                    rmse_kg_std_by_distance.append(0.0)
+            
+            # Add kg data to the same CSV file
+            with open(bar_data_filename, 'a', newline='', encoding='utf-8') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow([])  # Empty row
+                writer.writerow(['Distance', 'RMSE_kg', 'STD_kg', 'Num_Files'])
+                for i, dist in enumerate(distances):
+                    writer.writerow([dist, f"{rmse_kg_by_distance[i]:.4f}", 
+                                   f"{rmse_kg_std_by_distance[i]:.4f}", 
+                                   len([r for r in distance_groups[dist] if r['rmse'] is not None])])
+            
+            fig, ax = plt.subplots(figsize=(8, 6))
+            
+            x_pos = np.arange(len(distances))
+            
+            # Professional color palette - softer blues/grays
+            colors = ['#4472C4', '#ED7D31', '#A5A5A5']  # Professional blue, orange, gray
+            
+            bars = ax.bar(x_pos, rmse_kg_by_distance, yerr=rmse_kg_std_by_distance,
+                          capsize=5, alpha=0.8, color=colors[:len(distances)],
+                          edgecolor='black', linewidth=1.0,
+                          error_kw={'linewidth': 1.5, 'ecolor': 'black', 'capthick': 1.5})
+            
+            # Add value labels on top of bars - cleaner style
+            for i, (rmse, std) in enumerate(zip(rmse_kg_by_distance, rmse_kg_std_by_distance)):
+                ax.text(i, rmse + std + 0.1, f'{rmse:.1f}',
+                       ha='center', va='bottom', fontsize=11)
+            
+            # Formatting - clean and professional
+            ax.set_xlabel('Distance (cm)', fontsize=13)
+            ax.set_ylabel('RMSE (kg)', fontsize=13)
+            ax.set_title('GigaFlex Distance Benchmark', fontsize=14, pad=15)
+            
+            ax.set_xticks(x_pos)
+            ax.set_xticklabels([d.replace('cm', '') for d in distances], fontsize=12)
+            ax.tick_params(axis='both', which='major', labelsize=11)
+            
+            # Clean grid
+            ax.grid(True, alpha=0.3, linestyle='--', axis='y', linewidth=0.5)
+            ax.set_axisbelow(True)
+            
+            # Set y-axis to start at 0 for better visual comparison
+            ax.set_ylim(bottom=0)
+            
+            # Remove top and right spines for cleaner look
+            ax.spines['top'].set_visible(False)
+            ax.spines['right'].set_visible(False)
+            
+            plt.tight_layout()
+            distance_rmse_kg_filename = os.path.join(OUTPUT_DIR, f"distance_benchmark_rmse_kg{config_suffix}.png")
+            plt.savefig(distance_rmse_kg_filename, dpi=300, bbox_inches='tight', facecolor='white')
+            print(f"Saved Distance Benchmark RMSE plot (kg) to: {distance_rmse_kg_filename}")
+            plt.close()
+            
+            distance_plot_exists = True
+        else:
+            distance_plot_exists = False
+            distance_rmse_kg_filename = None
+    else:
+        print("Warning: Could not extract distance information from filenames!")
+        distance_plot_exists = False
+        distance_rmse_mvic_filename = None
+        distance_rmse_kg_filename = None
+        bar_data_filename = None
+    
     print(f"\n{'='*100}")
     print(f"All done! Processed {len(all_results)} files successfully.")
     print(f"Generated files:")
@@ -935,11 +1138,16 @@ if __name__ == "__main__":
     print(f"  - {cdf_mvic_simple_filename}")
     print(f"  - {mae_bar_filename}")
     print(f"  - {rmse_bar_filename}")
+    if distance_groups and bar_data_filename:
+        print(f"  - {distance_rmse_mvic_filename}")
+        print(f"  - {bar_data_filename} (bar plot data)")
     if cdf_filename_exists:
         print(f"  - {cdf_filename}")
         print(f"  - {cdf_simple_filename}")
         print(f"  - {mae_bar_kg_filename}")
         print(f"  - {rmse_bar_kg_filename}")
+    if distance_plot_exists:
+        print(f"  - {distance_rmse_kg_filename}")
     print(f"{'='*100}")
 
 

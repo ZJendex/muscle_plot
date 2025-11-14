@@ -1,0 +1,4 @@
+Distance,RMSE_MVIC_pct,STD_MVIC_pct,Num_Files
+40cm,6.7965,3.1006,1
+80cm,8.0352,3.3789,1
+120cm,9.2462,3.9593,1

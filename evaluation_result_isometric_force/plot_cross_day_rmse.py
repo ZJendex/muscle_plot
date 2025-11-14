@@ -331,11 +331,66 @@ def plot_cross_day_rmse(all_results, config_suffix):
     plt.savefig(filename_bar, dpi=300, bbox_inches='tight', facecolor='white')
     print(f"Saved accumulated RMSE bar plot to: {filename_bar}")
     
-    # Print statistics to console instead
+    # Print statistics to console
     print(f"\nAccumulated Statistics:")
     print(f"  Subjects with multi-sessions: {len(multi_session_subjects)}")
     for i, (label, data) in enumerate(zip(week_labels, weeks_data)):
         print(f"  {label}: {data['mean']:.2f}±{data['std']:.2f}% (n={data['count']})")
+    
+    # Save accumulated statistics to text file
+    txt_filename = os.path.join(OUTPUT_DIR, f"cross_day_rmse_accumulated_data{config_suffix}.txt")
+    with open(txt_filename, 'w', encoding='utf-8') as f:
+        f.write("="*80 + "\n")
+        f.write("ACCUMULATED CROSS-DAY RMSE RESULTS - MVIC Percentage (%)\n")
+        f.write("="*80 + "\n\n")
+        
+        f.write(f"Configuration:\n")
+        f.write(f"  Segment Length: {SEGMENT}\n")
+        f.write(f"  Overlap: {OVERLAP}\n")
+        f.write(f"  Train Epochs: {TRAIN_EPOCH}\n")
+        f.write(f"  Fine-tune Epochs: {FINE_TUNE_EPOCH}\n\n")
+        
+        f.write(f"Total subjects with multi-sessions: {len(multi_session_subjects)}\n\n")
+        
+        f.write("="*80 + "\n")
+        f.write("SUMMARY BY WEEK\n")
+        f.write("="*80 + "\n\n")
+        
+        f.write(f"{'Week':<15} {'Mean RMSE (%)':<20} {'Std RMSE (%)':<20} {'Sample Size':<15}\n")
+        f.write("-"*80 + "\n")
+        for i, (label, data) in enumerate(zip(week_labels, weeks_data)):
+            f.write(f"{label:<15} {data['mean']:<20.4f} {data['std']:<20.4f} {data['count']:<15}\n")
+        
+        f.write("\n" + "="*80 + "\n")
+        f.write("DETAILED SUBJECT DATA\n")
+        f.write("="*80 + "\n\n")
+        
+        for person_name in sorted(multi_session_subjects.keys()):
+            sessions = multi_session_subjects[person_name]
+            f.write(f"\n{person_name}:\n")
+            f.write(f"  Number of sessions: {len(sessions)}\n")
+            for i, session in enumerate(sessions):
+                f.write(f"  Week {i+1} ({session['date'].strftime('%Y-%m-%d')}): {session['rmse_mvic']:.4f}%\n")
+        
+        f.write("\n" + "="*80 + "\n")
+        f.write("RAW DATA FOR EACH WEEK (ALL SUBJECTS)\n")
+        f.write("="*80 + "\n\n")
+        
+        if all_week1_rmse:
+            f.write(f"Week 1 RMSE values (n={len(all_week1_rmse)}):\n")
+            f.write(", ".join([f"{val:.4f}" for val in sorted(all_week1_rmse)]) + "\n\n")
+        
+        if all_week2_rmse:
+            f.write(f"Week 2 RMSE values (n={len(all_week2_rmse)}):\n")
+            f.write(", ".join([f"{val:.4f}" for val in sorted(all_week2_rmse)]) + "\n\n")
+        
+        if all_week3_rmse:
+            f.write(f"Week 3 RMSE values (n={len(all_week3_rmse)}):\n")
+            f.write(", ".join([f"{val:.4f}" for val in sorted(all_week3_rmse)]) + "\n\n")
+        
+        f.write("="*80 + "\n")
+    
+    print(f"Saved accumulated data to: {txt_filename}")
     
     plt.close()
     

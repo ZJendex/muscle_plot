@@ -1,0 +1,34 @@
+{
+    "subject_information": {
+      "name": "Ari",
+      "age": "19",
+      "sex": "Female",
+      "mood": "nutual",
+      "gym_goer": "True",
+      "height_cm": "172",
+      "weight_kg": "83.6",
+      "skin_fold_mm": "19",
+      "arm_size_cm": "32.2",
+      "upper_body": {
+        "MVIC_non_fatigue_bicep_1": "17.5",
+        "static_force_percent_MVIC_sequence": [
+          ["2", "1.5"], ["5", "4"], ["3", "2.5"], ["7", "8"],
+          ["7", "6.5"], ["3", "1.5"], ["5", "5"], ["2", "0.5"],
+          ["2", "2.5"], ["6", "7.5"], ["8", "8.2"], ["5", "5"],
+          ["3", "2"], ["8", "8"], ["4", "3"], ["1", "0.3"],
+          ["7", "7.5"], ["6", "7"], ["4", "3"], ["4", "3.5"],
+          ["6", "6.5"], ["1", "0.1"], ["8", "8"], ["1", "0.3"]
+        ],
+        "1RM_kg": "20.5",
+        "dynamic_force_choice_kg": ["2.05-2.1", "6.15-6.2", "10.25-10.48", "14.35-14.58"]
+      },
+      "MVIC_non_fatigue_bicep_2": "15.75",
+      "MVIC_non_fatigue_bicep_3": "12.3",
+      "MVIC_non_fatigue_bicep_4": "10.8",
+      "fatigue_tests": {
+        "MVIC_fatigue_bicep_N": "",
+        "MVIC_fatigue_weight_kg": "8.46"
+      },
+      "notes": ""
+    }
+  }

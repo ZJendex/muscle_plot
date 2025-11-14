@@ -1,0 +1,34 @@
+{
+    "subject_information": {
+      "name": "Yibo",
+      "age": "25",
+      "sex": "Female",
+      "mood": "Tired",
+      "gym_goer": "Half",
+      "height_cm": "168",
+      "weight_kg": "62.4",
+      "skin_fold_mm": "19",
+      "arm_size_cm": "26.7",
+      "upper_body": {
+        "MVIC_non_fatigue_bicep_1": "15.7",
+        "static_force_percent_MVIC_sequence": [
+          ["2", "5"], ["8", "10"], ["4", "7"], ["6", "10"],
+          ["8", "9"], ["1", "2"], ["6", "8"], ["2", "1"],
+          ["1", "1"], ["3", "5"], ["8", "8"], ["6", "9"],
+          ["4", "7"], ["3", "4"], ["7", "10"], ["5", "7"],
+          ["5", "7"], ["2", "4"], ["1", "1.5"], ["4", "7"],
+          ["7", "10"], ["7", "10"], ["3", "4"], ["5", "7"]
+        ],
+        "1RM_kg": "10.8",
+        "dynamic_force_choice_kg": ["1.08-", "3.24-2.9", "5.4-5.9", "7.56-7.8"]
+      },
+      "MVIC_non_fatigue_bicep_2": "14",
+      "MVIC_non_fatigue_bicep_3": "10.2",
+      "MVIC_non_fatigue_bicep_4": "9",
+      "fatigue_tests": {
+        "MVIC_fatigue_bicep_N": "",
+        "MVIC_fatigue_weight_kg": "4.4"
+      },
+      "notes": "bicep higher than wrist"
+    }
+  }

@@ -1,0 +1,49 @@
+====================================================================================================
+RMSE BY BMI CATEGORY (MERGED) - MVIC Percentage (%)
+====================================================================================================
+
+Configuration:
+  Segment Length: 400
+  Overlap: 0
+  Train Epochs: 100
+  Fine-tune Epochs: 20
+
+Category Merging:
+  - Normal/Underweight = Underweight + Normal weight
+  - Overweight/Obese = Overweight + Obese
+
+====================================================================================================
+SUMMARY BY MERGED BMI CATEGORY
+====================================================================================================
+
+BMI Category              Mean RMSE (%)   Std RMSE (%)    Sessions     Subjects    
+----------------------------------------------------------------------------------------------------
+Normal//Underweight       9.4232          1.3847          25           13          
+Overweight//Obese         9.5511          2.1165          15           10          
+
+====================================================================================================
+DETAILED SUBJECT DATA BY MERGED BMI CATEGORY
+====================================================================================================
+
+
+Normal//Underweight:
+  Number of subjects: 13
+  Subjects: bert, david, freddy, george, jiangyifei, jiasi, junru, pragna, qiushi, siqi, weifan, xiwen, yibo
+  Number of sessions: 25
+  RMSE values: 6.6551, 7.2641, 7.7714, 7.8481, 7.9860, 8.3954, 8.4284, 8.6533, 8.7320, 8.7419, 9.0427, 9.4078, 9.4385, 9.5787, 9.8090, 9.9314, 10.2127, 10.2746, 10.4489, 10.4871, 10.7253, 11.0044, 11.0224, 11.6393, 12.0807
+  Mean: 9.4232%
+  Std: 1.3847%
+  Min: 6.6551%
+  Max: 12.0807%
+
+Overweight//Obese:
+  Number of subjects: 10
+  Subjects: anindya, anupam, ari, haoyu, haozhe, jerry, seungjoo, veronica, yang, yifeng
+  Number of sessions: 15
+  RMSE values: 6.8445, 6.9784, 7.1778, 7.9222, 7.9665, 8.3490, 8.8506, 9.3174, 9.4345, 9.9910, 11.2952, 11.4193, 11.5977, 12.6088, 13.5141
+  Mean: 9.5511%
+  Std: 2.1165%
+  Min: 6.8445%
+  Max: 13.5141%
+
+====================================================================================================

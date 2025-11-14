@@ -1,0 +1,55 @@
+====================================================================================================
+SUBJECT BMI CALCULATIONS
+====================================================================================================
+
+Name            Age    Sex      Height (cm)  Weight (kg)  BMI      Category       
+----------------------------------------------------------------------------------------------------
+anindya         27     Male     174.0        84.0         27.74    Overweight     
+Anupam          23     Male     172.0        99.3         33.57    Obese          
+Ari             19     Female   172.0        83.6         28.26    Overweight     
+bert            20     Male     167.0        65.0         23.31    Normal weight  
+David           20     Male     188.0        75.0         21.22    Normal weight  
+Freddy          22     Male     187.0        80.1         22.91    Normal weight  
+George          20     male     180.0        72.2         22.28    Normal weight  
+Haoyu           21     Male     175.0        81.2         26.51    Overweight     
+haozhe          25     Male     179.0        85.5         26.68    Overweight     
+Jerry           19     Male     183.0        92.8         27.71    Overweight     
+Jiangyifei      26     Male     178.0        66.5         20.99    Normal weight  
+jiasi           21     male     180.0        80.7         24.91    Normal weight  
+Junru           25     male     187.0        64.1         18.33    Underweight    
+pragna          22     Female   162.0        55.0         20.96    Normal weight  
+Qiushi          20     Male     176.0        77.1         24.89    Normal weight  
+Seungjoo        26     male     178.0        90.7         28.63    Overweight     
+Siqi            22     female   173.0        56.8         18.98    Normal weight  
+veronica        27     Female   169.0        83.3         29.17    Overweight     
+weifan          25     Male     180.0        77.8         24.01    Normal weight  
+Xiwen           24     Female   169.0        61.0         21.36    Normal weight  
+Yang            24     male     188.0        115.0        32.54    Obese          
+Yibo            25     Female   168.0        62.4         22.11    Normal weight  
+yifeng          24     Male     175.0        106.2        34.68    Obese          
+
+====================================================================================================
+SUMMARY STATISTICS
+====================================================================================================
+
+Total subjects: 23
+Mean BMI: 25.29
+Min BMI: 18.33 (Junru)
+Max BMI: 34.68 (yifeng)
+
+BMI Categories:
+  Normal weight: 12 (52.2%)
+  Obese: 3 (13.0%)
+  Overweight: 7 (30.4%)
+  Underweight: 1 (4.3%)
+
+====================================================================================================
+
+BMI FORMULA: BMI = weight (kg) / (height (m))^2
+
+WHO BMI Categories:
+  - Underweight: BMI < 18.5
+  - Normal weight: 18.5 ≤ BMI < 25
+  - Overweight: 25 ≤ BMI < 30
+  - Obese: BMI ≥ 30
+====================================================================================================

@@ -1,0 +1,38 @@
+{
+    "subject_information": {
+      "name": "Seungjoo",
+      "age": "26",
+      "sex": "male",
+      "mood": "good",
+      "gym_goer": "Yes",
+      "height_cm": "178",
+      "weight_kg": "90.7",
+      "skin_fold_mm": "14",
+      "arm_size_cm": "34.7",
+      "upper_body": {
+        "MVIC_non_fatigue_bicep_1": "16",
+        "static_force_percent_MVIC_sequence": [
+          ["5", "7"], ["6", "7"], ["7", "8"], ["5", "4"],
+          ["2", "3"], ["7", "6"], ["3", "3.5"], ["8", "7.5"],
+          ["2", "3"], ["3", "3"], ["8", "7"], ["6", "5"],
+          ["5", "5.5"], ["1", "1"], ["4", "3.5"], ["4", "3"],
+          ["2", "2"], ["1", "1"], ["4", "4.5"], ["7", "7.5"],
+          ["1", "1"], ["3", "3"], ["8", "8"], ["6", "6.5"]
+        ],
+        "1RM_kg": "17",
+        "dynamic_force_choice_kg": ["1.7-1.65", "5.1-5.2", "8.5-8.45", "11.9-11.79"]
+      },
+      "MVIC_non_fatigue_bicep_2": "14.8",
+      "MVIC_non_fatigue_bicep_3": "10.5",
+      "MVIC_non_fatigue_bicep_4": "11",
+      "MVIC_non_fatigue_bicep_5": "7.5",
+
+
+
+      "fatigue_tests": {
+        "MVIC_fatigue_bicep_N": "",
+        "MVIC_fatigue_weight_kg": "6.6"
+      },
+      "notes": ""
+    }
+  }

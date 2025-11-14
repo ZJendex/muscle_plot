@@ -1,0 +1,36 @@
+{
+    "subject_information": {
+      "name": "pragna",
+      "age": "22",
+      "sex": "Female",
+      "mood": "good-stress little bit",
+      "gym_goer": "No",
+      "height_cm": "162",
+      "weight_kg": "55",
+      "skin_fold_mm": "12",
+      "arm_size_cm": "24",
+      "upper_body": {
+        "MVIC_non_fatigue_bicep_1": "14.5",
+        "static_force_percent_MVIC_sequence": [
+          ["5", "6"], ["8", "8.5"], ["5", "5"], ["6", "7"],
+          ["7", "7"], ["3", "5"], ["1", "2"], ["3", "4"],
+          ["6", "8"], ["4", "6.5"], ["2", "3"], ["4", "6.5"],
+          ["7", "9"], ["2", "3"], ["7", "9"], ["3", "5"],
+          ["4", "6.5"], ["8", "9.5"], ["6", "8"], ["8", "9.5"],
+          ["1", "1.5"], ["2", "4"], ["1", "1"], ["5", "7.5"]
+        ],
+        "1RM_kg": "8.5",
+        "dynamic_force_choice_kg": ["0.84-0.9", "2.53-2.71", "4.22-4.36", "5.91-5.74"]
+      },
+      "MVIC_non_fatigue_bicep_2": "13",
+      "MVIC_non_fatigue_bicep_3": "12.5",
+      "MVIC_non_fatigue_bicep_4": "11.14",
+      "MVIC_non_fatigue_bicep_5": "9.9",
+
+      "fatigue_tests": {
+        "MVIC_fatigue_bicep_N": "",
+        "MVIC_fatigue_weight_kg": "3.46"
+      },
+      "notes": "MVIC_non_fatigue_bicep_2 sweep is not correct"
+    }
+  }

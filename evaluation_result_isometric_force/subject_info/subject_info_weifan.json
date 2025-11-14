@@ -1,0 +1,36 @@
+{
+    "subject_information": {
+      "name": "weifan",
+      "age": "25",
+      "sex": "Male",
+      "mood": "normal",
+      "gym_goer": "false",
+      "height_cm": "180",
+      "weight_kg": "77.8",
+      "skin_fold_mm": "13",
+      "arm_size_cm": "28.7",
+      "upper_body": {
+        "MVIC_non_fatigue_bicep_1": "11",
+        "static_force_percent_MVIC_sequence": [
+          ["6", "9"], ["3", "4"], ["7", "8"], ["4", "6"],
+          ["4", "6"], ["5", "6"], ["7", "9"], ["8", "9"],
+          ["3", "5"], ["2", "3"], ["3", "5"], ["1", "1.4"],
+          ["2", "3"], ["6", "9"], ["7", "8"], ["8", "9"],
+          ["1", "1"], ["4", "6"], ["2", "4"], ["8", "9"],
+          ["5", "7"], ["6", "7"], ["5", "7"], ["1", "2"]
+        ],
+        "1RM_kg": "11.2",
+        "dynamic_force_choice_kg": ["1.12-1.2", "3.36-3.46", "5.6-5.45", "7.84-7.71"]
+      },
+      "MVIC_non_fatigue_bicep_2": "12",
+      "MVIC_non_fatigue_bicep_3": "13.5",
+      "MVIC_non_fatigue_bicep_4": "10",
+      "MVIC_non_fatigue_bicep_5": "",
+
+      "fatigue_tests": {
+        "MVIC_fatigue_bicep_N": "",
+        "MVIC_fatigue_weight_kg": "4.9"
+      },
+      "notes": ""
+    }
+  }

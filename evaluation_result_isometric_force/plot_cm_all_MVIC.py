@@ -6,7 +6,7 @@ import os
 
 # ==================== 配置区域 ====================
 
-INPUT_DIR = "evaluation_result_isometric_force\\radar_IQ_10_20_corrected"  # 当前目录，可以修改为其他路径，例如: "./server" 或 "D:/path/to/json/files"
+INPUT_DIR = "evaluation_result_isometric_force\\imu z axis filter"  # 当前目录，可以修改为其他路径，例如: "./server" 或 "D:/path/to/json/files"
 
 # get the dir from the input_dir
 OUTPUT_DIR = os.path.join(os.path.dirname(INPUT_DIR), "output")
